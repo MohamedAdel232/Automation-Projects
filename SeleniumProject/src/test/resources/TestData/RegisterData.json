@@ -1,0 +1,19 @@
+{
+  "name": "Mohamed",
+  "email": "a1232222@gmail.com",
+  "gender": "male",
+  "password": "123456",
+  "day": "8",
+  "month": "September",
+  "year": "2001",
+  "firstname": "Mohamed",
+  "lastname": "Adel",
+  "company": "HTI",
+  "address1": "Faisal",
+  "address2": "Hadayq",
+  "country": "Canada",
+  "state": "Cairo",
+  "city": "giza",
+  "zipcode": "123",
+  "mobileNumber": "123456"
+}

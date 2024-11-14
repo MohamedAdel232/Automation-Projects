@@ -24,11 +24,13 @@ public class Listener implements ITestListener, IInvokedMethodListener {
     }
 
     public void afterInvocation(IInvokedMethod method, ITestResult testResult) {
-        LogsUtils.info("Testcase " + testResult.getName() + " failed");
-        try {
-            Utility.takeScreenshot(DriverFactory.getDriver(), testResult.getName());
-        } catch (IOException e) {
-            throw new RuntimeException(e);
+        if (testResult.getStatus() == ITestResult.FAILURE) {
+            LogsUtils.info("Testcase " + testResult.getName() + " failed");
+            try {
+                Utility.takeScreenshot(DriverFactory.getDriver(), testResult.getName());
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
         }
     }
 }

@@ -59,4 +59,10 @@ public class Utility {
         File dest = new File(screenshotPath + imageName + "-" + getTimestamp() + ".png");
         FileUtils.copyFile(src, dest);
     }
+
+    public static boolean checkVisibilityOfElement(WebDriver driver, By locator) {
+        new WebDriverWait(driver, Duration.ofSeconds(5))
+                .until(ExpectedConditions.visibilityOfElementLocated(locator));
+        return driver.findElement(locator).isDisplayed();
+    }
 }

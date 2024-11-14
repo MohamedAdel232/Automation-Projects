@@ -1,0 +1,25 @@
+[INFO] 14-11-2024 21:49:24 [main] [Tests.TC01_RegisterUser.setup(TC01_RegisterUser.java:25)] - Browser: Chrome
+[INFO] 14-11-2024 21:49:29 [main] [Tests.TC01_RegisterUser.setup(TC01_RegisterUser.java:27)] - URL: https://automationexercise.com/
+[INFO] 14-11-2024 21:49:29 [main] [Listeners.Listener.onTestStart(Listener.java:15)] - Testcase registerUserTC started
+[INFO] 14-11-2024 21:49:31 [main] [Tests.TC01_RegisterUser.registerUserTC(TC01_RegisterUser.java:35)] - URL: https://automationexercise.com/login
+[INFO] 14-11-2024 21:49:33 [main] [Tests.TC01_RegisterUser.registerUserTC(TC01_RegisterUser.java:42)] - URL: https://automationexercise.com/signup
+[INFO] 14-11-2024 21:49:36 [main] [Tests.TC01_RegisterUser.registerUserTC(TC01_RegisterUser.java:66)] - gender: male
+[INFO] 14-11-2024 21:49:36 [main] [Tests.TC01_RegisterUser.registerUserTC(TC01_RegisterUser.java:67)] - password: 123456
+[INFO] 14-11-2024 21:49:36 [main] [Tests.TC01_RegisterUser.registerUserTC(TC01_RegisterUser.java:68)] - day: 8
+[INFO] 14-11-2024 21:49:36 [main] [Tests.TC01_RegisterUser.registerUserTC(TC01_RegisterUser.java:69)] - month: September
+[INFO] 14-11-2024 21:49:36 [main] [Tests.TC01_RegisterUser.registerUserTC(TC01_RegisterUser.java:70)] - year: 2001
+[INFO] 14-11-2024 21:49:36 [main] [Tests.TC01_RegisterUser.registerUserTC(TC01_RegisterUser.java:71)] - firstname: Mohamed
+[INFO] 14-11-2024 21:49:36 [main] [Tests.TC01_RegisterUser.registerUserTC(TC01_RegisterUser.java:72)] - lastname: Adel
+[INFO] 14-11-2024 21:49:36 [main] [Tests.TC01_RegisterUser.registerUserTC(TC01_RegisterUser.java:73)] - company: HTI
+[INFO] 14-11-2024 21:49:36 [main] [Tests.TC01_RegisterUser.registerUserTC(TC01_RegisterUser.java:74)] - address1: Faisal
+[INFO] 14-11-2024 21:49:36 [main] [Tests.TC01_RegisterUser.registerUserTC(TC01_RegisterUser.java:75)] - address2: Hadayq
+[INFO] 14-11-2024 21:49:36 [main] [Tests.TC01_RegisterUser.registerUserTC(TC01_RegisterUser.java:76)] - country: Canada
+[INFO] 14-11-2024 21:49:36 [main] [Tests.TC01_RegisterUser.registerUserTC(TC01_RegisterUser.java:77)] - state: Cairo
+[INFO] 14-11-2024 21:49:36 [main] [Tests.TC01_RegisterUser.registerUserTC(TC01_RegisterUser.java:78)] - city: giza
+[INFO] 14-11-2024 21:49:36 [main] [Tests.TC01_RegisterUser.registerUserTC(TC01_RegisterUser.java:79)] - zipcode: 123
+[INFO] 14-11-2024 21:49:36 [main] [Tests.TC01_RegisterUser.registerUserTC(TC01_RegisterUser.java:80)] - mobileNumber: 123456
+[INFO] 14-11-2024 21:49:36 [main] [Tests.TC01_RegisterUser.registerUserTC(TC01_RegisterUser.java:82)] - URL: https://automationexercise.com/account_created
+[INFO] 14-11-2024 21:49:39 [main] [Tests.TC01_RegisterUser.registerUserTC(TC01_RegisterUser.java:86)] - URL: https://automationexercise.com/
+[INFO] 14-11-2024 21:49:41 [main] [Tests.TC01_RegisterUser.registerUserTC(TC01_RegisterUser.java:90)] - URL: https://automationexercise.com/delete_account
+[INFO] 14-11-2024 21:49:44 [main] [Tests.TC01_RegisterUser.registerUserTC(TC01_RegisterUser.java:94)] - URL: https://automationexercise.com/
+[INFO] 14-11-2024 21:49:44 [main] [Listeners.Listener.onTestSuccess(Listener.java:19)] - Testcase registerUserTC passed

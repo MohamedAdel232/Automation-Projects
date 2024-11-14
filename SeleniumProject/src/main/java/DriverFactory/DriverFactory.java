@@ -39,6 +39,6 @@ public class DriverFactory {
 
     public static void quitDriver() {
         getDriver().quit();
-        driverThreadLocal.remove();
+        //driverThreadLocal.remove();
     }
 }

@@ -1,0 +1,8 @@
+[INFO] 14-11-2024 21:38:51 [main] [Tests.TC01_RegisterUser.setup(TC01_RegisterUser.java:25)] - Browser: Chrome
+[INFO] 14-11-2024 21:38:55 [main] [Tests.TC01_RegisterUser.setup(TC01_RegisterUser.java:27)] - URL: https://automationexercise.com/
+[INFO] 14-11-2024 21:38:55 [main] [Listeners.Listener.afterInvocation(Listener.java:27)] - Testcase setup failed
+[INFO] 14-11-2024 21:38:55 [main] [Listeners.Listener.onTestStart(Listener.java:15)] - Testcase registerUserTC started
+[INFO] 14-11-2024 21:38:56 [main] [Tests.TC01_RegisterUser.registerUserTC(TC01_RegisterUser.java:35)] - URL: https://automationexercise.com/login
+[INFO] 14-11-2024 21:38:58 [main] [Tests.TC01_RegisterUser.registerUserTC(TC01_RegisterUser.java:42)] - URL: https://automationexercise.com/signup
+[INFO] 14-11-2024 21:39:03 [main] [Listeners.Listener.afterInvocation(Listener.java:27)] - Testcase registerUserTC failed
+[INFO] 14-11-2024 21:39:04 [main] [Listeners.Listener.afterInvocation(Listener.java:27)] - Testcase tearDown failed
