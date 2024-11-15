@@ -6,6 +6,7 @@
     <test name="Test">
         <classes>
             <class name="Tests.TC01_RegisterUser"/>
+            <class name="Tests.TC02_ValidLogin"/>
         </classes>
     </test>
 </suite>
