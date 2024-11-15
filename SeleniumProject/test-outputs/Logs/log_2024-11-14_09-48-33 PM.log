@@ -1,4 +1,0 @@
-[INFO] 14-11-2024 21:48:33 [main] [Tests.TC01_RegisterUser.setup(TC01_RegisterUser.java:25)] - Browser: Chrome
-[INFO] 14-11-2024 21:49:06 [main] [Tests.TC01_RegisterUser.setup(TC01_RegisterUser.java:27)] - URL: https://automationexercise.com/
-[INFO] 14-11-2024 21:49:06 [main] [Listeners.Listener.onTestStart(Listener.java:15)] - Testcase registerUserTC started
-[INFO] 14-11-2024 21:49:11 [main] [Listeners.Listener.afterInvocation(Listener.java:28)] - Testcase registerUserTC failed

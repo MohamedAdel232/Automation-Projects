@@ -13,6 +13,7 @@ public class P02_LoginPage {
     private final By loginEmailFieldLocator = By.xpath("//input [@data-qa=\"login-email\"]");
     private final By loginPasswordFieldLocator = By.xpath("//input [@data-qa=\"login-password\"]");
     private final By loginButtonLocator = By.xpath("//button [@data-qa=\"login-button\"]");
+    private final By invalidDataTextLocator = By.xpath("//p [@style]");
 
     private final WebDriver driver;
 
@@ -57,5 +58,9 @@ public class P02_LoginPage {
     public P01_HomePage clickOnLoginButton() {
         Utility.clickOnElement(driver, loginButtonLocator);
         return new P01_HomePage(driver);
+    }
+
+    public boolean verifyVisibilityOfInvalidDataText() {
+        return Utility.checkVisibilityOfElement(driver, invalidDataTextLocator);
     }
 }
