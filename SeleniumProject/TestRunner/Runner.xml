@@ -9,6 +9,8 @@
             <class name="Tests.TC02_ValidLogin"/>
             <class name="Tests.TC03_InvalidLogin"/>
             <class name="Tests.TC04_Logout"/>
+            <class name="Tests.TC05_RegisterWithExistingEmail"/>
+            <class name="Tests.TC06_ContactUsForm"/>
         </classes>
     </test>
 </suite>

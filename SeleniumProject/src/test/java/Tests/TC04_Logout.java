@@ -81,7 +81,7 @@ public class TC04_Logout {
     }
 
     @Test
-    public void validLoginTC() throws IOException {
+    public void logout() throws IOException {
         setupDriver(readFromPropertiesFile("environment", "browser"));
         LogsUtils.info("Browser: " + readFromPropertiesFile("environment", "browser"));
 
@@ -121,7 +121,7 @@ public class TC04_Logout {
 
         new P01_HomePage(getDriver()).clickOnDeleteAccountButton();
         LogsUtils.info("URL: " + getDriver().getCurrentUrl());
-        
+
         new P05_DeleteAccountPage(getDriver()).clickOnContinueButton();
         LogsUtils.info("URL: " + getDriver().getCurrentUrl());
         quitDriver();

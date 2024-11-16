@@ -10,6 +10,7 @@ public class P01_HomePage {
     private final By loggedInAsTextLocator = By.xpath("//*[@id=\"header\"]/div/div/div/div[2]/div/ul/li[10]/a");
     private final By deleteAccountButtonLocator = By.xpath("//a [@href=\"/delete_account\"]");
     private final By logoutButtonLocator = By.xpath("//a [@href=\"/logout\"]");
+    private final By contactUsButtonLocator = By.xpath("//a [@href=\"/contact_us\"]");
 
     private final WebDriver driver;
 
@@ -40,4 +41,8 @@ public class P01_HomePage {
         return new P02_LoginPage(driver);
     }
 
+    public P06_ContactUsPage clickOnContactUsButton() {
+        Utility.clickOnElement(driver, contactUsButtonLocator);
+        return new P06_ContactUsPage(driver);
+    }
 }
