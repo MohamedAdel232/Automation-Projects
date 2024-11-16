@@ -2,7 +2,8 @@ package Tests;
 
 import Listeners.Listener;
 import Pages.P01_HomePage;
-import Pages.P08_TestcasesPage;
+import Pages.P09_ProductsPage;
+import Pages.P10_ProductOneDetails;
 import Utilities.LogsUtils;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -17,7 +18,7 @@ import static DriverFactory.DriverFactory.*;
 import static Utilities.DataUtils.readFromPropertiesFile;
 
 @Listeners(Listener.class)
-public class TC07_VerifyTestCasesPage {
+public class TC08_VerifyProductDetailsPage {
     SoftAssert softAssert = new SoftAssert();
 
     @BeforeMethod
@@ -32,10 +33,14 @@ public class TC07_VerifyTestCasesPage {
     public void verifyTestcase() throws FileNotFoundException, InterruptedException {
         softAssert.assertTrue(new P01_HomePage(getDriver()).verifyVisibilityOfAutomationExerciseLogo());
 
-        new P01_HomePage(getDriver()).clickOnTestcasesButton();
+        new P01_HomePage(getDriver()).clickOnProductsButton();
         LogsUtils.info("URL: " + getDriver().getCurrentUrl());
-        softAssert.assertTrue(new P08_TestcasesPage(getDriver()).verifyVisibilityOfTestcasesText());
+        softAssert.assertTrue(new P09_ProductsPage(getDriver()).checkVisibilityOfFeatureItem());
 
+        new P09_ProductsPage(getDriver()).clickOnFirstProductDetailsButton();
+        LogsUtils.info("URL: " + getDriver().getCurrentUrl());
+        softAssert.assertTrue(new P10_ProductOneDetails(getDriver()).checkVisibilityOfProductInformation());
+        
         softAssert.assertAll();
     }
 

@@ -12,6 +12,7 @@ public class P01_HomePage {
     private final By logoutButtonLocator = By.xpath("//a [@href=\"/logout\"]");
     private final By contactUsButtonLocator = By.xpath("//a [@href=\"/contact_us\"]");
     private final By testcasesButtonLocator = By.xpath("//a [@href=\"/test_cases\"]");
+    private final By productsButtonLocator = By.xpath("//a [@href=\"/products\"]");
 
     private final WebDriver driver;
 
@@ -50,5 +51,10 @@ public class P01_HomePage {
     public P08_TestcasesPage clickOnTestcasesButton() {
         Utility.clickOnElement(driver, testcasesButtonLocator);
         return new P08_TestcasesPage(driver);
+    }
+
+    public P09_ProductsPage clickOnProductsButton() {
+        Utility.clickOnElement(driver, productsButtonLocator);
+        return new P09_ProductsPage(driver);
     }
 }
