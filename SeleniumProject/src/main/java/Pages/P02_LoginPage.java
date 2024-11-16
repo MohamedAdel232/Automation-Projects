@@ -63,4 +63,5 @@ public class P02_LoginPage {
     public boolean verifyVisibilityOfInvalidDataText() {
         return Utility.checkVisibilityOfElement(driver, invalidDataTextLocator);
     }
+
 }

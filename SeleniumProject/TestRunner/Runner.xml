@@ -8,6 +8,7 @@
             <class name="Tests.TC01_RegisterUser"/>
             <class name="Tests.TC02_ValidLogin"/>
             <class name="Tests.TC03_InvalidLogin"/>
+            <class name="Tests.TC04_Logout"/>
         </classes>
     </test>
 </suite>
