@@ -14,6 +14,7 @@ public class P02_LoginPage {
     private final By loginPasswordFieldLocator = By.xpath("//input [@data-qa=\"login-password\"]");
     private final By loginButtonLocator = By.xpath("//button [@data-qa=\"login-button\"]");
     private final By invalidDataTextLocator = By.xpath("//p [@style]");
+    private final By emailAlreadyExistTextLocator = By.xpath("//p [.=\"Email Address already exist!\"]");
 
     private final WebDriver driver;
 
@@ -62,6 +63,10 @@ public class P02_LoginPage {
 
     public boolean verifyVisibilityOfInvalidDataText() {
         return Utility.checkVisibilityOfElement(driver, invalidDataTextLocator);
+    }
+
+    public boolean verifyVisibilityOfEmailAlreadyExistText() {
+        return Utility.checkVisibilityOfElement(driver, emailAlreadyExistTextLocator);
     }
 
 }
