@@ -11,6 +11,7 @@
             <class name="Tests.TC04_Logout"/>
             <class name="Tests.TC05_RegisterWithExistingEmail"/>
             <class name="Tests.TC06_ContactUsForm"/>
+            <class name="Tests.TC07_VerifyTestCasesPage"/>
         </classes>
     </test>
 </suite>
