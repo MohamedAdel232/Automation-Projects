@@ -13,6 +13,7 @@
             <class name="Tests.TC06_ContactUsForm"/>
             <class name="Tests.TC07_VerifyTestCasesPage"/>
             <class name="Tests.TC08_VerifyProductDetailsPage"/>
+            <class name="Tests.TC09_SearchProduct"/>
         </classes>
     </test>
 </suite>
