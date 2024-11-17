@@ -16,6 +16,7 @@
             <class name="Tests.TC09_SearchProduct"/>
             <class name="Tests.TC10_VerifySubscriptionOnHomePage"/>
             <class name="Tests.TC11_VerifySubscriptionOnCartPage"/>
+            <class name="Tests.TC12_AddProductsInCart"/>
         </classes>
     </test>
 </suite>
