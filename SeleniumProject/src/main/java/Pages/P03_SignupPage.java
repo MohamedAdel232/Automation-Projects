@@ -81,6 +81,7 @@ public class P03_SignupPage {
     }
 
     public P04_AccountCreatedPage clickOnCreateAccountButton() {
+        Utility.scrollToElement(driver, createAccountButtonLocator);
         Utility.clickOnElement(driver, createAccountButtonLocator);
         return new P04_AccountCreatedPage(driver);
     }

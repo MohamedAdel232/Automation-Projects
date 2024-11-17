@@ -9,6 +9,7 @@ public class P16_DressSearchPage {
     private final By menCategoryButtonLocator = By.xpath("//a [@href=\"#Men\"]");
     private final By shirtCategoryButtonLocator = By.xpath("//a [@href=\"/category_products/3\"]");
 
+
     private final WebDriver driver;
 
     public P16_DressSearchPage(WebDriver driver) {
@@ -28,4 +29,6 @@ public class P16_DressSearchPage {
         Utility.clickOnElement(driver, shirtCategoryButtonLocator);
         return new P17_ShirtPage(driver);
     }
+
+
 }

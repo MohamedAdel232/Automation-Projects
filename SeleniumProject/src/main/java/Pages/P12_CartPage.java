@@ -21,6 +21,10 @@ public class P12_CartPage {
     private final By registerToProceedButtonLocator = By.xpath("(//a [@href=\"/login\"])[2]");
     private final By removeItemButtonLocator = By.className("cart_quantity_delete");
     private final By cartEmptyTextLocator = By.tagName("b");
+    private final By loginButtonLocator = By.xpath("//a [@href= \"/login\"]");
+    private final By deleteAccountButtonLocator = By.xpath("//a [@href=\"/delete_account\"]");
+    private final By productsIsVisibleLocator = By.tagName("tr");
+
 
     private final WebDriver driver;
 
@@ -114,5 +118,19 @@ public class P12_CartPage {
 
     public boolean verifyVisibilityOfCartEmptyText() {
         return Utility.checkVisibilityOfElement(driver, cartEmptyTextLocator);
+    }
+
+    public P02_LoginPage clickOnLoginButton() {
+        Utility.clickOnElement(driver, loginButtonLocator);
+        return new P02_LoginPage(driver);
+    }
+
+    public P05_DeleteAccountPage clickOnDeleteAccountButton() {
+        Utility.clickOnElement(driver, deleteAccountButtonLocator);
+        return new P05_DeleteAccountPage(driver);
+    }
+
+    public boolean verifyProductsAreVisible() {
+        return Utility.checkVisibilityOfElement(driver, productsIsVisibleLocator);
     }
 }
