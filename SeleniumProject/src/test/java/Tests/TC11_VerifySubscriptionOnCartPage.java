@@ -30,7 +30,7 @@ public class TC11_VerifySubscriptionOnCartPage {
     }
 
     @Test
-    public void verifySubscription() throws FileNotFoundException, InterruptedException {
+    public void verifySubscriptionOnCartPage() throws FileNotFoundException, InterruptedException {
         softAssert.assertTrue(new P01_HomePage(getDriver()).verifyVisibilityOfAutomationExerciseLogo());
 
         new P01_HomePage(getDriver()).clickOnCartButton();

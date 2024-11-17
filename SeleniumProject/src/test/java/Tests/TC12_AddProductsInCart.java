@@ -29,7 +29,7 @@ public class TC12_AddProductsInCart {
     }
 
     @Test
-    public void verifySubscription() throws FileNotFoundException, InterruptedException {
+    public void addProductToCart() throws FileNotFoundException, InterruptedException {
         softAssert.assertTrue(new P01_HomePage(getDriver()).verifyVisibilityOfAutomationExerciseLogo());
 
         new P01_HomePage(getDriver()).clickOnProductsButton()

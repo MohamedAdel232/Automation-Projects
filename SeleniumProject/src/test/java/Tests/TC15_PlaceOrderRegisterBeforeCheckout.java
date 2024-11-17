@@ -16,7 +16,7 @@ import static Utilities.DataUtils.readFromJsonFile;
 import static Utilities.DataUtils.readFromPropertiesFile;
 
 @Listeners(Listener.class)
-public class TC14_PlaceOrderRegisterWhileCheckout {
+public class TC15_PlaceOrderRegisterBeforeCheckout {
     SoftAssert softAssert = new SoftAssert();
 
     @BeforeMethod
@@ -28,15 +28,11 @@ public class TC14_PlaceOrderRegisterWhileCheckout {
     }
 
     @Test
-    public void placeOrderRegisterWhileCheckout() throws IOException {
+    public void placeOrderRegisterBeforeCheckout() throws IOException {
         softAssert.assertTrue(new P01_HomePage(getDriver()).verifyVisibilityOfAutomationExerciseLogo());
 
-        new P01_HomePage(getDriver()).addFirstProductToCart().clickOnCartButton();
-        LogsUtils.info("url: " + getDriver().getCurrentUrl());
-        softAssert.assertTrue(new P12_CartPage(getDriver()).verifyVisibilityOfProduct());
-
-        new P12_CartPage(getDriver()).clickOnProceedToCheckoutButton()
-                .clickOnRegisterToProceedButton()
+        new P01_HomePage(getDriver())
+                .clickOnLoginButton()
                 .enterName(readFromJsonFile("RegisterData", "name"))
                 .enterEmail(readFromJsonFile("RegisterData", "email"))
                 .clickOnSignupButton();
@@ -79,7 +75,6 @@ public class TC14_PlaceOrderRegisterWhileCheckout {
         LogsUtils.info("city: " + readFromJsonFile("RegisterData", "city"));
         LogsUtils.info("zipcode: " + readFromJsonFile("RegisterData", "zipcode"));
         LogsUtils.info("mobileNumber: " + readFromJsonFile("RegisterData", "mobileNumber"));
-
         LogsUtils.info("URL: " + getDriver().getCurrentUrl());
         softAssert.assertTrue(new P04_AccountCreatedPage(getDriver()).verifyVisibilityOfAccountCreatedText());
 
@@ -87,10 +82,11 @@ public class TC14_PlaceOrderRegisterWhileCheckout {
         LogsUtils.info("URL: " + getDriver().getCurrentUrl());
         softAssert.assertTrue(new P01_HomePage(getDriver()).verifyVisibilityOfLoggedInAsText());
 
+        new P01_HomePage(getDriver()).addFirstProductToCart().clickOnCartButton();
         LogsUtils.info("url: " + getDriver().getCurrentUrl());
+        softAssert.assertTrue(new P12_CartPage(getDriver()).verifyVisibilityOfProduct());
 
-        new P01_HomePage(getDriver()).clickOnCartButton()
-                .clickOnProceedToCheckoutButtonWhileLoggedIn();
+        new P12_CartPage(getDriver()).clickOnProceedToCheckoutButtonWhileLoggedIn();
         LogsUtils.info("url: " + getDriver().getCurrentUrl());
         softAssert.assertTrue(new P13_CheckoutPage(getDriver()).verifyVisibilityOfOrderDetails());
 
@@ -99,7 +95,7 @@ public class TC14_PlaceOrderRegisterWhileCheckout {
                 .clickOnPlaceOrderButton();
         LogsUtils.info("Comment: " + readFromPropertiesFile("ProductData", "comment"));
         LogsUtils.info("url: " + getDriver().getCurrentUrl());
-
+        
         new P14_PlaceOrderPage(getDriver())
                 .fillOutOrderInfo(
                         readFromJsonFile("PlaceOrderInfo", "nameOnCard"),

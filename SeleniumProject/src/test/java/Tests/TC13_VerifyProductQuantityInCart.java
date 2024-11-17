@@ -29,7 +29,7 @@ public class TC13_VerifyProductQuantityInCart {
     }
 
     @Test
-    public void verifySubscription() throws IOException, InterruptedException {
+    public void verifyProductQuantity() throws IOException, InterruptedException {
         softAssert.assertTrue(new P01_HomePage(getDriver()).verifyVisibilityOfAutomationExerciseLogo());
 
         new P01_HomePage(getDriver()).clickOnFirstProductDetailsButton();
@@ -42,7 +42,7 @@ public class TC13_VerifyProductQuantityInCart {
         LogsUtils.info("Quantity: " + readFromPropertiesFile("ProductData", "quantity"));
         LogsUtils.info("URL: " + getDriver().getCurrentUrl());
         softAssert.assertTrue(new P12_CartPage(getDriver()).verifyQuantityNumber(readFromPropertiesFile("ProductData", "quantity")));
-        
+
         softAssert.assertAll();
     }
 

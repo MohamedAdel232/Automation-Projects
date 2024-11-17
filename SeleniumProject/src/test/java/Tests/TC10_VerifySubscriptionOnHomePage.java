@@ -29,7 +29,7 @@ public class TC10_VerifySubscriptionOnHomePage {
     }
 
     @Test
-    public void verifySubscription() throws FileNotFoundException, InterruptedException {
+    public void verifySubscriptionOnHomePage() throws FileNotFoundException, InterruptedException {
         softAssert.assertTrue(new P01_HomePage(getDriver()).verifyVisibilityOfAutomationExerciseLogo());
 
         softAssert.assertTrue(new P01_HomePage(getDriver()).verifyVisibilityOfSubscriptionText());

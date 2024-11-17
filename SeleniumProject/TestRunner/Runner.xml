@@ -18,6 +18,8 @@
             <class name="Tests.TC11_VerifySubscriptionOnCartPage"/>
             <class name="Tests.TC12_AddProductsInCart"/>
             <class name="Tests.TC13_VerifyProductQuantityInCart"/>
+            <class name="Tests.TC14_PlaceOrderRegisterWhileCheckout"/>
+            <class name="Tests.TC15_PlaceOrderRegisterBeforeCheckout"/>
         </classes>
     </test>
 </suite>
