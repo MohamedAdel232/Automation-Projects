@@ -79,4 +79,8 @@ public class P12_CartPage {
                 (getSecondProductPrice() == getSecondProductTotalPrice()));
     }
 
+    public boolean verifyQuantityNumber(String actualQuantity) {
+        String quantityText = Utility.getDataFromElement(driver, firstProductQuantityLocator);
+        return quantityText.equals(actualQuantity);
+    }
 }

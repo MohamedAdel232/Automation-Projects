@@ -18,6 +18,8 @@ public class P01_HomePage {
     private final By arrowButton = By.id("subscribe");
     private final By successSubscribeTextLocator = By.id("success-subscribe");
     private final By cartButtonLocator = By.xpath("(//a [@href=\"/view_cart\"])[1]");
+    private final By firstProductDetailsButtonLocator = By.xpath("//a [@href=\"/product_details/1\"]");
+
 
     private final WebDriver driver;
 
@@ -85,5 +87,10 @@ public class P01_HomePage {
     public P12_CartPage clickOnCartButton() {
         Utility.clickOnElement(driver, cartButtonLocator);
         return new P12_CartPage(driver);
+    }
+
+    public P10_ProductOneDetails clickOnFirstProductDetailsButton() {
+        Utility.clickOnElement(driver, firstProductDetailsButtonLocator);
+        return new P10_ProductOneDetails(driver);
     }
 }
