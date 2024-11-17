@@ -17,6 +17,8 @@ public class P12_CartPage {
     private final By secondProductQuantityLocator = By.xpath("(//button [@class=\"disabled\"])[2]");
     private final By firstProductTotalPriceLocator = By.xpath("(//p [@class=\"cart_total_price\"])[1]");
     private final By secondProductTotalPriceLocator = By.xpath("(//p [@class=\"cart_total_price\"])[2]");
+    private final By proceedToCheckoutButtonLocator = By.xpath("//a [.=\"Proceed To Checkout\"]");
+    private final By registerToProceedButtonLocator = By.xpath("(//a [@href=\"/login\"])[2]");
 
     private final WebDriver driver;
 
@@ -41,6 +43,10 @@ public class P12_CartPage {
 
     public boolean checkVisibilityOfSuccessSubscribe() {
         return Utility.checkVisibilityOfElement(driver, successSubscribeTextLocator);
+    }
+
+    public boolean verifyVisibilityOfProduct() {
+        return Utility.checkVisibilityOfElement(driver, productOneLocator);
     }
 
     public boolean verifyVisibilityOfProducts() {
@@ -82,5 +88,20 @@ public class P12_CartPage {
     public boolean verifyQuantityNumber(String actualQuantity) {
         String quantityText = Utility.getDataFromElement(driver, firstProductQuantityLocator);
         return quantityText.equals(actualQuantity);
+    }
+
+    public P12_CartPage clickOnProceedToCheckoutButton() {
+        Utility.clickOnElement(driver, proceedToCheckoutButtonLocator);
+        return this;
+    }
+
+    public P13_CheckoutPage clickOnProceedToCheckoutButtonWhileLoggedIn() {
+        Utility.clickOnElement(driver, proceedToCheckoutButtonLocator);
+        return new P13_CheckoutPage(driver);
+    }
+
+    public P02_LoginPage clickOnRegisterToProceedButton() {
+        Utility.clickOnElement(driver, registerToProceedButtonLocator);
+        return new P02_LoginPage(driver);
     }
 }

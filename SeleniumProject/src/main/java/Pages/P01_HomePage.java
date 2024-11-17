@@ -3,6 +3,7 @@ package Pages;
 import Utilities.Utility;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.interactions.Actions;
 
 public class P01_HomePage {
     private final By automationExerciseLogoLocator = By.xpath("//img [@src=\"/static/images/home/logo.png\"]");
@@ -19,7 +20,9 @@ public class P01_HomePage {
     private final By successSubscribeTextLocator = By.id("success-subscribe");
     private final By cartButtonLocator = By.xpath("(//a [@href=\"/view_cart\"])[1]");
     private final By firstProductDetailsButtonLocator = By.xpath("//a [@href=\"/product_details/1\"]");
-
+    private final By firstProductLocator = By.xpath("//img [@src=\"/get_product_picture/1\"]");
+    private final By addFirstProductToCartLocator = By.xpath("//a [@data-product-id=\"1\"]");
+    private final By continueShoppingButtonLocator = By.xpath("//button [.=\"Continue Shopping\"]");
 
     private final WebDriver driver;
 
@@ -92,5 +95,13 @@ public class P01_HomePage {
     public P10_ProductOneDetails clickOnFirstProductDetailsButton() {
         Utility.clickOnElement(driver, firstProductDetailsButtonLocator);
         return new P10_ProductOneDetails(driver);
+    }
+
+    public P01_HomePage addFirstProductToCart() {
+        Actions actions = new Actions(driver);
+        actions.moveToElement(Utility.findWebElement(driver, firstProductLocator));
+        Utility.clickOnElement(driver, addFirstProductToCartLocator);
+        Utility.clickOnElement(driver, continueShoppingButtonLocator);
+        return this;
     }
 }
