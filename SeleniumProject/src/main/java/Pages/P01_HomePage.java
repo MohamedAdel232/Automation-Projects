@@ -23,6 +23,9 @@ public class P01_HomePage {
     private final By firstProductLocator = By.xpath("//img [@src=\"/get_product_picture/1\"]");
     private final By addFirstProductToCartLocator = By.xpath("//a [@data-product-id=\"1\"]");
     private final By continueShoppingButtonLocator = By.xpath("//button [.=\"Continue Shopping\"]");
+    private final By categoryTextLocator = By.xpath("//h2 [.=\"Category\"]");
+    private final By womenCategoryButtonLocator = By.xpath("//a [@href=\"#Women\"]");
+    private final By dressCategoryButtonLocator = By.xpath("//a [@href=\"/category_products/1\"]");
 
     private final WebDriver driver;
 
@@ -104,4 +107,20 @@ public class P01_HomePage {
         Utility.clickOnElement(driver, continueShoppingButtonLocator);
         return this;
     }
+
+    public boolean verifyVisibilityOfCategoryText() {
+        return Utility.checkVisibilityOfElement(driver, categoryTextLocator);
+    }
+
+    public P01_HomePage clickOnWomenCategoryButton() {
+        Utility.clickOnElement(driver, womenCategoryButtonLocator);
+        return this;
+    }
+
+    public P16_DressSearchPage clickOnDressCategoryButton() {
+        Utility.clickOnElement(driver, dressCategoryButtonLocator);
+        return new P16_DressSearchPage(driver);
+    }
+
+
 }
