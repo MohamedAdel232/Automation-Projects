@@ -26,6 +26,8 @@ public class P01_HomePage {
     private final By categoryTextLocator = By.xpath("//h2 [.=\"Category\"]");
     private final By womenCategoryButtonLocator = By.xpath("//a [@href=\"#Women\"]");
     private final By dressCategoryButtonLocator = By.xpath("//a [@href=\"/category_products/1\"]");
+    private final By recommendedItemsTextLocator = By.xpath("//h2 [.=\"recommended items\"]");
+    private final By addRecommendedItemLocator = By.xpath("//div [@class=\"carousel-inner\"] //a [@data-product-id]");
 
     private final WebDriver driver;
 
@@ -120,6 +122,17 @@ public class P01_HomePage {
     public P16_DressSearchPage clickOnDressCategoryButton() {
         Utility.clickOnElement(driver, dressCategoryButtonLocator);
         return new P16_DressSearchPage(driver);
+    }
+
+    public boolean verifyVisibilityOfRecommendedItemTextLocator() {
+        Utility.scrollToElement(driver, recommendedItemsTextLocator);
+        return Utility.checkVisibilityOfElement(driver, recommendedItemsTextLocator);
+    }
+
+    public P01_HomePage addRecommendedProductToCart() {
+        Utility.clickOnElement(driver, addRecommendedItemLocator);
+        Utility.clickOnElement(driver, continueShoppingButtonLocator);
+        return this;
     }
 
 
