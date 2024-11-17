@@ -1,0 +1,5 @@
+[INFO] 17-11-2024 17:41:30 [main] [Tests.TC17_RemoveProductsFromCart.setup(TC17_RemoveProductsFromCart.java:25)] - Browser: Chrome
+[INFO] 17-11-2024 17:41:32 [main] [Tests.TC17_RemoveProductsFromCart.setup(TC17_RemoveProductsFromCart.java:27)] - url: https://automationexercise.com/
+[INFO] 17-11-2024 17:41:32 [main] [Listeners.Listener.onTestStart(Listener.java:15)] - Testcase placeOrderRegisterBeforeCheckout started
+[INFO] 17-11-2024 17:41:35 [main] [Tests.TC17_RemoveProductsFromCart.placeOrderRegisterBeforeCheckout(TC17_RemoveProductsFromCart.java:37)] - URL: https://automationexercise.com/view_cart
+[INFO] 17-11-2024 17:41:36 [main] [Listeners.Listener.onTestSuccess(Listener.java:19)] - Testcase placeOrderRegisterBeforeCheckout passed

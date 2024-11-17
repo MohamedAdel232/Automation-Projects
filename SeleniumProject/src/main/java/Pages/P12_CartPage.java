@@ -19,6 +19,8 @@ public class P12_CartPage {
     private final By secondProductTotalPriceLocator = By.xpath("(//p [@class=\"cart_total_price\"])[2]");
     private final By proceedToCheckoutButtonLocator = By.xpath("//a [.=\"Proceed To Checkout\"]");
     private final By registerToProceedButtonLocator = By.xpath("(//a [@href=\"/login\"])[2]");
+    private final By removeItemButtonLocator = By.className("cart_quantity_delete");
+    private final By cartEmptyTextLocator = By.tagName("b");
 
     private final WebDriver driver;
 
@@ -103,5 +105,14 @@ public class P12_CartPage {
     public P02_LoginPage clickOnRegisterToProceedButton() {
         Utility.clickOnElement(driver, registerToProceedButtonLocator);
         return new P02_LoginPage(driver);
+    }
+
+    public P12_CartPage clickOnRemoveItemButton() {
+        Utility.clickOnElement(driver, removeItemButtonLocator);
+        return this;
+    }
+
+    public boolean verifyVisibilityOfCartEmptyText() {
+        return Utility.checkVisibilityOfElement(driver, cartEmptyTextLocator);
     }
 }
