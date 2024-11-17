@@ -1,0 +1,6 @@
+[INFO] 17-11-2024 12:45:13 [main] [Tests.TC11_VerifySubscriptionOnCartPage.setup(TC11_VerifySubscriptionOnCartPage.java:27)] - Browser: Chrome
+[INFO] 17-11-2024 12:45:16 [main] [Tests.TC11_VerifySubscriptionOnCartPage.setup(TC11_VerifySubscriptionOnCartPage.java:29)] - url: https://automationexercise.com/
+[INFO] 17-11-2024 12:45:16 [main] [Listeners.Listener.onTestStart(Listener.java:15)] - Testcase verifySubscription started
+[INFO] 17-11-2024 12:45:17 [main] [Tests.TC11_VerifySubscriptionOnCartPage.verifySubscription(TC11_VerifySubscriptionOnCartPage.java:37)] - URL: https://automationexercise.com/view_cart
+[INFO] 17-11-2024 12:45:17 [main] [Tests.TC11_VerifySubscriptionOnCartPage.verifySubscription(TC11_VerifySubscriptionOnCartPage.java:42)] - email: a1232222@gmail.com
+[INFO] 17-11-2024 12:45:17 [main] [Listeners.Listener.onTestSuccess(Listener.java:19)] - Testcase verifySubscription passed

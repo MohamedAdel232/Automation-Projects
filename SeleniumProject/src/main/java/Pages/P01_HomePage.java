@@ -17,6 +17,7 @@ public class P01_HomePage {
     private final By subscribeEmail = By.id("susbscribe_email");
     private final By arrowButton = By.id("subscribe");
     private final By successSubscribeTextLocator = By.id("success-subscribe");
+    private final By cartButtonLocator = By.xpath("(//a [@href=\"/view_cart\"])[1]");
 
     private final WebDriver driver;
 
@@ -79,5 +80,10 @@ public class P01_HomePage {
 
     public boolean checkVisibilityOfSuccessSubscribe() {
         return Utility.checkVisibilityOfElement(driver, successSubscribeTextLocator);
+    }
+
+    public P12_CartPage clickOnCartButton() {
+        Utility.clickOnElement(driver, cartButtonLocator);
+        return new P12_CartPage(driver);
     }
 }

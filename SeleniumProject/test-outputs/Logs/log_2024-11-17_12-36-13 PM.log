@@ -1,0 +1,4 @@
+[INFO] 17-11-2024 12:36:13 [main] [Tests.TC10_Verify_Subscription.setup(TC10_Verify_Subscription.java:26)] - Browser: Chrome
+[INFO] 17-11-2024 12:36:15 [main] [Tests.TC10_Verify_Subscription.setup(TC10_Verify_Subscription.java:28)] - url: https://automationexercise.com/
+[INFO] 17-11-2024 12:36:15 [main] [Listeners.Listener.onTestStart(Listener.java:15)] - Testcase verifySubscription started
+[INFO] 17-11-2024 12:36:16 [main] [Listeners.Listener.onTestSuccess(Listener.java:19)] - Testcase verifySubscription passed

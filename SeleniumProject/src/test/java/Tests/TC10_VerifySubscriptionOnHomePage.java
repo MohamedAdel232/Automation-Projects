@@ -17,7 +17,7 @@ import static Utilities.DataUtils.readFromJsonFile;
 import static Utilities.DataUtils.readFromPropertiesFile;
 
 @Listeners(Listener.class)
-public class TC10_Verify_Subscription {
+public class TC10_VerifySubscriptionOnHomePage {
     SoftAssert softAssert = new SoftAssert();
 
     @BeforeMethod
@@ -35,8 +35,10 @@ public class TC10_Verify_Subscription {
         softAssert.assertTrue(new P01_HomePage(getDriver()).verifyVisibilityOfSubscriptionText());
         new P01_HomePage(getDriver()).enterSubscribeEmail(readFromJsonFile("RegisterData", "email"))
                 .clickOnArrowButton();
-        softAssert.assertTrue(new P01_HomePage(getDriver()).verifyVisibilityOfSubscriptionText());
-        
+        LogsUtils.info("email: " + readFromJsonFile("RegisterData", "email"));
+
+        softAssert.assertTrue(new P01_HomePage(getDriver()).checkVisibilityOfSuccessSubscribe());
+
         softAssert.assertAll();
     }
 

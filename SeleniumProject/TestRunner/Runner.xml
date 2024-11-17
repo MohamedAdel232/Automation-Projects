@@ -14,7 +14,8 @@
             <class name="Tests.TC07_VerifyTestCasesPage"/>
             <class name="Tests.TC08_VerifyProductDetailsPage"/>
             <class name="Tests.TC09_SearchProduct"/>
-            <class name="Tests.TC10_Verify_Subscription"/>
+            <class name="Tests.TC10_VerifySubscriptionOnHomePage"/>
+            <class name="Tests.TC11_VerifySubscriptionOnCartPage"/>
         </classes>
     </test>
 </suite>
