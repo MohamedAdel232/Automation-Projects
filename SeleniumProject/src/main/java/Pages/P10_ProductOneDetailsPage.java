@@ -4,7 +4,7 @@ import Utilities.Utility;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class P10_ProductOneDetails {
+public class P10_ProductOneDetailsPage {
     private final By productInformationLocator = By.className("product-information");
     private final By productQuantityLocator = By.id("quantity");
     private final By addToCartButtonLocator = By.xpath("//button [@type=\"button\"]");
@@ -13,7 +13,7 @@ public class P10_ProductOneDetails {
 
     private final WebDriver driver;
 
-    public P10_ProductOneDetails(WebDriver driver) {
+    public P10_ProductOneDetailsPage(WebDriver driver) {
         this.driver = driver;
     }
 
@@ -21,13 +21,13 @@ public class P10_ProductOneDetails {
         return Utility.checkVisibilityOfElement(driver, productInformationLocator);
     }
 
-    public P10_ProductOneDetails addQuantity(String quantity) {
+    public P10_ProductOneDetailsPage addQuantity(String quantity) {
         driver.findElement(productQuantityLocator).clear();
         Utility.sendDataToElement(driver, productQuantityLocator, quantity);
         return this;
     }
 
-    public P10_ProductOneDetails clickOnAddToCartButton() {
+    public P10_ProductOneDetailsPage clickOnAddToCartButton() {
         Utility.clickOnElement(driver, addToCartButtonLocator);
         Utility.clickOnElement(driver, continueShoppingButtonLocator);
         return this;

@@ -41,8 +41,8 @@ public class P06_ContactUsPage {
         return this;
     }
 
-    public P07_ConfirmContactUs acceptAlert() throws InterruptedException {
+    public P07_ConfirmContactUsPage acceptAlert() throws InterruptedException {
         driver.switchTo().alert().accept();
-        return new P07_ConfirmContactUs(driver);
+        return new P07_ConfirmContactUsPage(driver);
     }
 }

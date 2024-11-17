@@ -16,6 +16,8 @@ public class P09_ProductsPage {
     private final By secondProductLocator = By.xpath("//img [@src=\"/get_product_picture/2\"]");
     private final By addSecondProductToCartLocator = By.xpath("//a [@data-product-id=\"2\"]");
     private final By cartButtonLocator = By.xpath("(//a [@href=\"/view_cart\"])[1]");
+    private final By brandsTextLocator = By.className("brands_products");
+    private final By poloBrandButtonLocator = By.xpath("//a [@href=\"/brand_products/Polo\"]");
 
     private final WebDriver driver;
 
@@ -27,9 +29,9 @@ public class P09_ProductsPage {
         return Utility.checkVisibilityOfElement(driver, featureItemLocator);
     }
 
-    public P10_ProductOneDetails clickOnFirstProductDetailsButton() {
+    public P10_ProductOneDetailsPage clickOnFirstProductDetailsButton() {
         Utility.clickOnElement(driver, firstProductDetailsButtonLocator);
-        return new P10_ProductOneDetails(driver);
+        return new P10_ProductOneDetailsPage(driver);
     }
 
     public P09_ProductsPage searchForProduct(String product) {
@@ -61,6 +63,15 @@ public class P09_ProductsPage {
     public P12_CartPage clickOnCartButton() {
         Utility.clickOnElement(driver, cartButtonLocator);
         return new P12_CartPage(driver);
+    }
+
+    public boolean verifyVisibilityOfBrandsText() {
+        return Utility.checkVisibilityOfElement(driver, brandsTextLocator);
+    }
+
+    public P18_PoloPage clickOnPoloBrandButton() {
+        Utility.clickOnElement(driver, poloBrandButtonLocator);
+        return new P18_PoloPage(driver);
     }
 
 }

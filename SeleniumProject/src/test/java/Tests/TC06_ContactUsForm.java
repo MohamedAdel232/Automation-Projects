@@ -3,7 +3,7 @@ package Tests;
 import Listeners.Listener;
 import Pages.P01_HomePage;
 import Pages.P06_ContactUsPage;
-import Pages.P07_ConfirmContactUs;
+import Pages.P07_ConfirmContactUsPage;
 import Utilities.LogsUtils;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -52,9 +52,9 @@ public class TC06_ContactUsForm {
         LogsUtils.info("subject: " + readFromJsonFile("ContactUsForm", "subject"));
         LogsUtils.info("message: " + readFromJsonFile("ContactUsForm", "message"));
         LogsUtils.info("URL: " + getDriver().getCurrentUrl());
-        softAssert.assertTrue(new P07_ConfirmContactUs(getDriver()).verifyVisibilityOfSubmittedSuccessfullyText());
+        softAssert.assertTrue(new P07_ConfirmContactUsPage(getDriver()).verifyVisibilityOfSubmittedSuccessfullyText());
 
-        new P07_ConfirmContactUs(getDriver()).clickOnHomeButton();
+        new P07_ConfirmContactUsPage(getDriver()).clickOnHomeButton();
         LogsUtils.info("URL: " + getDriver().getCurrentUrl());
         softAssert.assertTrue(new P01_HomePage(getDriver()).verifyVisibilityOfAutomationExerciseLogo());
 

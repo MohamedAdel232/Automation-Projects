@@ -80,7 +80,7 @@ public class TC16_PlaceOrderLoginBeforeCheckout {
     }
 
     @Test
-    public void placeOrderRegisterBeforeCheckout() throws IOException {
+    public void placeOrderLoginBeforeCheckout() throws IOException {
         setupDriver(readFromPropertiesFile("environment", "browser"));
         LogsUtils.info("Browser: " + readFromPropertiesFile("environment", "browser"));
 
@@ -101,7 +101,7 @@ public class TC16_PlaceOrderLoginBeforeCheckout {
         LogsUtils.info("password: " + readFromJsonFile("RegisterData", "password"));
         LogsUtils.info("URL: " + getDriver().getCurrentUrl());
         softAssert.assertTrue(new P01_HomePage(getDriver()).verifyVisibilityOfLoggedInAsText());
-        
+
         new P01_HomePage(getDriver()).addFirstProductToCart().clickOnCartButton();
         LogsUtils.info("url: " + getDriver().getCurrentUrl());
         softAssert.assertTrue(new P12_CartPage(getDriver()).verifyVisibilityOfProduct());

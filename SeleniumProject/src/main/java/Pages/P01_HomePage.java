@@ -95,9 +95,9 @@ public class P01_HomePage {
         return new P12_CartPage(driver);
     }
 
-    public P10_ProductOneDetails clickOnFirstProductDetailsButton() {
+    public P10_ProductOneDetailsPage clickOnFirstProductDetailsButton() {
         Utility.clickOnElement(driver, firstProductDetailsButtonLocator);
-        return new P10_ProductOneDetails(driver);
+        return new P10_ProductOneDetailsPage(driver);
     }
 
     public P01_HomePage addFirstProductToCart() {

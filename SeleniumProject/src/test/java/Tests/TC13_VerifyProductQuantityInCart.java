@@ -2,7 +2,7 @@ package Tests;
 
 import Listeners.Listener;
 import Pages.P01_HomePage;
-import Pages.P10_ProductOneDetails;
+import Pages.P10_ProductOneDetailsPage;
 import Pages.P12_CartPage;
 import Utilities.LogsUtils;
 import org.testng.annotations.AfterMethod;
@@ -34,9 +34,9 @@ public class TC13_VerifyProductQuantityInCart {
 
         new P01_HomePage(getDriver()).clickOnFirstProductDetailsButton();
         LogsUtils.info("URL: " + getDriver().getCurrentUrl());
-        softAssert.assertTrue(new P10_ProductOneDetails(getDriver()).checkVisibilityOfProductInformation());
+        softAssert.assertTrue(new P10_ProductOneDetailsPage(getDriver()).checkVisibilityOfProductInformation());
 
-        new P10_ProductOneDetails(getDriver()).addQuantity(readFromPropertiesFile("ProductData", "quantity"))
+        new P10_ProductOneDetailsPage(getDriver()).addQuantity(readFromPropertiesFile("ProductData", "quantity"))
                 .clickOnAddToCartButton()
                 .clickOnCartButton();
         LogsUtils.info("Quantity: " + readFromPropertiesFile("ProductData", "quantity"));

@@ -28,7 +28,7 @@ public class TC17_RemoveProductsFromCart {
     }
 
     @Test
-    public void placeOrderRegisterBeforeCheckout() throws IOException {
+    public void removeProductsFromCart() throws IOException {
         softAssert.assertTrue(new P01_HomePage(getDriver()).verifyVisibilityOfAutomationExerciseLogo());
 
         new P01_HomePage(getDriver())
@@ -40,7 +40,7 @@ public class TC17_RemoveProductsFromCart {
         new P12_CartPage(getDriver())
                 .clickOnRemoveItemButton();
         softAssert.assertTrue(new P12_CartPage(getDriver()).verifyVisibilityOfCartEmptyText());
-        
+
         softAssert.assertAll();
     }
 

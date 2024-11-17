@@ -2,8 +2,9 @@ package Tests;
 
 import Listeners.Listener;
 import Pages.P01_HomePage;
-import Pages.P16_DressSearchPage;
-import Pages.P17_ShirtPage;
+import Pages.P09_ProductsPage;
+import Pages.P18_PoloPage;
+import Pages.P19_MadameProductPage;
 import Utilities.LogsUtils;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -17,7 +18,7 @@ import static DriverFactory.DriverFactory.*;
 import static Utilities.DataUtils.readFromPropertiesFile;
 
 @Listeners(Listener.class)
-public class TC18_ViewCategoryProducts {
+public class TC19_ViewCartBrandProducts {
     SoftAssert softAssert = new SoftAssert();
 
     @BeforeMethod
@@ -29,22 +30,20 @@ public class TC18_ViewCategoryProducts {
     }
 
     @Test
-    public void viewCategoryProducts() throws IOException {
+    public void viewCartBrandProducts() throws IOException {
         softAssert.assertTrue(new P01_HomePage(getDriver()).verifyVisibilityOfAutomationExerciseLogo());
 
-        softAssert.assertTrue(new P01_HomePage(getDriver()).verifyVisibilityOfCategoryText());
+        new P01_HomePage(getDriver()).clickOnProductsButton();
+        softAssert.assertTrue(new P09_ProductsPage(getDriver()).verifyVisibilityOfBrandsText());
 
-        new P01_HomePage(getDriver())
-                .clickOnWomenCategoryButton()
-                .clickOnDressCategoryButton();
-        softAssert.assertTrue(new P16_DressSearchPage(getDriver()).verifyVisibilityOfWomenDressProductText());
+        new P09_ProductsPage(getDriver())
+                .clickOnPoloBrandButton();
+        LogsUtils.info("URL: " + getDriver().getCurrentUrl());
+        softAssert.assertTrue(new P18_PoloPage(getDriver()).verifyVisibilityOfPoloProductText());
 
-        new P16_DressSearchPage(getDriver())
-                .clickOnMenCategoryButton()
-                .clickOnShirtCategoryButton();
-
-        softAssert.assertTrue(new P17_ShirtPage(getDriver()).verifyVisibilityOfMenShirtProductText());
-
+        new P18_PoloPage(getDriver()).clickOnMadameBrandButton();
+        LogsUtils.info("URL: " + getDriver().getCurrentUrl());
+        softAssert.assertTrue(new P19_MadameProductPage(getDriver()).verifyVisibilityOfMadameProductText());
         softAssert.assertAll();
     }
 

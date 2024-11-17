@@ -3,7 +3,7 @@ package Tests;
 import Listeners.Listener;
 import Pages.P01_HomePage;
 import Pages.P09_ProductsPage;
-import Pages.P10_ProductOneDetails;
+import Pages.P10_ProductOneDetailsPage;
 import Utilities.LogsUtils;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -39,8 +39,8 @@ public class TC08_VerifyProductDetailsPage {
 
         new P09_ProductsPage(getDriver()).clickOnFirstProductDetailsButton();
         LogsUtils.info("URL: " + getDriver().getCurrentUrl());
-        softAssert.assertTrue(new P10_ProductOneDetails(getDriver()).checkVisibilityOfProductInformation());
-        
+        softAssert.assertTrue(new P10_ProductOneDetailsPage(getDriver()).checkVisibilityOfProductInformation());
+
         softAssert.assertAll();
     }
 
