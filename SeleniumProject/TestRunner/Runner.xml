@@ -20,6 +20,7 @@
             <class name="Tests.TC13_VerifyProductQuantityInCart"/>
             <class name="Tests.TC14_PlaceOrderRegisterWhileCheckout"/>
             <class name="Tests.TC15_PlaceOrderRegisterBeforeCheckout"/>
+            <class name="Tests.TC16_PlaceOrderLoginBeforeCheckout"/>
         </classes>
     </test>
 </suite>
