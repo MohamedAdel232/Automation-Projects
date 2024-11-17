@@ -73,5 +73,4 @@ public class P09_ProductsPage {
         Utility.clickOnElement(driver, poloBrandButtonLocator);
         return new P18_PoloPage(driver);
     }
-
 }

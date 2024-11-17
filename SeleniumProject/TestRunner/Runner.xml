@@ -25,6 +25,7 @@
             <class name="Tests.TC18_ViewCategoryProducts"/>
             <class name="Tests.TC19_ViewCartBrandProducts"/>
             <class name="Tests.TC20_SearchProductsAndVerifyCartAfterLogin"/>
+            <class name="Tests.TC21_AddReviewOnProduct"/>
         </classes>
     </test>
 </suite>

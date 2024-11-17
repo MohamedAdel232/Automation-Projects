@@ -10,6 +10,12 @@ public class P10_ProductOneDetailsPage {
     private final By addToCartButtonLocator = By.xpath("//button [@type=\"button\"]");
     private final By continueShoppingButtonLocator = By.xpath("//button [.=\"Continue Shopping\"]");
     private final By cartButtonLocator = By.xpath("(//a [@href=\"/view_cart\"])[1]");
+    private final By writeYourReviewTextLocator = By.xpath("//a [@href=\"#reviews\"]");
+    private final By nameFieldLocator = By.id("name");
+    private final By emailFieldLocator = By.id("email");
+    private final By reviewFieldLocator = By.id("review");
+    private final By submitButtonLocator = By.id("button-review");
+    private final By reviewSubmittedTextLocator = By.id("review-section");
 
     private final WebDriver driver;
 
@@ -36,5 +42,21 @@ public class P10_ProductOneDetailsPage {
     public P12_CartPage clickOnCartButton() {
         Utility.clickOnElement(driver, cartButtonLocator);
         return new P12_CartPage(driver);
+    }
+
+    public boolean verifyVisibilityOfWriteYourReviewButton() {
+        return Utility.checkVisibilityOfElement(driver, writeYourReviewTextLocator);
+    }
+
+    public P10_ProductOneDetailsPage writeReview(String name, String email, String review) {
+        Utility.sendDataToElement(driver, nameFieldLocator, name);
+        Utility.sendDataToElement(driver, emailFieldLocator, email);
+        Utility.sendDataToElement(driver, reviewFieldLocator, review);
+        Utility.clickOnElement(driver, submitButtonLocator);
+        return this;
+    }
+
+    public boolean verifyVisibilityOfReviewSubmitted() {
+        return Utility.checkVisibilityOfElement(driver, reviewSubmittedTextLocator);
     }
 }
