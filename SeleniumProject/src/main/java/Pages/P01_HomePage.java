@@ -13,6 +13,10 @@ public class P01_HomePage {
     private final By contactUsButtonLocator = By.xpath("//a [@href=\"/contact_us\"]");
     private final By testcasesButtonLocator = By.xpath("//a [@href=\"/test_cases\"]");
     private final By productsButtonLocator = By.xpath("//a [@href=\"/products\"]");
+    private final By subscriptionTextLocator = By.xpath("//h2 [.=\"Subscription\"]");
+    private final By subscribeEmail = By.id("susbscribe_email");
+    private final By arrowButton = By.id("subscribe");
+    private final By successSubscribeTextLocator = By.id("success-subscribe");
 
     private final WebDriver driver;
 
@@ -56,5 +60,24 @@ public class P01_HomePage {
     public P09_ProductsPage clickOnProductsButton() {
         Utility.clickOnElement(driver, productsButtonLocator);
         return new P09_ProductsPage(driver);
+    }
+
+    public boolean verifyVisibilityOfSubscriptionText() {
+        Utility.scrollToElement(driver, subscriptionTextLocator);
+        return Utility.checkVisibilityOfElement(driver, subscriptionTextLocator);
+    }
+
+    public P01_HomePage enterSubscribeEmail(String email) {
+        Utility.sendDataToElement(driver, subscribeEmail, email);
+        return this;
+    }
+
+    public P01_HomePage clickOnArrowButton() {
+        Utility.clickOnElement(driver, arrowButton);
+        return this;
+    }
+
+    public boolean checkVisibilityOfSuccessSubscribe() {
+        return Utility.checkVisibilityOfElement(driver, successSubscribeTextLocator);
     }
 }
