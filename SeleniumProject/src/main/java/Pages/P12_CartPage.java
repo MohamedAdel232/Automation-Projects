@@ -24,8 +24,7 @@ public class P12_CartPage {
     private final By loginButtonLocator = By.xpath("//a [@href= \"/login\"]");
     private final By deleteAccountButtonLocator = By.xpath("//a [@href=\"/delete_account\"]");
     private final By productsIsVisibleLocator = By.tagName("tr");
-
-
+    
     private final WebDriver driver;
 
     public P12_CartPage(WebDriver driver) {

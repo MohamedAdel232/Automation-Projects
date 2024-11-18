@@ -55,6 +55,4 @@ public class P13_CheckoutPage {
                 && Utility.getDataFromElement(driver, billingAddressCityTextLocator).equals(city)
                 && Utility.getDataFromElement(driver, billingAddress1TextLocator).equals(address);
     }
-
-
 }

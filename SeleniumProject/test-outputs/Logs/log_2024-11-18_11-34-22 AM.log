@@ -1,4 +1,0 @@
-[INFO] 18-11-2024 11:34:22 [main] [Tests.TC26_VerifyScrollUpWithoutArrowButtonAndScrollDownFunctionality.setup(TC26_VerifyScrollUpWithoutArrowButtonAndScrollDownFunctionality.java:24)] - Browser: Chrome
-[INFO] 18-11-2024 11:34:26 [main] [Tests.TC26_VerifyScrollUpWithoutArrowButtonAndScrollDownFunctionality.setup(TC26_VerifyScrollUpWithoutArrowButtonAndScrollDownFunctionality.java:26)] - url: https://automationexercise.com/
-[INFO] 18-11-2024 11:34:26 [main] [Listeners.Listener.onTestStart(Listener.java:15)] - Testcase verifyScrollUpWithoutUsingArrow started
-[INFO] 18-11-2024 11:34:26 [main] [Listeners.Listener.onTestSuccess(Listener.java:19)] - Testcase verifyScrollUpWithoutUsingArrow passed

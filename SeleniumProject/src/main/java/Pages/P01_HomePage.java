@@ -150,6 +150,4 @@ public class P01_HomePage {
         Utility.clickOnElement(driver, homeTextLocator);
         return Utility.checkVisibilityOfElement(driver, homeTextLocator);
     }
-
-
 }

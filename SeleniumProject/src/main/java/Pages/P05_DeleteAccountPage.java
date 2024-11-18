@@ -7,8 +7,7 @@ import org.openqa.selenium.WebDriver;
 public class P05_DeleteAccountPage {
     private final By accountDeletedTextLocator = By.xpath("//b [.=\"Account Deleted!\"]");
     private final By continueButtonLocator = By.xpath("//a [.=\"Continue\"]");
-
-
+    
     private final WebDriver driver;
 
     public P05_DeleteAccountPage(WebDriver driver) {

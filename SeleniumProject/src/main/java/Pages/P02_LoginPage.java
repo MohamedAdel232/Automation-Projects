@@ -68,5 +68,4 @@ public class P02_LoginPage {
     public boolean verifyVisibilityOfEmailAlreadyExistText() {
         return Utility.checkVisibilityOfElement(driver, emailAlreadyExistTextLocator);
     }
-
 }

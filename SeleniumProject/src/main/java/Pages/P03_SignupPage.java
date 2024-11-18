@@ -85,6 +85,4 @@ public class P03_SignupPage {
         Utility.clickOnElement(driver, createAccountButtonLocator);
         return new P04_AccountCreatedPage(driver);
     }
-
-
 }
