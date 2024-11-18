@@ -1,0 +1,33 @@
+[INFO] 18-11-2024 11:10:47 [main] [Tests.TC24_DownloadInvoiceAfterPurchaseOrder.setup(TC24_DownloadInvoiceAfterPurchaseOrder.java:26)] - Browser: Chrome
+[INFO] 18-11-2024 11:10:51 [main] [Tests.TC24_DownloadInvoiceAfterPurchaseOrder.setup(TC24_DownloadInvoiceAfterPurchaseOrder.java:28)] - url: https://automationexercise.com/
+[INFO] 18-11-2024 11:10:51 [main] [Listeners.Listener.onTestStart(Listener.java:15)] - Testcase downloadInvoiceAfterPurchaseOrder started
+[INFO] 18-11-2024 11:10:53 [main] [Tests.TC24_DownloadInvoiceAfterPurchaseOrder.downloadInvoiceAfterPurchaseOrder(TC24_DownloadInvoiceAfterPurchaseOrder.java:36)] - url: https://automationexercise.com/view_cart
+[INFO] 18-11-2024 11:10:55 [main] [Tests.TC24_DownloadInvoiceAfterPurchaseOrder.downloadInvoiceAfterPurchaseOrder(TC24_DownloadInvoiceAfterPurchaseOrder.java:44)] - URL: https://automationexercise.com/signup
+[INFO] 18-11-2024 11:10:58 [main] [Tests.TC24_DownloadInvoiceAfterPurchaseOrder.downloadInvoiceAfterPurchaseOrder(TC24_DownloadInvoiceAfterPurchaseOrder.java:68)] - gender: male
+[INFO] 18-11-2024 11:10:58 [main] [Tests.TC24_DownloadInvoiceAfterPurchaseOrder.downloadInvoiceAfterPurchaseOrder(TC24_DownloadInvoiceAfterPurchaseOrder.java:69)] - password: 123456
+[INFO] 18-11-2024 11:10:58 [main] [Tests.TC24_DownloadInvoiceAfterPurchaseOrder.downloadInvoiceAfterPurchaseOrder(TC24_DownloadInvoiceAfterPurchaseOrder.java:70)] - day: 8
+[INFO] 18-11-2024 11:10:58 [main] [Tests.TC24_DownloadInvoiceAfterPurchaseOrder.downloadInvoiceAfterPurchaseOrder(TC24_DownloadInvoiceAfterPurchaseOrder.java:71)] - month: September
+[INFO] 18-11-2024 11:10:58 [main] [Tests.TC24_DownloadInvoiceAfterPurchaseOrder.downloadInvoiceAfterPurchaseOrder(TC24_DownloadInvoiceAfterPurchaseOrder.java:72)] - year: 2001
+[INFO] 18-11-2024 11:10:58 [main] [Tests.TC24_DownloadInvoiceAfterPurchaseOrder.downloadInvoiceAfterPurchaseOrder(TC24_DownloadInvoiceAfterPurchaseOrder.java:73)] - firstname: Mohamed
+[INFO] 18-11-2024 11:10:58 [main] [Tests.TC24_DownloadInvoiceAfterPurchaseOrder.downloadInvoiceAfterPurchaseOrder(TC24_DownloadInvoiceAfterPurchaseOrder.java:74)] - lastname: Adel
+[INFO] 18-11-2024 11:10:58 [main] [Tests.TC24_DownloadInvoiceAfterPurchaseOrder.downloadInvoiceAfterPurchaseOrder(TC24_DownloadInvoiceAfterPurchaseOrder.java:75)] - company: HTI
+[INFO] 18-11-2024 11:10:58 [main] [Tests.TC24_DownloadInvoiceAfterPurchaseOrder.downloadInvoiceAfterPurchaseOrder(TC24_DownloadInvoiceAfterPurchaseOrder.java:76)] - address1: Faisal
+[INFO] 18-11-2024 11:10:58 [main] [Tests.TC24_DownloadInvoiceAfterPurchaseOrder.downloadInvoiceAfterPurchaseOrder(TC24_DownloadInvoiceAfterPurchaseOrder.java:77)] - address2: Hadayq
+[INFO] 18-11-2024 11:10:58 [main] [Tests.TC24_DownloadInvoiceAfterPurchaseOrder.downloadInvoiceAfterPurchaseOrder(TC24_DownloadInvoiceAfterPurchaseOrder.java:78)] - country: Canada
+[INFO] 18-11-2024 11:10:58 [main] [Tests.TC24_DownloadInvoiceAfterPurchaseOrder.downloadInvoiceAfterPurchaseOrder(TC24_DownloadInvoiceAfterPurchaseOrder.java:79)] - state: Cairo
+[INFO] 18-11-2024 11:10:58 [main] [Tests.TC24_DownloadInvoiceAfterPurchaseOrder.downloadInvoiceAfterPurchaseOrder(TC24_DownloadInvoiceAfterPurchaseOrder.java:80)] - city: Giza
+[INFO] 18-11-2024 11:10:58 [main] [Tests.TC24_DownloadInvoiceAfterPurchaseOrder.downloadInvoiceAfterPurchaseOrder(TC24_DownloadInvoiceAfterPurchaseOrder.java:81)] - zipcode: 123
+[INFO] 18-11-2024 11:10:58 [main] [Tests.TC24_DownloadInvoiceAfterPurchaseOrder.downloadInvoiceAfterPurchaseOrder(TC24_DownloadInvoiceAfterPurchaseOrder.java:82)] - mobileNumber: 123456
+[INFO] 18-11-2024 11:10:58 [main] [Tests.TC24_DownloadInvoiceAfterPurchaseOrder.downloadInvoiceAfterPurchaseOrder(TC24_DownloadInvoiceAfterPurchaseOrder.java:84)] - URL: https://automationexercise.com/account_created
+[INFO] 18-11-2024 11:10:59 [main] [Tests.TC24_DownloadInvoiceAfterPurchaseOrder.downloadInvoiceAfterPurchaseOrder(TC24_DownloadInvoiceAfterPurchaseOrder.java:88)] - URL: https://automationexercise.com/
+[INFO] 18-11-2024 11:10:59 [main] [Tests.TC24_DownloadInvoiceAfterPurchaseOrder.downloadInvoiceAfterPurchaseOrder(TC24_DownloadInvoiceAfterPurchaseOrder.java:91)] - url: https://automationexercise.com/
+[INFO] 18-11-2024 11:11:01 [main] [Tests.TC24_DownloadInvoiceAfterPurchaseOrder.downloadInvoiceAfterPurchaseOrder(TC24_DownloadInvoiceAfterPurchaseOrder.java:95)] - url: https://automationexercise.com/checkout
+[INFO] 18-11-2024 11:11:03 [main] [Tests.TC24_DownloadInvoiceAfterPurchaseOrder.downloadInvoiceAfterPurchaseOrder(TC24_DownloadInvoiceAfterPurchaseOrder.java:101)] - Comment: This is a comment
+[INFO] 18-11-2024 11:11:03 [main] [Tests.TC24_DownloadInvoiceAfterPurchaseOrder.downloadInvoiceAfterPurchaseOrder(TC24_DownloadInvoiceAfterPurchaseOrder.java:102)] - url: https://automationexercise.com/payment
+[INFO] 18-11-2024 11:11:05 [main] [Tests.TC24_DownloadInvoiceAfterPurchaseOrder.downloadInvoiceAfterPurchaseOrder(TC24_DownloadInvoiceAfterPurchaseOrder.java:113)] - Name on card: Mohamed
+[INFO] 18-11-2024 11:11:05 [main] [Tests.TC24_DownloadInvoiceAfterPurchaseOrder.downloadInvoiceAfterPurchaseOrder(TC24_DownloadInvoiceAfterPurchaseOrder.java:114)] - Card number: 123
+[INFO] 18-11-2024 11:11:05 [main] [Tests.TC24_DownloadInvoiceAfterPurchaseOrder.downloadInvoiceAfterPurchaseOrder(TC24_DownloadInvoiceAfterPurchaseOrder.java:115)] - CVC: 123
+[INFO] 18-11-2024 11:11:05 [main] [Tests.TC24_DownloadInvoiceAfterPurchaseOrder.downloadInvoiceAfterPurchaseOrder(TC24_DownloadInvoiceAfterPurchaseOrder.java:116)] - Expiry month: 12
+[INFO] 18-11-2024 11:11:05 [main] [Tests.TC24_DownloadInvoiceAfterPurchaseOrder.downloadInvoiceAfterPurchaseOrder(TC24_DownloadInvoiceAfterPurchaseOrder.java:117)] - Expiry year: 2025
+[INFO] 18-11-2024 11:11:08 [main] [Tests.TC24_DownloadInvoiceAfterPurchaseOrder.downloadInvoiceAfterPurchaseOrder(TC24_DownloadInvoiceAfterPurchaseOrder.java:123)] - url: https://automationexercise.com/delete_account
+[INFO] 18-11-2024 11:11:10 [main] [Listeners.Listener.onTestSuccess(Listener.java:19)] - Testcase downloadInvoiceAfterPurchaseOrder passed
