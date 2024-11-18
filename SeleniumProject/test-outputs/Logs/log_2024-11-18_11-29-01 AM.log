@@ -1,0 +1,4 @@
+[INFO] 18-11-2024 11:29:01 [main] [Tests.TC25_VerifyScrollUpUsingArrowButtonAndScrollDownFunctionality.setup(TC25_VerifyScrollUpUsingArrowButtonAndScrollDownFunctionality.java:24)] - Browser: Chrome
+[INFO] 18-11-2024 11:29:04 [main] [Tests.TC25_VerifyScrollUpUsingArrowButtonAndScrollDownFunctionality.setup(TC25_VerifyScrollUpUsingArrowButtonAndScrollDownFunctionality.java:26)] - url: https://automationexercise.com/
+[INFO] 18-11-2024 11:29:04 [main] [Listeners.Listener.onTestStart(Listener.java:15)] - Testcase addReviewOnProduct started
+[INFO] 18-11-2024 11:29:04 [main] [Listeners.Listener.onTestSuccess(Listener.java:19)] - Testcase addReviewOnProduct passed

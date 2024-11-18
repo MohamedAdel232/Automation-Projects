@@ -28,6 +28,9 @@
             <class name="Tests.TC21_AddReviewOnProduct"/>
             <class name="Tests.TC22_AddToCartFromRecommendedItems"/>
             <class name="Tests.TC23_VerifyAddressDetailsInCheckoutPage"/>
+            <class name="Tests.TC24_DownloadInvoiceAfterPurchaseOrder"/>
+            <class name="Tests.TC25_VerifyScrollUpUsingArrowButtonAndScrollDownFunctionality"/>
+            <class name="Tests.TC26_VerifyScrollUpWithoutArrowButtonAndScrollDownFunctionality"/>
         </classes>
     </test>
 </suite>

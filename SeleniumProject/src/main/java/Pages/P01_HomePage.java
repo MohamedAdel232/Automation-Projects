@@ -15,8 +15,8 @@ public class P01_HomePage {
     private final By testcasesButtonLocator = By.xpath("//a [@href=\"/test_cases\"]");
     private final By productsButtonLocator = By.xpath("//a [@href=\"/products\"]");
     private final By subscriptionTextLocator = By.xpath("//h2 [.=\"Subscription\"]");
-    private final By subscribeEmail = By.id("susbscribe_email");
-    private final By arrowButton = By.id("subscribe");
+    private final By subscribeEmailLocator = By.id("susbscribe_email");
+    private final By arrowButtonLocator = By.id("subscribe");
     private final By successSubscribeTextLocator = By.id("success-subscribe");
     private final By cartButtonLocator = By.xpath("(//a [@href=\"/view_cart\"])[1]");
     private final By firstProductDetailsButtonLocator = By.xpath("//a [@href=\"/product_details/1\"]");
@@ -28,6 +28,8 @@ public class P01_HomePage {
     private final By dressCategoryButtonLocator = By.xpath("//a [@href=\"/category_products/1\"]");
     private final By recommendedItemsTextLocator = By.xpath("//h2 [.=\"recommended items\"]");
     private final By addRecommendedItemLocator = By.xpath("//div [@class=\"carousel-inner\"] //a [@data-product-id]");
+    private final By arrowUpButtonLocator = By.xpath("//i [contains(@class,\"fa-angle-up\")]");
+    private final By homeTextLocator = By.xpath("//h2 [.=\"Full-Fledged practice website for Automation Engineers\"]");
 
     private final WebDriver driver;
 
@@ -79,12 +81,12 @@ public class P01_HomePage {
     }
 
     public P01_HomePage enterSubscribeEmail(String email) {
-        Utility.sendDataToElement(driver, subscribeEmail, email);
+        Utility.sendDataToElement(driver, subscribeEmailLocator, email);
         return this;
     }
 
     public P01_HomePage clickOnArrowButton() {
-        Utility.clickOnElement(driver, arrowButton);
+        Utility.clickOnElement(driver, arrowButtonLocator);
         return this;
     }
 
@@ -133,6 +135,20 @@ public class P01_HomePage {
         Utility.clickOnElement(driver, addRecommendedItemLocator);
         Utility.clickOnElement(driver, continueShoppingButtonLocator);
         return this;
+    }
+
+    public P01_HomePage clickOnArrowUpButton() {
+        Utility.clickOnElement(driver, arrowUpButtonLocator);
+        return this;
+    }
+
+    public boolean checkVisibilityOfHomeTextLocator() {
+        return Utility.checkVisibilityOfElement(driver, homeTextLocator);
+    }
+
+    public boolean scrollAndCheckVisibilityOfHomeTextLocator() {
+        Utility.clickOnElement(driver, homeTextLocator);
+        return Utility.checkVisibilityOfElement(driver, homeTextLocator);
     }
 
 
