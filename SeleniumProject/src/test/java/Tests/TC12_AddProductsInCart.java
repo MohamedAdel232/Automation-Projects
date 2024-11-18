@@ -37,7 +37,6 @@ public class TC12_AddProductsInCart {
                 .addSecondProductToCart()
                 .clickOnCartButton();
         LogsUtils.info("URL: " + getDriver().getCurrentUrl());
-
         softAssert.assertTrue(new P12_CartPage(getDriver()).verifyVisibilityOfProducts());
 
         LogsUtils.info("First product price: " + new P12_CartPage(getDriver()).getFirstProductPrice());
