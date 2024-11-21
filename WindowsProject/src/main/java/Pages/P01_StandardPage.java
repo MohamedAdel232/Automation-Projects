@@ -64,4 +64,7 @@ public class P01_StandardPage {
         return String.valueOf(result).equals(getResult());
     }
 
+    public boolean verifyClearButtonFunctionality() {
+        return getResult().equals("0");
+    }
 }

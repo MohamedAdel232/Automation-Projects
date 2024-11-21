@@ -83,7 +83,15 @@ public class TC01_StandardTest {
 
         Assert.assertTrue(new P01_StandardPage(getDriver()).verifyResult(expectedResult));
     }
-    
+
+    @Test
+    public void verifyClearButtonFunctionalityTC() {
+        new P01_StandardPage(getDriver())
+                .enterNumber(Utility.generateRandomNumber())
+                .clickOnClearButton();
+        Assert.assertTrue(new P01_StandardPage(getDriver()).verifyClearButtonFunctionality());
+    }
+
     @AfterMethod
     public void tearDownDriver() {
         DriverFactory.quitDriver();
