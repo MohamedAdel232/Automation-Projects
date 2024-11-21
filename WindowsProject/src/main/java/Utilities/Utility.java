@@ -13,6 +13,7 @@ import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.time.Duration;
 import java.util.Date;
+import java.util.Random;
 
 public class Utility {
     public static String screenshotsPath = "test-outputs/Screenshots/";
@@ -50,5 +51,10 @@ public class Utility {
         new WebDriverWait(driver, Duration.ofSeconds(5))
                 .until(ExpectedConditions.visibilityOfElementLocated(locator));
         return driver.findElement(locator).isDisplayed();
+    }
+
+    public static int generateRandomNumber() {
+        Random random = new Random();
+        return random.nextInt(10);
     }
 }

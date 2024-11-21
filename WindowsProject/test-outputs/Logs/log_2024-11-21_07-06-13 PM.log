@@ -1,2 +1,0 @@
-[INFO] 21-11-2024 19:06:13 [main] [Listeners.Listener.onTestStart(Listener.java:15)] - Testcase: verifyCalculatorIsOpenedTC started
-[INFO] 21-11-2024 19:06:13 [main] [Listeners.Listener.onTestSuccess(Listener.java:19)] - Testcase: verifyCalculatorIsOpenedTC passed
