@@ -1,0 +1,14 @@
+[INFO] 22-11-2024 16:40:41 [main] [Steps.Hooks.setupScenario(Hooks.java:17)] - Click on finish button started
+[INFO] 22-11-2024 16:40:42 [main] [Steps.Hooks.setupScenario(Hooks.java:19)] - Browser: Chrome
+[INFO] 22-11-2024 16:40:43 [main] [Steps.OverviewSteps.userIsOnOverviewPage(OverviewSteps.java:22)] - URL: https://www.saucedemo.com/
+[INFO] 22-11-2024 16:40:43 [main] [Steps.OverviewSteps.userIsOnOverviewPage(OverviewSteps.java:28)] - Username: standard_user
+[INFO] 22-11-2024 16:40:43 [main] [Steps.OverviewSteps.userIsOnOverviewPage(OverviewSteps.java:29)] - Password: secret_sauce
+[INFO] 22-11-2024 16:40:43 [main] [Steps.OverviewSteps.userIsOnOverviewPage(OverviewSteps.java:30)] - URL: https://www.saucedemo.com/inventory.html
+[INFO] 22-11-2024 16:40:43 [main] [Steps.OverviewSteps.userIsOnOverviewPage(OverviewSteps.java:33)] - First product is added
+[INFO] 22-11-2024 16:40:43 [main] [Steps.OverviewSteps.userIsOnOverviewPage(OverviewSteps.java:37)] - URL: https://www.saucedemo.com/cart.html
+[INFO] 22-11-2024 16:40:43 [main] [Steps.OverviewSteps.userIsOnOverviewPage(OverviewSteps.java:41)] - URL: https://www.saucedemo.com/checkout-step-one.html
+[INFO] 22-11-2024 16:40:44 [main] [Steps.OverviewSteps.userIsOnOverviewPage(OverviewSteps.java:47)] - Firstname: Mohamed
+[INFO] 22-11-2024 16:40:44 [main] [Steps.OverviewSteps.userIsOnOverviewPage(OverviewSteps.java:48)] - Lastname: Adel
+[INFO] 22-11-2024 16:40:44 [main] [Steps.OverviewSteps.userIsOnOverviewPage(OverviewSteps.java:49)] - Postal code: 32019232
+[INFO] 22-11-2024 16:40:44 [main] [Steps.Hooks.tearDown(Hooks.java:24)] - Click on finish button finished
+[INFO] 22-11-2024 16:40:44 [main] [Steps.Hooks.tearDown(Hooks.java:29)] - Click on finish button passed

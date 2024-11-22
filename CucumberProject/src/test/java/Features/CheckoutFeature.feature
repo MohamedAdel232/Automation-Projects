@@ -1,6 +1,5 @@
 Feature: Checkout feature
-
-  @now
+  
   Scenario: Enter checkout info
     Given User is on checkout page
     When User enter checkout info and click continue
