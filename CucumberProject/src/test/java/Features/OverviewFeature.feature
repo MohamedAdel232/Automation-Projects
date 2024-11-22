@@ -1,6 +1,5 @@
 Feature: Overview feature
 
-  @now
   Scenario: Click on finish button
     Given User is on overview page
       | Mohamed | Adel | 32019232 |

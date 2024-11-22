@@ -1,0 +1,15 @@
+[INFO] 22-11-2024 16:48:57 [main] [Steps.Hooks.setupScenario(Hooks.java:17)] - Check thanks message started
+[INFO] 22-11-2024 16:48:59 [main] [Steps.Hooks.setupScenario(Hooks.java:19)] - Browser: Chrome
+[INFO] 22-11-2024 16:49:01 [main] [Steps.FinishSteps.userIsOnFinishPage(FinishSteps.java:19)] - URL: https://www.saucedemo.com/
+[INFO] 22-11-2024 16:49:01 [main] [Steps.FinishSteps.userIsOnFinishPage(FinishSteps.java:25)] - Username: standard_user
+[INFO] 22-11-2024 16:49:01 [main] [Steps.FinishSteps.userIsOnFinishPage(FinishSteps.java:26)] - Password: secret_sauce
+[INFO] 22-11-2024 16:49:01 [main] [Steps.FinishSteps.userIsOnFinishPage(FinishSteps.java:27)] - URL: https://www.saucedemo.com/inventory.html
+[INFO] 22-11-2024 16:49:01 [main] [Steps.FinishSteps.userIsOnFinishPage(FinishSteps.java:30)] - First product is added
+[INFO] 22-11-2024 16:49:01 [main] [Steps.FinishSteps.userIsOnFinishPage(FinishSteps.java:34)] - URL: https://www.saucedemo.com/cart.html
+[INFO] 22-11-2024 16:49:01 [main] [Steps.FinishSteps.userIsOnFinishPage(FinishSteps.java:38)] - URL: https://www.saucedemo.com/checkout-step-one.html
+[INFO] 22-11-2024 16:49:02 [main] [Steps.FinishSteps.userIsOnFinishPage(FinishSteps.java:44)] - Firstname: Mohamed
+[INFO] 22-11-2024 16:49:02 [main] [Steps.FinishSteps.userIsOnFinishPage(FinishSteps.java:45)] - Lastname: Adel
+[INFO] 22-11-2024 16:49:02 [main] [Steps.FinishSteps.userIsOnFinishPage(FinishSteps.java:46)] - Postal code: 32019232
+[INFO] 22-11-2024 16:49:02 [main] [Steps.FinishSteps.userIsOnFinishPage(FinishSteps.java:50)] - URL: https://www.saucedemo.com/checkout-complete.html
+[INFO] 22-11-2024 16:49:07 [main] [Steps.Hooks.tearDown(Hooks.java:24)] - Check thanks message finished
+[INFO] 22-11-2024 16:49:07 [main] [Steps.Hooks.tearDown(Hooks.java:26)] - Check thanks message failed
