@@ -4,6 +4,7 @@ This repository contains various automation projects showcasing different testin
 ## Table of Contents
 1- Web Automation Project using Selenium <br>
 2- Desktop Automation Project using Appium Windows Driver <br>
+3- Web Automation Project using Cucumber <br>
 
 ## Web Automation Project using Selenium
 ### Overview
@@ -37,3 +38,31 @@ This project showcases the automation of a desktop application using the Appium 
 - Test Framework: TestNG
 - Build Tool: Maven
 - Design Pattern: Page Object Model (POM)
+
+## Web Automation Project using Cucumber
+### Overview
+This project automates key user scenarios for an e-commerce website using Selenium, JUnit, and Cucumber. It covers the entire user journey, from logging in to completing a checkout process, ensuring the application functions as expected.
+
+### Features
+1. **Login with Valid Credentials**  
+   Ensures the user can log in with correct credentials.
+2. **Login with Invalid Credentials (Scenario Outline)**  
+   Validates the system response when attempting to log in with incorrect credentials.
+3. **Add First Product to Cart**  
+   Tests the functionality of adding the first product displayed to the cart.
+4. **Click on Cart Button**  
+   Verifies that the cart can be accessed from the product page.
+5. **Click on Checkout Button**  
+   Tests the checkout button functionality.
+6. **Enter Checkout Information**  
+   Simulates entering user information (e.g., name, address) during checkout.
+7. **Click on Finish Button**  
+   Confirms that the user can complete the purchase process.
+8. **Check Thanks Message**  
+   Validates that a thank-you message is displayed upon successful checkout.
+
+### Tools and Technologies
+- **Programming Language**: Java  
+- **Automation Frameworks**: Selenium WebDriver, Cucumber  
+- **Test Framework**: JUnit  
+- **Build Tool**: Maven  
