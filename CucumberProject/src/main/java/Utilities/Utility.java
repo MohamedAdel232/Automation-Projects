@@ -45,5 +45,14 @@ public class Utility {
         File dest = new File(screenshotPath + imageName + "-" + getTimestamp() + ".png");
         FileUtils.copyFile(src, dest);
     }
-}
 
+    public static boolean verifyNavigatingToUrl(WebDriver driver, String actualUrl) {
+        return driver.getCurrentUrl().equals(actualUrl);
+    }
+
+    public static boolean verifyVisibilityOfElement(WebDriver driver, By locator) {
+        new WebDriverWait(driver, Duration.ofSeconds(5))
+                .until(ExpectedConditions.visibilityOfElementLocated(locator));
+        return driver.findElement(locator).isDisplayed();
+    }
+}

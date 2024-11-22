@@ -1,6 +1,5 @@
 package DriverFactory;
 
-import Utilities.LogsUtils;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -19,21 +18,18 @@ public class DriverFactory {
                 firefoxOptions.addArguments("--start-maximized");
                 firefoxOptions.addArguments("--guest");
                 driverThreadLocal.set(new FirefoxDriver());
-                LogsUtils.info("Browser: " + browser + "is opened");
                 break;
             case "Edge":
                 EdgeOptions edgeOptions = new EdgeOptions();
                 edgeOptions.addArguments("--start-maximized");
                 edgeOptions.addArguments("--guest");
                 driverThreadLocal.set(new EdgeDriver(edgeOptions));
-                LogsUtils.info("Browser: " + browser + "is opened");
                 break;
             default:
                 ChromeOptions chromeOptions = new ChromeOptions();
                 chromeOptions.addArguments("--start-maximized");
                 chromeOptions.addArguments("--guest");
                 driverThreadLocal.set(new ChromeDriver(chromeOptions));
-                LogsUtils.info("Browser: " + browser + "is opened");
                 break;
         }
     }

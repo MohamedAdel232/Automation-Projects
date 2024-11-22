@@ -1,0 +1,22 @@
+[INFO] 22-11-2024 14:46:19 [main] [Steps.Hooks.setupScenario(Hooks.java:17)] - Login with valid username and password started
+[INFO] 22-11-2024 14:46:20 [main] [Steps.Hooks.setupScenario(Hooks.java:19)] - Browser: Chrome
+[INFO] 22-11-2024 14:46:21 [main] [Steps.LoginSteps.userIsOnLoginPage(LoginSteps.java:22)] - URL: https://www.saucedemo.com/
+[INFO] 22-11-2024 14:46:21 [main] [Steps.LoginSteps.userEnterValidUsernameAndPassword(LoginSteps.java:32)] - Username: standard_user
+[INFO] 22-11-2024 14:46:21 [main] [Steps.LoginSteps.userEnterValidUsernameAndPassword(LoginSteps.java:33)] - Password: secret_sauce
+[INFO] 22-11-2024 14:46:21 [main] [Steps.LoginSteps.userIsRedirectedToHomePage(LoginSteps.java:38)] - URL: https://www.saucedemo.com/inventory.html
+[INFO] 22-11-2024 14:46:21 [main] [Steps.Hooks.tearDown(Hooks.java:24)] - Login with valid username and password finished
+[INFO] 22-11-2024 14:46:21 [main] [Steps.Hooks.tearDown(Hooks.java:29)] - Login with valid username and password passed
+[INFO] 22-11-2024 14:46:21 [main] [Steps.Hooks.setupScenario(Hooks.java:17)] - Scenario: Login with invalid username and password started
+[INFO] 22-11-2024 14:46:22 [main] [Steps.Hooks.setupScenario(Hooks.java:19)] - Browser: Chrome
+[INFO] 22-11-2024 14:46:23 [main] [Steps.LoginSteps.userIsOnLoginPage(LoginSteps.java:22)] - URL: https://www.saucedemo.com/
+[INFO] 22-11-2024 14:46:23 [main] [Steps.LoginSteps.userEnterInvalidUsernameAndPassword(LoginSteps.java:48)] - Username: standard_user
+[INFO] 22-11-2024 14:46:23 [main] [Steps.LoginSteps.userEnterInvalidUsernameAndPassword(LoginSteps.java:49)] - Password: invalidPassword
+[INFO] 22-11-2024 14:46:23 [main] [Steps.Hooks.tearDown(Hooks.java:24)] - Scenario: Login with invalid username and password finished
+[INFO] 22-11-2024 14:46:23 [main] [Steps.Hooks.tearDown(Hooks.java:29)] - Scenario: Login with invalid username and password passed
+[INFO] 22-11-2024 14:46:23 [main] [Steps.Hooks.setupScenario(Hooks.java:17)] - Scenario: Login with invalid username and password started
+[INFO] 22-11-2024 14:46:24 [main] [Steps.Hooks.setupScenario(Hooks.java:19)] - Browser: Chrome
+[INFO] 22-11-2024 14:46:25 [main] [Steps.LoginSteps.userIsOnLoginPage(LoginSteps.java:22)] - URL: https://www.saucedemo.com/
+[INFO] 22-11-2024 14:46:25 [main] [Steps.LoginSteps.userEnterInvalidUsernameAndPassword(LoginSteps.java:48)] - Username: invalidUsername
+[INFO] 22-11-2024 14:46:25 [main] [Steps.LoginSteps.userEnterInvalidUsernameAndPassword(LoginSteps.java:49)] - Password: secret_sauce
+[INFO] 22-11-2024 14:46:25 [main] [Steps.Hooks.tearDown(Hooks.java:24)] - Scenario: Login with invalid username and password finished
+[INFO] 22-11-2024 14:46:25 [main] [Steps.Hooks.tearDown(Hooks.java:29)] - Scenario: Login with invalid username and password passed
