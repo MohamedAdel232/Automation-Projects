@@ -1,0 +1,14 @@
+[INFO] 22-11-2024 16:21:20 [main] [Steps.Hooks.setupScenario(Hooks.java:17)] - Enter checkout info started
+[INFO] 22-11-2024 16:21:21 [main] [Steps.Hooks.setupScenario(Hooks.java:19)] - Browser: Chrome
+[INFO] 22-11-2024 16:21:22 [main] [Steps.CheckoutSteps.userIsOnCheckoutPage(CheckoutSteps.java:25)] - URL: https://www.saucedemo.com/
+[INFO] 22-11-2024 16:21:22 [main] [Steps.CheckoutSteps.userIsOnCheckoutPage(CheckoutSteps.java:31)] - Username: standard_user
+[INFO] 22-11-2024 16:21:22 [main] [Steps.CheckoutSteps.userIsOnCheckoutPage(CheckoutSteps.java:32)] - Password: secret_sauce
+[INFO] 22-11-2024 16:21:22 [main] [Steps.CheckoutSteps.userIsOnCheckoutPage(CheckoutSteps.java:33)] - URL: https://www.saucedemo.com/inventory.html
+[INFO] 22-11-2024 16:21:22 [main] [Steps.CheckoutSteps.userIsOnCheckoutPage(CheckoutSteps.java:36)] - First product is added
+[INFO] 22-11-2024 16:21:22 [main] [Steps.CheckoutSteps.userIsOnCheckoutPage(CheckoutSteps.java:40)] - URL: https://www.saucedemo.com/cart.html
+[INFO] 22-11-2024 16:21:22 [main] [Steps.CheckoutSteps.userIsOnCheckoutPage(CheckoutSteps.java:44)] - URL: https://www.saucedemo.com/checkout-step-one.html
+[INFO] 22-11-2024 16:21:23 [main] [Steps.CheckoutSteps.userEnterCheckoutInfoAndClickContinue(CheckoutSteps.java:54)] - Firstname: Mohamed
+[INFO] 22-11-2024 16:21:23 [main] [Steps.CheckoutSteps.userEnterCheckoutInfoAndClickContinue(CheckoutSteps.java:55)] - Lastname: Adel
+[INFO] 22-11-2024 16:21:23 [main] [Steps.CheckoutSteps.userEnterCheckoutInfoAndClickContinue(CheckoutSteps.java:56)] - Postal code: 32019232
+[INFO] 22-11-2024 16:21:23 [main] [Steps.Hooks.tearDown(Hooks.java:24)] - Enter checkout info finished
+[INFO] 22-11-2024 16:21:23 [main] [Steps.Hooks.tearDown(Hooks.java:29)] - Enter checkout info passed
