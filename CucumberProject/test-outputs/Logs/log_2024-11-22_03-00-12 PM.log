@@ -1,0 +1,8 @@
+[INFO] 22-11-2024 15:00:12 [main] [Steps.Hooks.setupScenario(Hooks.java:17)] - Login with valid username and password started
+[INFO] 22-11-2024 15:00:13 [main] [Steps.Hooks.setupScenario(Hooks.java:19)] - Browser: Chrome
+[INFO] 22-11-2024 15:00:15 [main] [Steps.LoginSteps.userIsOnLoginPage(LoginSteps.java:22)] - URL: https://www.saucedemo.com/
+[INFO] 22-11-2024 15:00:15 [main] [Steps.LoginSteps.userEnterValidUsernameAndPassword(LoginSteps.java:36)] - Username: standard_user
+[INFO] 22-11-2024 15:00:15 [main] [Steps.LoginSteps.userEnterValidUsernameAndPassword(LoginSteps.java:37)] - Password: secret_sauce
+[INFO] 22-11-2024 15:00:15 [main] [Steps.LoginSteps.userIsRedirectedToHomePage(LoginSteps.java:42)] - URL: https://www.saucedemo.com/inventory.html
+[INFO] 22-11-2024 15:00:15 [main] [Steps.Hooks.tearDown(Hooks.java:24)] - Login with valid username and password finished
+[INFO] 22-11-2024 15:00:15 [main] [Steps.Hooks.tearDown(Hooks.java:29)] - Login with valid username and password passed

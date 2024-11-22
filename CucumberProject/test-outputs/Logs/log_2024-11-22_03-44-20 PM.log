@@ -1,0 +1,10 @@
+[INFO] 22-11-2024 15:44:20 [main] [Steps.Hooks.setupScenario(Hooks.java:17)] - Click on cart button started
+[INFO] 22-11-2024 15:44:23 [main] [Steps.Hooks.setupScenario(Hooks.java:19)] - Browser: Chrome
+[INFO] 22-11-2024 15:44:24 [main] [Steps.HomeSteps.userIsOnHomePage(HomeSteps.java:28)] - URL: https://www.saucedemo.com/
+[INFO] 22-11-2024 15:44:24 [main] [Steps.HomeSteps.userIsOnHomePage(HomeSteps.java:34)] - Username: standard_user
+[INFO] 22-11-2024 15:44:24 [main] [Steps.HomeSteps.userIsOnHomePage(HomeSteps.java:35)] - Password: secret_sauce
+[INFO] 22-11-2024 15:44:24 [main] [Steps.HomeSteps.userIsOnHomePage(HomeSteps.java:36)] - URL: https://www.saucedemo.com/inventory.html
+[INFO] 22-11-2024 15:44:24 [main] [Steps.HomeSteps.clickOnAddToCartButton(HomeSteps.java:22)] - First product is added
+[INFO] 22-11-2024 15:44:24 [main] [Steps.HomeSteps.clickOnCartButton(HomeSteps.java:50)] - URL: https://www.saucedemo.com/cart.html
+[INFO] 22-11-2024 15:44:24 [main] [Steps.Hooks.tearDown(Hooks.java:24)] - Click on cart button finished
+[INFO] 22-11-2024 15:44:24 [main] [Steps.Hooks.tearDown(Hooks.java:29)] - Click on cart button passed
