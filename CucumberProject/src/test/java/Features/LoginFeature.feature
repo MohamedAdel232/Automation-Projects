@@ -4,8 +4,7 @@ Feature: Login feature
     Given User is on login page
     When User enter a valid username and password
     Then User is redirected to home page
-
-
+    
   Scenario Outline: Scenario: Login with invalid username and password
     Given User is on login page
     When User enter an invalid "<username>" and "<password>"

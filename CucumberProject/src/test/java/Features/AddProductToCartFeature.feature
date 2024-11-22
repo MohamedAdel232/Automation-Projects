@@ -5,7 +5,6 @@ Feature: Add product to cart feature
     When User click on add to cart button
     Then Product is added to cart
 
-  @now
   Scenario: Click on cart button
     Given User is on home page
     When User click on add to cart button

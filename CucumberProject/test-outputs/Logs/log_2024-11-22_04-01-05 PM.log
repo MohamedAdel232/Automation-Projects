@@ -1,0 +1,11 @@
+[INFO] 22-11-2024 16:01:05 [main] [Steps.Hooks.setupScenario(Hooks.java:17)] - Click on checkout button started
+[INFO] 22-11-2024 16:01:06 [main] [Steps.Hooks.setupScenario(Hooks.java:19)] - Browser: Chrome
+[INFO] 22-11-2024 16:01:07 [main] [Steps.CartSteps.userOnCartPage(CartSteps.java:23)] - URL: https://www.saucedemo.com/
+[INFO] 22-11-2024 16:01:08 [main] [Steps.CartSteps.userOnCartPage(CartSteps.java:29)] - Username: standard_user
+[INFO] 22-11-2024 16:01:08 [main] [Steps.CartSteps.userOnCartPage(CartSteps.java:30)] - Password: secret_sauce
+[INFO] 22-11-2024 16:01:08 [main] [Steps.CartSteps.userOnCartPage(CartSteps.java:31)] - URL: https://www.saucedemo.com/inventory.html
+[INFO] 22-11-2024 16:01:08 [main] [Steps.CartSteps.userOnCartPage(CartSteps.java:34)] - First product is added
+[INFO] 22-11-2024 16:01:08 [main] [Steps.CartSteps.userOnCartPage(CartSteps.java:38)] - URL: https://www.saucedemo.com/cart.html
+[INFO] 22-11-2024 16:01:08 [main] [Steps.CartSteps.userClickOnCheckoutButton(CartSteps.java:46)] - URL: https://www.saucedemo.com/checkout-step-one.html
+[INFO] 22-11-2024 16:01:08 [main] [Steps.Hooks.tearDown(Hooks.java:24)] - Click on checkout button finished
+[INFO] 22-11-2024 16:01:08 [main] [Steps.Hooks.tearDown(Hooks.java:26)] - Click on checkout button failed

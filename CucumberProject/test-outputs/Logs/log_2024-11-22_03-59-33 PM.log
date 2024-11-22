@@ -1,0 +1,4 @@
+[INFO] 22-11-2024 15:59:33 [main] [Steps.Hooks.setupScenario(Hooks.java:17)] - Click on checkout button started
+[INFO] 22-11-2024 15:59:35 [main] [Steps.Hooks.setupScenario(Hooks.java:19)] - Browser: Chrome
+[INFO] 22-11-2024 15:59:35 [main] [Steps.Hooks.tearDown(Hooks.java:24)] - Click on checkout button finished
+[INFO] 22-11-2024 15:59:35 [main] [Steps.Hooks.tearDown(Hooks.java:29)] - Click on checkout button passed
