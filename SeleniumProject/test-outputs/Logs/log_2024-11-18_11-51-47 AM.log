@@ -1,0 +1,5 @@
+[INFO] 18-11-2024 11:51:47 [main] [Tests.TC22_AddToCartFromRecommendedItems.setup(TC22_AddToCartFromRecommendedItems.java:25)] - Browser: Chrome
+[INFO] 18-11-2024 11:51:50 [main] [Tests.TC22_AddToCartFromRecommendedItems.setup(TC22_AddToCartFromRecommendedItems.java:27)] - url: https://automationexercise.com/
+[INFO] 18-11-2024 11:51:50 [main] [Listeners.Listener.onTestStart(Listener.java:15)] - Testcase addToCartFromRecommendedItems started
+[INFO] 18-11-2024 11:51:58 [main] [Tests.TC22_AddToCartFromRecommendedItems.addToCartFromRecommendedItems(TC22_AddToCartFromRecommendedItems.java:38)] - URL: https://automationexercise.com/view_cart
+[INFO] 18-11-2024 11:51:58 [main] [Listeners.Listener.onTestSuccess(Listener.java:19)] - Testcase addToCartFromRecommendedItems passed

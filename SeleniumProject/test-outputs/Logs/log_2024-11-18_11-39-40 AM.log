@@ -1,0 +1,402 @@
+[INFO] 18-11-2024 11:39:40 [main] [Tests.TC01_RegisterUser.setup(TC01_RegisterUser.java:25)] - Browser: Chrome
+[INFO] 18-11-2024 11:39:43 [main] [Tests.TC01_RegisterUser.setup(TC01_RegisterUser.java:27)] - URL: https://automationexercise.com/
+[INFO] 18-11-2024 11:39:43 [main] [Listeners.Listener.onTestStart(Listener.java:15)] - Testcase registerUserTC started
+[INFO] 18-11-2024 11:39:46 [main] [Tests.TC01_RegisterUser.registerUserTC(TC01_RegisterUser.java:35)] - URL: https://automationexercise.com/login
+[INFO] 18-11-2024 11:39:47 [main] [Tests.TC01_RegisterUser.registerUserTC(TC01_RegisterUser.java:42)] - URL: https://automationexercise.com/signup
+[INFO] 18-11-2024 11:39:50 [main] [Tests.TC01_RegisterUser.registerUserTC(TC01_RegisterUser.java:66)] - gender: male
+[INFO] 18-11-2024 11:39:50 [main] [Tests.TC01_RegisterUser.registerUserTC(TC01_RegisterUser.java:67)] - password: 123456
+[INFO] 18-11-2024 11:39:50 [main] [Tests.TC01_RegisterUser.registerUserTC(TC01_RegisterUser.java:68)] - day: 8
+[INFO] 18-11-2024 11:39:50 [main] [Tests.TC01_RegisterUser.registerUserTC(TC01_RegisterUser.java:69)] - month: September
+[INFO] 18-11-2024 11:39:50 [main] [Tests.TC01_RegisterUser.registerUserTC(TC01_RegisterUser.java:70)] - year: 2001
+[INFO] 18-11-2024 11:39:50 [main] [Tests.TC01_RegisterUser.registerUserTC(TC01_RegisterUser.java:71)] - firstname: Mohamed
+[INFO] 18-11-2024 11:39:50 [main] [Tests.TC01_RegisterUser.registerUserTC(TC01_RegisterUser.java:72)] - lastname: Adel
+[INFO] 18-11-2024 11:39:50 [main] [Tests.TC01_RegisterUser.registerUserTC(TC01_RegisterUser.java:73)] - company: HTI
+[INFO] 18-11-2024 11:39:50 [main] [Tests.TC01_RegisterUser.registerUserTC(TC01_RegisterUser.java:74)] - address1: Faisal
+[INFO] 18-11-2024 11:39:50 [main] [Tests.TC01_RegisterUser.registerUserTC(TC01_RegisterUser.java:75)] - address2: Hadayq
+[INFO] 18-11-2024 11:39:50 [main] [Tests.TC01_RegisterUser.registerUserTC(TC01_RegisterUser.java:76)] - country: Canada
+[INFO] 18-11-2024 11:39:50 [main] [Tests.TC01_RegisterUser.registerUserTC(TC01_RegisterUser.java:77)] - state: Cairo
+[INFO] 18-11-2024 11:39:50 [main] [Tests.TC01_RegisterUser.registerUserTC(TC01_RegisterUser.java:78)] - city: Giza
+[INFO] 18-11-2024 11:39:50 [main] [Tests.TC01_RegisterUser.registerUserTC(TC01_RegisterUser.java:79)] - zipcode: 123
+[INFO] 18-11-2024 11:39:50 [main] [Tests.TC01_RegisterUser.registerUserTC(TC01_RegisterUser.java:80)] - mobileNumber: 123456
+[INFO] 18-11-2024 11:39:50 [main] [Tests.TC01_RegisterUser.registerUserTC(TC01_RegisterUser.java:82)] - URL: https://automationexercise.com/account_created
+[INFO] 18-11-2024 11:39:52 [main] [Tests.TC01_RegisterUser.registerUserTC(TC01_RegisterUser.java:86)] - URL: https://automationexercise.com/
+[INFO] 18-11-2024 11:39:53 [main] [Tests.TC01_RegisterUser.registerUserTC(TC01_RegisterUser.java:90)] - URL: https://automationexercise.com/delete_account
+[INFO] 18-11-2024 11:39:55 [main] [Tests.TC01_RegisterUser.registerUserTC(TC01_RegisterUser.java:94)] - URL: https://automationexercise.com/
+[INFO] 18-11-2024 11:39:55 [main] [Listeners.Listener.onTestSuccess(Listener.java:19)] - Testcase registerUserTC passed
+[INFO] 18-11-2024 11:39:56 [main] [Tests.TC02_ValidLogin.setup(TC02_ValidLogin.java:25)] - Browser: Chrome
+[INFO] 18-11-2024 11:39:59 [main] [Tests.TC02_ValidLogin.setup(TC02_ValidLogin.java:28)] - URL: https://automationexercise.com/
+[INFO] 18-11-2024 11:40:01 [main] [Tests.TC02_ValidLogin.setup(TC02_ValidLogin.java:31)] - URL: https://automationexercise.com/login
+[INFO] 18-11-2024 11:40:02 [main] [Tests.TC02_ValidLogin.setup(TC02_ValidLogin.java:37)] - URL: https://automationexercise.com/signup
+[INFO] 18-11-2024 11:40:05 [main] [Tests.TC02_ValidLogin.setup(TC02_ValidLogin.java:60)] - gender: male
+[INFO] 18-11-2024 11:40:05 [main] [Tests.TC02_ValidLogin.setup(TC02_ValidLogin.java:61)] - password: 123456
+[INFO] 18-11-2024 11:40:05 [main] [Tests.TC02_ValidLogin.setup(TC02_ValidLogin.java:62)] - day: 8
+[INFO] 18-11-2024 11:40:05 [main] [Tests.TC02_ValidLogin.setup(TC02_ValidLogin.java:63)] - month: September
+[INFO] 18-11-2024 11:40:05 [main] [Tests.TC02_ValidLogin.setup(TC02_ValidLogin.java:64)] - year: 2001
+[INFO] 18-11-2024 11:40:05 [main] [Tests.TC02_ValidLogin.setup(TC02_ValidLogin.java:65)] - firstname: Mohamed
+[INFO] 18-11-2024 11:40:05 [main] [Tests.TC02_ValidLogin.setup(TC02_ValidLogin.java:66)] - lastname: Adel
+[INFO] 18-11-2024 11:40:05 [main] [Tests.TC02_ValidLogin.setup(TC02_ValidLogin.java:67)] - company: HTI
+[INFO] 18-11-2024 11:40:05 [main] [Tests.TC02_ValidLogin.setup(TC02_ValidLogin.java:68)] - address1: Faisal
+[INFO] 18-11-2024 11:40:05 [main] [Tests.TC02_ValidLogin.setup(TC02_ValidLogin.java:69)] - address2: Hadayq
+[INFO] 18-11-2024 11:40:05 [main] [Tests.TC02_ValidLogin.setup(TC02_ValidLogin.java:70)] - country: Canada
+[INFO] 18-11-2024 11:40:05 [main] [Tests.TC02_ValidLogin.setup(TC02_ValidLogin.java:71)] - state: Cairo
+[INFO] 18-11-2024 11:40:05 [main] [Tests.TC02_ValidLogin.setup(TC02_ValidLogin.java:72)] - city: Giza
+[INFO] 18-11-2024 11:40:05 [main] [Tests.TC02_ValidLogin.setup(TC02_ValidLogin.java:73)] - zipcode: 123
+[INFO] 18-11-2024 11:40:05 [main] [Tests.TC02_ValidLogin.setup(TC02_ValidLogin.java:74)] - mobileNumber: 123456
+[INFO] 18-11-2024 11:40:05 [main] [Tests.TC02_ValidLogin.setup(TC02_ValidLogin.java:75)] - URL: https://automationexercise.com/account_created
+[INFO] 18-11-2024 11:40:07 [main] [Tests.TC02_ValidLogin.setup(TC02_ValidLogin.java:78)] - URL: https://automationexercise.com/
+[INFO] 18-11-2024 11:40:08 [main] [Listeners.Listener.onTestStart(Listener.java:15)] - Testcase validLoginTC started
+[INFO] 18-11-2024 11:40:09 [main] [Tests.TC02_ValidLogin.validLoginTC(TC02_ValidLogin.java:85)] - Browser: Chrome
+[INFO] 18-11-2024 11:40:25 [main] [Tests.TC02_ValidLogin.validLoginTC(TC02_ValidLogin.java:88)] - URL: https://automationexercise.com/
+[INFO] 18-11-2024 11:40:26 [main] [Tests.TC02_ValidLogin.validLoginTC(TC02_ValidLogin.java:93)] - URL: https://automationexercise.com/login
+[INFO] 18-11-2024 11:40:29 [main] [Tests.TC02_ValidLogin.validLoginTC(TC02_ValidLogin.java:100)] - email: a1232222@gmail.com
+[INFO] 18-11-2024 11:40:29 [main] [Tests.TC02_ValidLogin.validLoginTC(TC02_ValidLogin.java:101)] - password: 123456
+[INFO] 18-11-2024 11:40:29 [main] [Tests.TC02_ValidLogin.validLoginTC(TC02_ValidLogin.java:102)] - URL: https://automationexercise.com/
+[INFO] 18-11-2024 11:40:30 [main] [Tests.TC02_ValidLogin.validLoginTC(TC02_ValidLogin.java:106)] - URL: https://automationexercise.com/delete_account
+[INFO] 18-11-2024 11:40:32 [main] [Tests.TC02_ValidLogin.validLoginTC(TC02_ValidLogin.java:110)] - URL: https://automationexercise.com/
+[INFO] 18-11-2024 11:40:32 [main] [Listeners.Listener.onTestSuccess(Listener.java:19)] - Testcase validLoginTC passed
+[INFO] 18-11-2024 11:40:33 [main] [Tests.TC03_InvalidLogin.setup(TC03_InvalidLogin.java:29)] - Browser: Chrome
+[INFO] 18-11-2024 11:40:35 [main] [Tests.TC03_InvalidLogin.setup(TC03_InvalidLogin.java:32)] - URL: https://automationexercise.com/
+[INFO] 18-11-2024 11:40:35 [main] [Listeners.Listener.onTestStart(Listener.java:15)] - Testcase invalidLoginTC started
+[INFO] 18-11-2024 11:40:39 [main] [Tests.TC03_InvalidLogin.invalidLoginTC(TC03_InvalidLogin.java:40)] - URL: https://automationexercise.com/login
+[INFO] 18-11-2024 11:40:40 [main] [Tests.TC03_InvalidLogin.invalidLoginTC(TC03_InvalidLogin.java:47)] - email: lakisha.oconner@gmail.com
+[INFO] 18-11-2024 11:40:40 [main] [Tests.TC03_InvalidLogin.invalidLoginTC(TC03_InvalidLogin.java:48)] - password: ek802yefs13je3h
+[INFO] 18-11-2024 11:40:40 [main] [Listeners.Listener.onTestSuccess(Listener.java:19)] - Testcase invalidLoginTC passed
+[INFO] 18-11-2024 11:40:41 [main] [Tests.TC04_Logout.setup(TC04_Logout.java:26)] - Browser: Chrome
+[INFO] 18-11-2024 11:40:44 [main] [Tests.TC04_Logout.setup(TC04_Logout.java:29)] - URL: https://automationexercise.com/
+[INFO] 18-11-2024 11:40:45 [main] [Tests.TC04_Logout.setup(TC04_Logout.java:32)] - URL: https://automationexercise.com/login
+[INFO] 18-11-2024 11:40:46 [main] [Tests.TC04_Logout.setup(TC04_Logout.java:38)] - URL: https://automationexercise.com/signup
+[INFO] 18-11-2024 11:40:49 [main] [Tests.TC04_Logout.setup(TC04_Logout.java:61)] - gender: male
+[INFO] 18-11-2024 11:40:49 [main] [Tests.TC04_Logout.setup(TC04_Logout.java:62)] - password: 123456
+[INFO] 18-11-2024 11:40:49 [main] [Tests.TC04_Logout.setup(TC04_Logout.java:63)] - day: 8
+[INFO] 18-11-2024 11:40:49 [main] [Tests.TC04_Logout.setup(TC04_Logout.java:64)] - month: September
+[INFO] 18-11-2024 11:40:49 [main] [Tests.TC04_Logout.setup(TC04_Logout.java:65)] - year: 2001
+[INFO] 18-11-2024 11:40:49 [main] [Tests.TC04_Logout.setup(TC04_Logout.java:66)] - firstname: Mohamed
+[INFO] 18-11-2024 11:40:49 [main] [Tests.TC04_Logout.setup(TC04_Logout.java:67)] - lastname: Adel
+[INFO] 18-11-2024 11:40:49 [main] [Tests.TC04_Logout.setup(TC04_Logout.java:68)] - company: HTI
+[INFO] 18-11-2024 11:40:49 [main] [Tests.TC04_Logout.setup(TC04_Logout.java:69)] - address1: Faisal
+[INFO] 18-11-2024 11:40:49 [main] [Tests.TC04_Logout.setup(TC04_Logout.java:70)] - address2: Hadayq
+[INFO] 18-11-2024 11:40:49 [main] [Tests.TC04_Logout.setup(TC04_Logout.java:71)] - country: Canada
+[INFO] 18-11-2024 11:40:49 [main] [Tests.TC04_Logout.setup(TC04_Logout.java:72)] - state: Cairo
+[INFO] 18-11-2024 11:40:49 [main] [Tests.TC04_Logout.setup(TC04_Logout.java:73)] - city: Giza
+[INFO] 18-11-2024 11:40:49 [main] [Tests.TC04_Logout.setup(TC04_Logout.java:74)] - zipcode: 123
+[INFO] 18-11-2024 11:40:49 [main] [Tests.TC04_Logout.setup(TC04_Logout.java:75)] - mobileNumber: 123456
+[INFO] 18-11-2024 11:40:49 [main] [Tests.TC04_Logout.setup(TC04_Logout.java:76)] - URL: https://automationexercise.com/account_created
+[INFO] 18-11-2024 11:40:50 [main] [Tests.TC04_Logout.setup(TC04_Logout.java:79)] - URL: https://automationexercise.com/
+[INFO] 18-11-2024 11:40:50 [main] [Listeners.Listener.onTestStart(Listener.java:15)] - Testcase logout started
+[INFO] 18-11-2024 11:40:51 [main] [Tests.TC04_Logout.logout(TC04_Logout.java:86)] - Browser: Chrome
+[INFO] 18-11-2024 11:40:54 [main] [Tests.TC04_Logout.logout(TC04_Logout.java:89)] - URL: https://automationexercise.com/
+[INFO] 18-11-2024 11:40:55 [main] [Tests.TC04_Logout.logout(TC04_Logout.java:93)] - URL: https://automationexercise.com/login
+[INFO] 18-11-2024 11:40:58 [main] [Tests.TC04_Logout.logout(TC04_Logout.java:100)] - email: a1232222@gmail.com
+[INFO] 18-11-2024 11:40:58 [main] [Tests.TC04_Logout.logout(TC04_Logout.java:101)] - password: 123456
+[INFO] 18-11-2024 11:40:58 [main] [Tests.TC04_Logout.logout(TC04_Logout.java:102)] - URL: https://automationexercise.com/
+[INFO] 18-11-2024 11:40:59 [main] [Tests.TC04_Logout.logout(TC04_Logout.java:106)] - URL: https://automationexercise.com/login
+[INFO] 18-11-2024 11:40:59 [main] [Listeners.Listener.onTestSuccess(Listener.java:19)] - Testcase logout passed
+[INFO] 18-11-2024 11:41:01 [main] [Tests.TC04_Logout.tearDown(TC04_Logout.java:118)] - email: a1232222@gmail.com
+[INFO] 18-11-2024 11:41:01 [main] [Tests.TC04_Logout.tearDown(TC04_Logout.java:119)] - password: 123456
+[INFO] 18-11-2024 11:41:01 [main] [Tests.TC04_Logout.tearDown(TC04_Logout.java:120)] - URL: https://automationexercise.com/
+[INFO] 18-11-2024 11:41:02 [main] [Tests.TC04_Logout.tearDown(TC04_Logout.java:123)] - URL: https://automationexercise.com/delete_account
+[INFO] 18-11-2024 11:41:03 [main] [Tests.TC04_Logout.tearDown(TC04_Logout.java:126)] - URL: https://automationexercise.com/
+[INFO] 18-11-2024 11:41:04 [main] [Tests.TC05_RegisterWithExistingEmail.setup(TC05_RegisterWithExistingEmail.java:26)] - Browser: Chrome
+[INFO] 18-11-2024 11:41:08 [main] [Tests.TC05_RegisterWithExistingEmail.setup(TC05_RegisterWithExistingEmail.java:28)] - URL: https://automationexercise.com/
+[INFO] 18-11-2024 11:41:08 [main] [Listeners.Listener.onTestStart(Listener.java:15)] - Testcase registerUserTC started
+[INFO] 18-11-2024 11:41:09 [main] [Tests.TC05_RegisterWithExistingEmail.registerUserTC(TC05_RegisterWithExistingEmail.java:36)] - URL: https://automationexercise.com/login
+[INFO] 18-11-2024 11:41:11 [main] [Tests.TC05_RegisterWithExistingEmail.registerUserTC(TC05_RegisterWithExistingEmail.java:43)] - name: Mohamed
+[INFO] 18-11-2024 11:41:11 [main] [Tests.TC05_RegisterWithExistingEmail.registerUserTC(TC05_RegisterWithExistingEmail.java:44)] - email: mohmdadl232@gmail.com
+[INFO] 18-11-2024 11:41:11 [main] [Listeners.Listener.onTestSuccess(Listener.java:19)] - Testcase registerUserTC passed
+[INFO] 18-11-2024 11:41:12 [main] [Tests.TC06_ContactUsForm.setup(TC06_ContactUsForm.java:28)] - Browser: Chrome
+[INFO] 18-11-2024 11:41:15 [main] [Tests.TC06_ContactUsForm.setup(TC06_ContactUsForm.java:30)] - url: https://automationexercise.com/
+[INFO] 18-11-2024 11:41:15 [main] [Listeners.Listener.onTestStart(Listener.java:15)] - Testcase contactUsForm started
+[INFO] 18-11-2024 11:41:16 [main] [Tests.TC06_ContactUsForm.contactUsForm(TC06_ContactUsForm.java:38)] - URL: https://automationexercise.com/contact_us
+[INFO] 18-11-2024 11:41:17 [main] [Tests.TC06_ContactUsForm.contactUsForm(TC06_ContactUsForm.java:50)] - name: Mohamed
+[INFO] 18-11-2024 11:41:17 [main] [Tests.TC06_ContactUsForm.contactUsForm(TC06_ContactUsForm.java:51)] - email: 123@gmail.com
+[INFO] 18-11-2024 11:41:17 [main] [Tests.TC06_ContactUsForm.contactUsForm(TC06_ContactUsForm.java:52)] - subject: Subject
+[INFO] 18-11-2024 11:41:17 [main] [Tests.TC06_ContactUsForm.contactUsForm(TC06_ContactUsForm.java:53)] - message: This is a message
+[INFO] 18-11-2024 11:41:17 [main] [Tests.TC06_ContactUsForm.contactUsForm(TC06_ContactUsForm.java:54)] - URL: https://automationexercise.com/contact_us
+[INFO] 18-11-2024 11:41:19 [main] [Tests.TC06_ContactUsForm.contactUsForm(TC06_ContactUsForm.java:58)] - URL: https://automationexercise.com/
+[INFO] 18-11-2024 11:41:19 [main] [Listeners.Listener.onTestSuccess(Listener.java:19)] - Testcase contactUsForm passed
+[INFO] 18-11-2024 11:41:20 [main] [Tests.TC07_VerifyTestCasesPage.setup(TC07_VerifyTestCasesPage.java:26)] - Browser: Chrome
+[INFO] 18-11-2024 11:41:23 [main] [Tests.TC07_VerifyTestCasesPage.setup(TC07_VerifyTestCasesPage.java:28)] - url: https://automationexercise.com/
+[INFO] 18-11-2024 11:41:23 [main] [Listeners.Listener.onTestStart(Listener.java:15)] - Testcase verifyTestcase started
+[INFO] 18-11-2024 11:41:24 [main] [Tests.TC07_VerifyTestCasesPage.verifyTestcase(TC07_VerifyTestCasesPage.java:36)] - URL: https://automationexercise.com/test_cases
+[INFO] 18-11-2024 11:41:24 [main] [Listeners.Listener.onTestSuccess(Listener.java:19)] - Testcase verifyTestcase passed
+[INFO] 18-11-2024 11:41:25 [main] [Tests.TC08_VerifyProductDetailsPage.setup(TC08_VerifyProductDetailsPage.java:27)] - Browser: Chrome
+[INFO] 18-11-2024 11:41:29 [main] [Tests.TC08_VerifyProductDetailsPage.setup(TC08_VerifyProductDetailsPage.java:29)] - url: https://automationexercise.com/
+[INFO] 18-11-2024 11:41:29 [main] [Listeners.Listener.onTestStart(Listener.java:15)] - Testcase verifyTestcase started
+[INFO] 18-11-2024 11:41:32 [main] [Tests.TC08_VerifyProductDetailsPage.verifyTestcase(TC08_VerifyProductDetailsPage.java:37)] - URL: https://automationexercise.com/products
+[INFO] 18-11-2024 11:41:33 [main] [Tests.TC08_VerifyProductDetailsPage.verifyTestcase(TC08_VerifyProductDetailsPage.java:41)] - URL: https://automationexercise.com/product_details/1
+[INFO] 18-11-2024 11:41:33 [main] [Listeners.Listener.onTestSuccess(Listener.java:19)] - Testcase verifyTestcase passed
+[INFO] 18-11-2024 11:41:34 [main] [Tests.TC09_SearchProduct.setup(TC09_SearchProduct.java:28)] - Browser: Chrome
+[INFO] 18-11-2024 11:41:37 [main] [Tests.TC09_SearchProduct.setup(TC09_SearchProduct.java:30)] - url: https://automationexercise.com/
+[INFO] 18-11-2024 11:41:37 [main] [Listeners.Listener.onTestStart(Listener.java:15)] - Testcase searchProduct started
+[INFO] 18-11-2024 11:41:40 [main] [Tests.TC09_SearchProduct.searchProduct(TC09_SearchProduct.java:38)] - URL: https://automationexercise.com/products
+[INFO] 18-11-2024 11:41:42 [main] [Tests.TC09_SearchProduct.searchProduct(TC09_SearchProduct.java:44)] - Product: dress
+[INFO] 18-11-2024 11:41:42 [main] [Tests.TC09_SearchProduct.searchProduct(TC09_SearchProduct.java:45)] - URL: https://automationexercise.com/products?search=dress
+[INFO] 18-11-2024 11:41:42 [main] [Listeners.Listener.onTestSuccess(Listener.java:19)] - Testcase searchProduct passed
+[INFO] 18-11-2024 11:41:43 [main] [Tests.TC10_VerifySubscriptionOnHomePage.setup(TC10_VerifySubscriptionOnHomePage.java:26)] - Browser: Chrome
+[INFO] 18-11-2024 11:41:47 [main] [Tests.TC10_VerifySubscriptionOnHomePage.setup(TC10_VerifySubscriptionOnHomePage.java:28)] - url: https://automationexercise.com/
+[INFO] 18-11-2024 11:41:47 [main] [Listeners.Listener.onTestStart(Listener.java:15)] - Testcase verifySubscriptionOnHomePage started
+[INFO] 18-11-2024 11:41:48 [main] [Tests.TC10_VerifySubscriptionOnHomePage.verifySubscriptionOnHomePage(TC10_VerifySubscriptionOnHomePage.java:38)] - email: a1232222@gmail.com
+[INFO] 18-11-2024 11:41:48 [main] [Listeners.Listener.onTestSuccess(Listener.java:19)] - Testcase verifySubscriptionOnHomePage passed
+[INFO] 18-11-2024 11:41:49 [main] [Tests.TC11_VerifySubscriptionOnCartPage.setup(TC11_VerifySubscriptionOnCartPage.java:27)] - Browser: Chrome
+[INFO] 18-11-2024 11:41:52 [main] [Tests.TC11_VerifySubscriptionOnCartPage.setup(TC11_VerifySubscriptionOnCartPage.java:29)] - url: https://automationexercise.com/
+[INFO] 18-11-2024 11:41:52 [main] [Listeners.Listener.onTestStart(Listener.java:15)] - Testcase verifySubscriptionOnCartPage started
+[INFO] 18-11-2024 11:41:53 [main] [Tests.TC11_VerifySubscriptionOnCartPage.verifySubscriptionOnCartPage(TC11_VerifySubscriptionOnCartPage.java:37)] - URL: https://automationexercise.com/view_cart
+[INFO] 18-11-2024 11:41:53 [main] [Tests.TC11_VerifySubscriptionOnCartPage.verifySubscriptionOnCartPage(TC11_VerifySubscriptionOnCartPage.java:42)] - email: a1232222@gmail.com
+[INFO] 18-11-2024 11:41:53 [main] [Listeners.Listener.onTestSuccess(Listener.java:19)] - Testcase verifySubscriptionOnCartPage passed
+[INFO] 18-11-2024 11:41:54 [main] [Tests.TC12_AddProductsInCart.setup(TC12_AddProductsInCart.java:26)] - Browser: Chrome
+[INFO] 18-11-2024 11:41:58 [main] [Tests.TC12_AddProductsInCart.setup(TC12_AddProductsInCart.java:28)] - url: https://automationexercise.com/
+[INFO] 18-11-2024 11:41:58 [main] [Listeners.Listener.onTestStart(Listener.java:15)] - Testcase addProductToCart started
+[INFO] 18-11-2024 11:42:15 [main] [Tests.TC12_AddProductsInCart.addProductToCart(TC12_AddProductsInCart.java:39)] - URL: https://automationexercise.com/view_cart
+[INFO] 18-11-2024 11:42:15 [main] [Tests.TC12_AddProductsInCart.addProductToCart(TC12_AddProductsInCart.java:42)] - First product price: 500
+[INFO] 18-11-2024 11:42:15 [main] [Tests.TC12_AddProductsInCart.addProductToCart(TC12_AddProductsInCart.java:43)] - Second product price: 400
+[INFO] 18-11-2024 11:42:15 [main] [Tests.TC12_AddProductsInCart.addProductToCart(TC12_AddProductsInCart.java:44)] - First product total price: 500
+[INFO] 18-11-2024 11:42:15 [main] [Tests.TC12_AddProductsInCart.addProductToCart(TC12_AddProductsInCart.java:45)] - Second product total price: 400
+[INFO] 18-11-2024 11:42:15 [main] [Listeners.Listener.onTestSuccess(Listener.java:19)] - Testcase addProductToCart passed
+[INFO] 18-11-2024 11:42:16 [main] [Tests.TC13_VerifyProductQuantityInCart.setup(TC13_VerifyProductQuantityInCart.java:26)] - Browser: Chrome
+[INFO] 18-11-2024 11:42:20 [main] [Tests.TC13_VerifyProductQuantityInCart.setup(TC13_VerifyProductQuantityInCart.java:28)] - url: https://automationexercise.com/
+[INFO] 18-11-2024 11:42:20 [main] [Listeners.Listener.onTestStart(Listener.java:15)] - Testcase verifyProductQuantity started
+[INFO] 18-11-2024 11:42:22 [main] [Tests.TC13_VerifyProductQuantityInCart.verifyProductQuantity(TC13_VerifyProductQuantityInCart.java:36)] - URL: https://automationexercise.com/product_details/1
+[INFO] 18-11-2024 11:42:23 [main] [Tests.TC13_VerifyProductQuantityInCart.verifyProductQuantity(TC13_VerifyProductQuantityInCart.java:42)] - Quantity: 4
+[INFO] 18-11-2024 11:42:23 [main] [Tests.TC13_VerifyProductQuantityInCart.verifyProductQuantity(TC13_VerifyProductQuantityInCart.java:43)] - URL: https://automationexercise.com/view_cart
+[INFO] 18-11-2024 11:42:23 [main] [Listeners.Listener.onTestSuccess(Listener.java:19)] - Testcase verifyProductQuantity passed
+[INFO] 18-11-2024 11:42:24 [main] [Tests.TC14_PlaceOrderRegisterWhileCheckout.setup(TC14_PlaceOrderRegisterWhileCheckout.java:25)] - Browser: Chrome
+[INFO] 18-11-2024 11:42:27 [main] [Tests.TC14_PlaceOrderRegisterWhileCheckout.setup(TC14_PlaceOrderRegisterWhileCheckout.java:27)] - url: https://automationexercise.com/
+[INFO] 18-11-2024 11:42:27 [main] [Listeners.Listener.onTestStart(Listener.java:15)] - Testcase placeOrderRegisterWhileCheckout started
+[INFO] 18-11-2024 11:42:29 [main] [Tests.TC14_PlaceOrderRegisterWhileCheckout.placeOrderRegisterWhileCheckout(TC14_PlaceOrderRegisterWhileCheckout.java:35)] - url: https://automationexercise.com/view_cart
+[INFO] 18-11-2024 11:42:32 [main] [Tests.TC14_PlaceOrderRegisterWhileCheckout.placeOrderRegisterWhileCheckout(TC14_PlaceOrderRegisterWhileCheckout.java:43)] - URL: https://automationexercise.com/signup
+[INFO] 18-11-2024 11:42:34 [main] [Tests.TC14_PlaceOrderRegisterWhileCheckout.placeOrderRegisterWhileCheckout(TC14_PlaceOrderRegisterWhileCheckout.java:67)] - gender: male
+[INFO] 18-11-2024 11:42:34 [main] [Tests.TC14_PlaceOrderRegisterWhileCheckout.placeOrderRegisterWhileCheckout(TC14_PlaceOrderRegisterWhileCheckout.java:68)] - password: 123456
+[INFO] 18-11-2024 11:42:34 [main] [Tests.TC14_PlaceOrderRegisterWhileCheckout.placeOrderRegisterWhileCheckout(TC14_PlaceOrderRegisterWhileCheckout.java:69)] - day: 8
+[INFO] 18-11-2024 11:42:34 [main] [Tests.TC14_PlaceOrderRegisterWhileCheckout.placeOrderRegisterWhileCheckout(TC14_PlaceOrderRegisterWhileCheckout.java:70)] - month: September
+[INFO] 18-11-2024 11:42:34 [main] [Tests.TC14_PlaceOrderRegisterWhileCheckout.placeOrderRegisterWhileCheckout(TC14_PlaceOrderRegisterWhileCheckout.java:71)] - year: 2001
+[INFO] 18-11-2024 11:42:34 [main] [Tests.TC14_PlaceOrderRegisterWhileCheckout.placeOrderRegisterWhileCheckout(TC14_PlaceOrderRegisterWhileCheckout.java:72)] - firstname: Mohamed
+[INFO] 18-11-2024 11:42:34 [main] [Tests.TC14_PlaceOrderRegisterWhileCheckout.placeOrderRegisterWhileCheckout(TC14_PlaceOrderRegisterWhileCheckout.java:73)] - lastname: Adel
+[INFO] 18-11-2024 11:42:34 [main] [Tests.TC14_PlaceOrderRegisterWhileCheckout.placeOrderRegisterWhileCheckout(TC14_PlaceOrderRegisterWhileCheckout.java:74)] - company: HTI
+[INFO] 18-11-2024 11:42:34 [main] [Tests.TC14_PlaceOrderRegisterWhileCheckout.placeOrderRegisterWhileCheckout(TC14_PlaceOrderRegisterWhileCheckout.java:75)] - address1: Faisal
+[INFO] 18-11-2024 11:42:34 [main] [Tests.TC14_PlaceOrderRegisterWhileCheckout.placeOrderRegisterWhileCheckout(TC14_PlaceOrderRegisterWhileCheckout.java:76)] - address2: Hadayq
+[INFO] 18-11-2024 11:42:34 [main] [Tests.TC14_PlaceOrderRegisterWhileCheckout.placeOrderRegisterWhileCheckout(TC14_PlaceOrderRegisterWhileCheckout.java:77)] - country: Canada
+[INFO] 18-11-2024 11:42:34 [main] [Tests.TC14_PlaceOrderRegisterWhileCheckout.placeOrderRegisterWhileCheckout(TC14_PlaceOrderRegisterWhileCheckout.java:78)] - state: Cairo
+[INFO] 18-11-2024 11:42:34 [main] [Tests.TC14_PlaceOrderRegisterWhileCheckout.placeOrderRegisterWhileCheckout(TC14_PlaceOrderRegisterWhileCheckout.java:79)] - city: Giza
+[INFO] 18-11-2024 11:42:34 [main] [Tests.TC14_PlaceOrderRegisterWhileCheckout.placeOrderRegisterWhileCheckout(TC14_PlaceOrderRegisterWhileCheckout.java:80)] - zipcode: 123
+[INFO] 18-11-2024 11:42:34 [main] [Tests.TC14_PlaceOrderRegisterWhileCheckout.placeOrderRegisterWhileCheckout(TC14_PlaceOrderRegisterWhileCheckout.java:81)] - mobileNumber: 123456
+[INFO] 18-11-2024 11:42:34 [main] [Tests.TC14_PlaceOrderRegisterWhileCheckout.placeOrderRegisterWhileCheckout(TC14_PlaceOrderRegisterWhileCheckout.java:83)] - URL: https://automationexercise.com/account_created
+[INFO] 18-11-2024 11:42:36 [main] [Tests.TC14_PlaceOrderRegisterWhileCheckout.placeOrderRegisterWhileCheckout(TC14_PlaceOrderRegisterWhileCheckout.java:87)] - URL: https://automationexercise.com/
+[INFO] 18-11-2024 11:42:36 [main] [Tests.TC14_PlaceOrderRegisterWhileCheckout.placeOrderRegisterWhileCheckout(TC14_PlaceOrderRegisterWhileCheckout.java:90)] - url: https://automationexercise.com/
+[INFO] 18-11-2024 11:42:38 [main] [Tests.TC14_PlaceOrderRegisterWhileCheckout.placeOrderRegisterWhileCheckout(TC14_PlaceOrderRegisterWhileCheckout.java:94)] - url: https://automationexercise.com/checkout
+[INFO] 18-11-2024 11:42:40 [main] [Tests.TC14_PlaceOrderRegisterWhileCheckout.placeOrderRegisterWhileCheckout(TC14_PlaceOrderRegisterWhileCheckout.java:100)] - Comment: This is a comment
+[INFO] 18-11-2024 11:42:40 [main] [Tests.TC14_PlaceOrderRegisterWhileCheckout.placeOrderRegisterWhileCheckout(TC14_PlaceOrderRegisterWhileCheckout.java:101)] - url: https://automationexercise.com/payment
+[INFO] 18-11-2024 11:42:42 [main] [Tests.TC14_PlaceOrderRegisterWhileCheckout.placeOrderRegisterWhileCheckout(TC14_PlaceOrderRegisterWhileCheckout.java:112)] - Name on card: Mohamed
+[INFO] 18-11-2024 11:42:42 [main] [Tests.TC14_PlaceOrderRegisterWhileCheckout.placeOrderRegisterWhileCheckout(TC14_PlaceOrderRegisterWhileCheckout.java:113)] - Card number: 123
+[INFO] 18-11-2024 11:42:42 [main] [Tests.TC14_PlaceOrderRegisterWhileCheckout.placeOrderRegisterWhileCheckout(TC14_PlaceOrderRegisterWhileCheckout.java:114)] - CVC: 123
+[INFO] 18-11-2024 11:42:42 [main] [Tests.TC14_PlaceOrderRegisterWhileCheckout.placeOrderRegisterWhileCheckout(TC14_PlaceOrderRegisterWhileCheckout.java:115)] - Expiry month: 12
+[INFO] 18-11-2024 11:42:42 [main] [Tests.TC14_PlaceOrderRegisterWhileCheckout.placeOrderRegisterWhileCheckout(TC14_PlaceOrderRegisterWhileCheckout.java:116)] - Expiry year: 2025
+[INFO] 18-11-2024 11:42:43 [main] [Tests.TC14_PlaceOrderRegisterWhileCheckout.placeOrderRegisterWhileCheckout(TC14_PlaceOrderRegisterWhileCheckout.java:120)] - url: https://automationexercise.com/delete_account
+[INFO] 18-11-2024 11:42:45 [main] [Listeners.Listener.onTestSuccess(Listener.java:19)] - Testcase placeOrderRegisterWhileCheckout passed
+[INFO] 18-11-2024 11:42:46 [main] [Tests.TC15_PlaceOrderRegisterBeforeCheckout.setup(TC15_PlaceOrderRegisterBeforeCheckout.java:25)] - Browser: Chrome
+[INFO] 18-11-2024 11:42:48 [main] [Tests.TC15_PlaceOrderRegisterBeforeCheckout.setup(TC15_PlaceOrderRegisterBeforeCheckout.java:27)] - url: https://automationexercise.com/
+[INFO] 18-11-2024 11:42:48 [main] [Listeners.Listener.onTestStart(Listener.java:15)] - Testcase placeOrderRegisterBeforeCheckout started
+[INFO] 18-11-2024 11:42:50 [main] [Tests.TC15_PlaceOrderRegisterBeforeCheckout.placeOrderRegisterBeforeCheckout(TC15_PlaceOrderRegisterBeforeCheckout.java:39)] - URL: https://automationexercise.com/signup
+[INFO] 18-11-2024 11:42:53 [main] [Tests.TC15_PlaceOrderRegisterBeforeCheckout.placeOrderRegisterBeforeCheckout(TC15_PlaceOrderRegisterBeforeCheckout.java:63)] - gender: male
+[INFO] 18-11-2024 11:42:53 [main] [Tests.TC15_PlaceOrderRegisterBeforeCheckout.placeOrderRegisterBeforeCheckout(TC15_PlaceOrderRegisterBeforeCheckout.java:64)] - password: 123456
+[INFO] 18-11-2024 11:42:53 [main] [Tests.TC15_PlaceOrderRegisterBeforeCheckout.placeOrderRegisterBeforeCheckout(TC15_PlaceOrderRegisterBeforeCheckout.java:65)] - day: 8
+[INFO] 18-11-2024 11:42:53 [main] [Tests.TC15_PlaceOrderRegisterBeforeCheckout.placeOrderRegisterBeforeCheckout(TC15_PlaceOrderRegisterBeforeCheckout.java:66)] - month: September
+[INFO] 18-11-2024 11:42:53 [main] [Tests.TC15_PlaceOrderRegisterBeforeCheckout.placeOrderRegisterBeforeCheckout(TC15_PlaceOrderRegisterBeforeCheckout.java:67)] - year: 2001
+[INFO] 18-11-2024 11:42:53 [main] [Tests.TC15_PlaceOrderRegisterBeforeCheckout.placeOrderRegisterBeforeCheckout(TC15_PlaceOrderRegisterBeforeCheckout.java:68)] - firstname: Mohamed
+[INFO] 18-11-2024 11:42:53 [main] [Tests.TC15_PlaceOrderRegisterBeforeCheckout.placeOrderRegisterBeforeCheckout(TC15_PlaceOrderRegisterBeforeCheckout.java:69)] - lastname: Adel
+[INFO] 18-11-2024 11:42:53 [main] [Tests.TC15_PlaceOrderRegisterBeforeCheckout.placeOrderRegisterBeforeCheckout(TC15_PlaceOrderRegisterBeforeCheckout.java:70)] - company: HTI
+[INFO] 18-11-2024 11:42:53 [main] [Tests.TC15_PlaceOrderRegisterBeforeCheckout.placeOrderRegisterBeforeCheckout(TC15_PlaceOrderRegisterBeforeCheckout.java:71)] - address1: Faisal
+[INFO] 18-11-2024 11:42:53 [main] [Tests.TC15_PlaceOrderRegisterBeforeCheckout.placeOrderRegisterBeforeCheckout(TC15_PlaceOrderRegisterBeforeCheckout.java:72)] - address2: Hadayq
+[INFO] 18-11-2024 11:42:53 [main] [Tests.TC15_PlaceOrderRegisterBeforeCheckout.placeOrderRegisterBeforeCheckout(TC15_PlaceOrderRegisterBeforeCheckout.java:73)] - country: Canada
+[INFO] 18-11-2024 11:42:53 [main] [Tests.TC15_PlaceOrderRegisterBeforeCheckout.placeOrderRegisterBeforeCheckout(TC15_PlaceOrderRegisterBeforeCheckout.java:74)] - state: Cairo
+[INFO] 18-11-2024 11:42:53 [main] [Tests.TC15_PlaceOrderRegisterBeforeCheckout.placeOrderRegisterBeforeCheckout(TC15_PlaceOrderRegisterBeforeCheckout.java:75)] - city: Giza
+[INFO] 18-11-2024 11:42:53 [main] [Tests.TC15_PlaceOrderRegisterBeforeCheckout.placeOrderRegisterBeforeCheckout(TC15_PlaceOrderRegisterBeforeCheckout.java:76)] - zipcode: 123
+[INFO] 18-11-2024 11:42:53 [main] [Tests.TC15_PlaceOrderRegisterBeforeCheckout.placeOrderRegisterBeforeCheckout(TC15_PlaceOrderRegisterBeforeCheckout.java:77)] - mobileNumber: 123456
+[INFO] 18-11-2024 11:42:53 [main] [Tests.TC15_PlaceOrderRegisterBeforeCheckout.placeOrderRegisterBeforeCheckout(TC15_PlaceOrderRegisterBeforeCheckout.java:78)] - URL: https://automationexercise.com/account_created
+[INFO] 18-11-2024 11:42:55 [main] [Tests.TC15_PlaceOrderRegisterBeforeCheckout.placeOrderRegisterBeforeCheckout(TC15_PlaceOrderRegisterBeforeCheckout.java:82)] - URL: https://automationexercise.com/
+[INFO] 18-11-2024 11:42:57 [main] [Tests.TC15_PlaceOrderRegisterBeforeCheckout.placeOrderRegisterBeforeCheckout(TC15_PlaceOrderRegisterBeforeCheckout.java:86)] - url: https://automationexercise.com/view_cart
+[INFO] 18-11-2024 11:42:58 [main] [Tests.TC15_PlaceOrderRegisterBeforeCheckout.placeOrderRegisterBeforeCheckout(TC15_PlaceOrderRegisterBeforeCheckout.java:90)] - url: https://automationexercise.com/checkout
+[INFO] 18-11-2024 11:42:59 [main] [Tests.TC15_PlaceOrderRegisterBeforeCheckout.placeOrderRegisterBeforeCheckout(TC15_PlaceOrderRegisterBeforeCheckout.java:96)] - Comment: This is a comment
+[INFO] 18-11-2024 11:42:59 [main] [Tests.TC15_PlaceOrderRegisterBeforeCheckout.placeOrderRegisterBeforeCheckout(TC15_PlaceOrderRegisterBeforeCheckout.java:97)] - url: https://automationexercise.com/payment
+[INFO] 18-11-2024 11:43:01 [main] [Tests.TC15_PlaceOrderRegisterBeforeCheckout.placeOrderRegisterBeforeCheckout(TC15_PlaceOrderRegisterBeforeCheckout.java:108)] - Name on card: Mohamed
+[INFO] 18-11-2024 11:43:01 [main] [Tests.TC15_PlaceOrderRegisterBeforeCheckout.placeOrderRegisterBeforeCheckout(TC15_PlaceOrderRegisterBeforeCheckout.java:109)] - Card number: 123
+[INFO] 18-11-2024 11:43:01 [main] [Tests.TC15_PlaceOrderRegisterBeforeCheckout.placeOrderRegisterBeforeCheckout(TC15_PlaceOrderRegisterBeforeCheckout.java:110)] - CVC: 123
+[INFO] 18-11-2024 11:43:01 [main] [Tests.TC15_PlaceOrderRegisterBeforeCheckout.placeOrderRegisterBeforeCheckout(TC15_PlaceOrderRegisterBeforeCheckout.java:111)] - Expiry month: 12
+[INFO] 18-11-2024 11:43:01 [main] [Tests.TC15_PlaceOrderRegisterBeforeCheckout.placeOrderRegisterBeforeCheckout(TC15_PlaceOrderRegisterBeforeCheckout.java:112)] - Expiry year: 2025
+[INFO] 18-11-2024 11:43:03 [main] [Tests.TC15_PlaceOrderRegisterBeforeCheckout.placeOrderRegisterBeforeCheckout(TC15_PlaceOrderRegisterBeforeCheckout.java:116)] - url: https://automationexercise.com/delete_account
+[INFO] 18-11-2024 11:43:06 [main] [Listeners.Listener.onTestSuccess(Listener.java:19)] - Testcase placeOrderRegisterBeforeCheckout passed
+[INFO] 18-11-2024 11:43:07 [main] [Tests.TC16_PlaceOrderLoginBeforeCheckout.setup(TC16_PlaceOrderLoginBeforeCheckout.java:25)] - Browser: Chrome
+[INFO] 18-11-2024 11:43:10 [main] [Tests.TC16_PlaceOrderLoginBeforeCheckout.setup(TC16_PlaceOrderLoginBeforeCheckout.java:28)] - URL: https://automationexercise.com/
+[INFO] 18-11-2024 11:43:12 [main] [Tests.TC16_PlaceOrderLoginBeforeCheckout.setup(TC16_PlaceOrderLoginBeforeCheckout.java:31)] - URL: https://automationexercise.com/login
+[INFO] 18-11-2024 11:43:13 [main] [Tests.TC16_PlaceOrderLoginBeforeCheckout.setup(TC16_PlaceOrderLoginBeforeCheckout.java:37)] - URL: https://automationexercise.com/signup
+[INFO] 18-11-2024 11:43:16 [main] [Tests.TC16_PlaceOrderLoginBeforeCheckout.setup(TC16_PlaceOrderLoginBeforeCheckout.java:60)] - gender: male
+[INFO] 18-11-2024 11:43:16 [main] [Tests.TC16_PlaceOrderLoginBeforeCheckout.setup(TC16_PlaceOrderLoginBeforeCheckout.java:61)] - password: 123456
+[INFO] 18-11-2024 11:43:16 [main] [Tests.TC16_PlaceOrderLoginBeforeCheckout.setup(TC16_PlaceOrderLoginBeforeCheckout.java:62)] - day: 8
+[INFO] 18-11-2024 11:43:16 [main] [Tests.TC16_PlaceOrderLoginBeforeCheckout.setup(TC16_PlaceOrderLoginBeforeCheckout.java:63)] - month: September
+[INFO] 18-11-2024 11:43:16 [main] [Tests.TC16_PlaceOrderLoginBeforeCheckout.setup(TC16_PlaceOrderLoginBeforeCheckout.java:64)] - year: 2001
+[INFO] 18-11-2024 11:43:16 [main] [Tests.TC16_PlaceOrderLoginBeforeCheckout.setup(TC16_PlaceOrderLoginBeforeCheckout.java:65)] - firstname: Mohamed
+[INFO] 18-11-2024 11:43:16 [main] [Tests.TC16_PlaceOrderLoginBeforeCheckout.setup(TC16_PlaceOrderLoginBeforeCheckout.java:66)] - lastname: Adel
+[INFO] 18-11-2024 11:43:16 [main] [Tests.TC16_PlaceOrderLoginBeforeCheckout.setup(TC16_PlaceOrderLoginBeforeCheckout.java:67)] - company: HTI
+[INFO] 18-11-2024 11:43:16 [main] [Tests.TC16_PlaceOrderLoginBeforeCheckout.setup(TC16_PlaceOrderLoginBeforeCheckout.java:68)] - address1: Faisal
+[INFO] 18-11-2024 11:43:16 [main] [Tests.TC16_PlaceOrderLoginBeforeCheckout.setup(TC16_PlaceOrderLoginBeforeCheckout.java:69)] - address2: Hadayq
+[INFO] 18-11-2024 11:43:16 [main] [Tests.TC16_PlaceOrderLoginBeforeCheckout.setup(TC16_PlaceOrderLoginBeforeCheckout.java:70)] - country: Canada
+[INFO] 18-11-2024 11:43:16 [main] [Tests.TC16_PlaceOrderLoginBeforeCheckout.setup(TC16_PlaceOrderLoginBeforeCheckout.java:71)] - state: Cairo
+[INFO] 18-11-2024 11:43:16 [main] [Tests.TC16_PlaceOrderLoginBeforeCheckout.setup(TC16_PlaceOrderLoginBeforeCheckout.java:72)] - city: Giza
+[INFO] 18-11-2024 11:43:16 [main] [Tests.TC16_PlaceOrderLoginBeforeCheckout.setup(TC16_PlaceOrderLoginBeforeCheckout.java:73)] - zipcode: 123
+[INFO] 18-11-2024 11:43:16 [main] [Tests.TC16_PlaceOrderLoginBeforeCheckout.setup(TC16_PlaceOrderLoginBeforeCheckout.java:74)] - mobileNumber: 123456
+[INFO] 18-11-2024 11:43:16 [main] [Tests.TC16_PlaceOrderLoginBeforeCheckout.setup(TC16_PlaceOrderLoginBeforeCheckout.java:75)] - URL: https://automationexercise.com/account_created
+[INFO] 18-11-2024 11:43:18 [main] [Tests.TC16_PlaceOrderLoginBeforeCheckout.setup(TC16_PlaceOrderLoginBeforeCheckout.java:78)] - URL: https://automationexercise.com/
+[INFO] 18-11-2024 11:43:18 [main] [Listeners.Listener.onTestStart(Listener.java:15)] - Testcase placeOrderLoginBeforeCheckout started
+[INFO] 18-11-2024 11:43:19 [main] [Tests.TC16_PlaceOrderLoginBeforeCheckout.placeOrderLoginBeforeCheckout(TC16_PlaceOrderLoginBeforeCheckout.java:85)] - Browser: Chrome
+[INFO] 18-11-2024 11:43:21 [main] [Tests.TC16_PlaceOrderLoginBeforeCheckout.placeOrderLoginBeforeCheckout(TC16_PlaceOrderLoginBeforeCheckout.java:88)] - URL: https://automationexercise.com/
+[INFO] 18-11-2024 11:43:23 [main] [Tests.TC16_PlaceOrderLoginBeforeCheckout.placeOrderLoginBeforeCheckout(TC16_PlaceOrderLoginBeforeCheckout.java:93)] - URL: https://automationexercise.com/login
+[INFO] 18-11-2024 11:43:26 [main] [Tests.TC16_PlaceOrderLoginBeforeCheckout.placeOrderLoginBeforeCheckout(TC16_PlaceOrderLoginBeforeCheckout.java:100)] - email: a1232222@gmail.com
+[INFO] 18-11-2024 11:43:26 [main] [Tests.TC16_PlaceOrderLoginBeforeCheckout.placeOrderLoginBeforeCheckout(TC16_PlaceOrderLoginBeforeCheckout.java:101)] - password: 123456
+[INFO] 18-11-2024 11:43:26 [main] [Tests.TC16_PlaceOrderLoginBeforeCheckout.placeOrderLoginBeforeCheckout(TC16_PlaceOrderLoginBeforeCheckout.java:102)] - URL: https://automationexercise.com/
+[INFO] 18-11-2024 11:43:28 [main] [Tests.TC16_PlaceOrderLoginBeforeCheckout.placeOrderLoginBeforeCheckout(TC16_PlaceOrderLoginBeforeCheckout.java:106)] - url: https://automationexercise.com/view_cart
+[INFO] 18-11-2024 11:43:29 [main] [Tests.TC16_PlaceOrderLoginBeforeCheckout.placeOrderLoginBeforeCheckout(TC16_PlaceOrderLoginBeforeCheckout.java:110)] - url: https://automationexercise.com/checkout
+[INFO] 18-11-2024 11:43:30 [main] [Tests.TC16_PlaceOrderLoginBeforeCheckout.placeOrderLoginBeforeCheckout(TC16_PlaceOrderLoginBeforeCheckout.java:116)] - Comment: This is a comment
+[INFO] 18-11-2024 11:43:30 [main] [Tests.TC16_PlaceOrderLoginBeforeCheckout.placeOrderLoginBeforeCheckout(TC16_PlaceOrderLoginBeforeCheckout.java:117)] - url: https://automationexercise.com/payment
+[INFO] 18-11-2024 11:43:32 [main] [Tests.TC16_PlaceOrderLoginBeforeCheckout.placeOrderLoginBeforeCheckout(TC16_PlaceOrderLoginBeforeCheckout.java:128)] - Name on card: Mohamed
+[INFO] 18-11-2024 11:43:32 [main] [Tests.TC16_PlaceOrderLoginBeforeCheckout.placeOrderLoginBeforeCheckout(TC16_PlaceOrderLoginBeforeCheckout.java:129)] - Card number: 123
+[INFO] 18-11-2024 11:43:32 [main] [Tests.TC16_PlaceOrderLoginBeforeCheckout.placeOrderLoginBeforeCheckout(TC16_PlaceOrderLoginBeforeCheckout.java:130)] - CVC: 123
+[INFO] 18-11-2024 11:43:32 [main] [Tests.TC16_PlaceOrderLoginBeforeCheckout.placeOrderLoginBeforeCheckout(TC16_PlaceOrderLoginBeforeCheckout.java:131)] - Expiry month: 12
+[INFO] 18-11-2024 11:43:32 [main] [Tests.TC16_PlaceOrderLoginBeforeCheckout.placeOrderLoginBeforeCheckout(TC16_PlaceOrderLoginBeforeCheckout.java:132)] - Expiry year: 2025
+[INFO] 18-11-2024 11:43:33 [main] [Tests.TC16_PlaceOrderLoginBeforeCheckout.placeOrderLoginBeforeCheckout(TC16_PlaceOrderLoginBeforeCheckout.java:136)] - url: https://automationexercise.com/delete_account
+[INFO] 18-11-2024 11:43:35 [main] [Listeners.Listener.onTestSuccess(Listener.java:19)] - Testcase placeOrderLoginBeforeCheckout passed
+[INFO] 18-11-2024 11:43:36 [main] [Tests.TC17_RemoveProductsFromCart.setup(TC17_RemoveProductsFromCart.java:25)] - Browser: Chrome
+[INFO] 18-11-2024 11:43:39 [main] [Tests.TC17_RemoveProductsFromCart.setup(TC17_RemoveProductsFromCart.java:27)] - url: https://automationexercise.com/
+[INFO] 18-11-2024 11:43:39 [main] [Listeners.Listener.onTestStart(Listener.java:15)] - Testcase removeProductsFromCart started
+[INFO] 18-11-2024 11:43:42 [main] [Tests.TC17_RemoveProductsFromCart.removeProductsFromCart(TC17_RemoveProductsFromCart.java:37)] - URL: https://automationexercise.com/view_cart
+[INFO] 18-11-2024 11:43:43 [main] [Listeners.Listener.onTestSuccess(Listener.java:19)] - Testcase removeProductsFromCart passed
+[INFO] 18-11-2024 11:43:44 [main] [Tests.TC18_ViewCategoryProducts.setup(TC18_ViewCategoryProducts.java:26)] - Browser: Chrome
+[INFO] 18-11-2024 11:43:47 [main] [Tests.TC18_ViewCategoryProducts.setup(TC18_ViewCategoryProducts.java:28)] - url: https://automationexercise.com/
+[INFO] 18-11-2024 11:43:47 [main] [Listeners.Listener.onTestStart(Listener.java:15)] - Testcase viewCategoryProducts started
+[INFO] 18-11-2024 11:43:51 [main] [Listeners.Listener.onTestSuccess(Listener.java:19)] - Testcase viewCategoryProducts passed
+[INFO] 18-11-2024 11:43:52 [main] [Tests.TC19_ViewCartBrandProducts.setup(TC19_ViewCartBrandProducts.java:27)] - Browser: Chrome
+[INFO] 18-11-2024 11:44:00 [main] [Tests.TC19_ViewCartBrandProducts.setup(TC19_ViewCartBrandProducts.java:29)] - url: https://automationexercise.com/
+[INFO] 18-11-2024 11:44:00 [main] [Listeners.Listener.onTestStart(Listener.java:15)] - Testcase viewCartBrandProducts started
+[INFO] 18-11-2024 11:44:04 [main] [Tests.TC19_ViewCartBrandProducts.viewCartBrandProducts(TC19_ViewCartBrandProducts.java:41)] - URL: https://automationexercise.com/brand_products/Polo
+[INFO] 18-11-2024 11:44:05 [main] [Tests.TC19_ViewCartBrandProducts.viewCartBrandProducts(TC19_ViewCartBrandProducts.java:45)] - URL: https://automationexercise.com/brand_products/Madame
+[INFO] 18-11-2024 11:44:05 [main] [Listeners.Listener.onTestSuccess(Listener.java:19)] - Testcase viewCartBrandProducts passed
+[INFO] 18-11-2024 11:44:06 [main] [Tests.TC20_SearchProductsAndVerifyCartAfterLogin.setup(TC20_SearchProductsAndVerifyCartAfterLogin.java:25)] - Browser: Chrome
+[INFO] 18-11-2024 11:44:09 [main] [Tests.TC20_SearchProductsAndVerifyCartAfterLogin.setup(TC20_SearchProductsAndVerifyCartAfterLogin.java:28)] - URL: https://automationexercise.com/
+[INFO] 18-11-2024 11:44:11 [main] [Tests.TC20_SearchProductsAndVerifyCartAfterLogin.setup(TC20_SearchProductsAndVerifyCartAfterLogin.java:31)] - URL: https://automationexercise.com/login
+[INFO] 18-11-2024 11:44:12 [main] [Tests.TC20_SearchProductsAndVerifyCartAfterLogin.setup(TC20_SearchProductsAndVerifyCartAfterLogin.java:37)] - URL: https://automationexercise.com/signup
+[INFO] 18-11-2024 11:44:14 [main] [Tests.TC20_SearchProductsAndVerifyCartAfterLogin.setup(TC20_SearchProductsAndVerifyCartAfterLogin.java:60)] - gender: male
+[INFO] 18-11-2024 11:44:14 [main] [Tests.TC20_SearchProductsAndVerifyCartAfterLogin.setup(TC20_SearchProductsAndVerifyCartAfterLogin.java:61)] - password: 123456
+[INFO] 18-11-2024 11:44:14 [main] [Tests.TC20_SearchProductsAndVerifyCartAfterLogin.setup(TC20_SearchProductsAndVerifyCartAfterLogin.java:62)] - day: 8
+[INFO] 18-11-2024 11:44:14 [main] [Tests.TC20_SearchProductsAndVerifyCartAfterLogin.setup(TC20_SearchProductsAndVerifyCartAfterLogin.java:63)] - month: September
+[INFO] 18-11-2024 11:44:14 [main] [Tests.TC20_SearchProductsAndVerifyCartAfterLogin.setup(TC20_SearchProductsAndVerifyCartAfterLogin.java:64)] - year: 2001
+[INFO] 18-11-2024 11:44:14 [main] [Tests.TC20_SearchProductsAndVerifyCartAfterLogin.setup(TC20_SearchProductsAndVerifyCartAfterLogin.java:65)] - firstname: Mohamed
+[INFO] 18-11-2024 11:44:14 [main] [Tests.TC20_SearchProductsAndVerifyCartAfterLogin.setup(TC20_SearchProductsAndVerifyCartAfterLogin.java:66)] - lastname: Adel
+[INFO] 18-11-2024 11:44:14 [main] [Tests.TC20_SearchProductsAndVerifyCartAfterLogin.setup(TC20_SearchProductsAndVerifyCartAfterLogin.java:67)] - company: HTI
+[INFO] 18-11-2024 11:44:14 [main] [Tests.TC20_SearchProductsAndVerifyCartAfterLogin.setup(TC20_SearchProductsAndVerifyCartAfterLogin.java:68)] - address1: Faisal
+[INFO] 18-11-2024 11:44:14 [main] [Tests.TC20_SearchProductsAndVerifyCartAfterLogin.setup(TC20_SearchProductsAndVerifyCartAfterLogin.java:69)] - address2: Hadayq
+[INFO] 18-11-2024 11:44:14 [main] [Tests.TC20_SearchProductsAndVerifyCartAfterLogin.setup(TC20_SearchProductsAndVerifyCartAfterLogin.java:70)] - country: Canada
+[INFO] 18-11-2024 11:44:14 [main] [Tests.TC20_SearchProductsAndVerifyCartAfterLogin.setup(TC20_SearchProductsAndVerifyCartAfterLogin.java:71)] - state: Cairo
+[INFO] 18-11-2024 11:44:14 [main] [Tests.TC20_SearchProductsAndVerifyCartAfterLogin.setup(TC20_SearchProductsAndVerifyCartAfterLogin.java:72)] - city: Giza
+[INFO] 18-11-2024 11:44:14 [main] [Tests.TC20_SearchProductsAndVerifyCartAfterLogin.setup(TC20_SearchProductsAndVerifyCartAfterLogin.java:73)] - zipcode: 123
+[INFO] 18-11-2024 11:44:14 [main] [Tests.TC20_SearchProductsAndVerifyCartAfterLogin.setup(TC20_SearchProductsAndVerifyCartAfterLogin.java:74)] - mobileNumber: 123456
+[INFO] 18-11-2024 11:44:14 [main] [Tests.TC20_SearchProductsAndVerifyCartAfterLogin.setup(TC20_SearchProductsAndVerifyCartAfterLogin.java:75)] - URL: https://automationexercise.com/account_created
+[INFO] 18-11-2024 11:44:17 [main] [Tests.TC20_SearchProductsAndVerifyCartAfterLogin.setup(TC20_SearchProductsAndVerifyCartAfterLogin.java:78)] - URL: https://automationexercise.com/
+[INFO] 18-11-2024 11:44:17 [main] [Listeners.Listener.onTestStart(Listener.java:15)] - Testcase searchProductsAndVerifyCartAfterLogin started
+[INFO] 18-11-2024 11:44:18 [main] [Tests.TC20_SearchProductsAndVerifyCartAfterLogin.searchProductsAndVerifyCartAfterLogin(TC20_SearchProductsAndVerifyCartAfterLogin.java:85)] - Browser: Chrome
+[INFO] 18-11-2024 11:44:21 [main] [Tests.TC20_SearchProductsAndVerifyCartAfterLogin.searchProductsAndVerifyCartAfterLogin(TC20_SearchProductsAndVerifyCartAfterLogin.java:88)] - URL: https://automationexercise.com/
+[INFO] 18-11-2024 11:44:25 [main] [Tests.TC20_SearchProductsAndVerifyCartAfterLogin.searchProductsAndVerifyCartAfterLogin(TC20_SearchProductsAndVerifyCartAfterLogin.java:98)] - URL: https://automationexercise.com/products?search=dress
+[INFO] 18-11-2024 11:44:32 [main] [Tests.TC20_SearchProductsAndVerifyCartAfterLogin.searchProductsAndVerifyCartAfterLogin(TC20_SearchProductsAndVerifyCartAfterLogin.java:104)] - URL: https://automationexercise.com/view_cart
+[INFO] 18-11-2024 11:44:34 [main] [Tests.TC20_SearchProductsAndVerifyCartAfterLogin.searchProductsAndVerifyCartAfterLogin(TC20_SearchProductsAndVerifyCartAfterLogin.java:108)] - URL: https://automationexercise.com/login
+[INFO] 18-11-2024 11:45:16 [main] [Tests.TC20_SearchProductsAndVerifyCartAfterLogin.searchProductsAndVerifyCartAfterLogin(TC20_SearchProductsAndVerifyCartAfterLogin.java:115)] - email: a1232222@gmail.com
+[INFO] 18-11-2024 11:45:16 [main] [Tests.TC20_SearchProductsAndVerifyCartAfterLogin.searchProductsAndVerifyCartAfterLogin(TC20_SearchProductsAndVerifyCartAfterLogin.java:116)] - password: 123456
+[INFO] 18-11-2024 11:45:16 [main] [Tests.TC20_SearchProductsAndVerifyCartAfterLogin.searchProductsAndVerifyCartAfterLogin(TC20_SearchProductsAndVerifyCartAfterLogin.java:117)] - URL: https://automationexercise.com/
+[INFO] 18-11-2024 11:45:27 [main] [Tests.TC20_SearchProductsAndVerifyCartAfterLogin.searchProductsAndVerifyCartAfterLogin(TC20_SearchProductsAndVerifyCartAfterLogin.java:125)] - URL: https://automationexercise.com/delete_account
+[INFO] 18-11-2024 11:46:24 [main] [Tests.TC20_SearchProductsAndVerifyCartAfterLogin.searchProductsAndVerifyCartAfterLogin(TC20_SearchProductsAndVerifyCartAfterLogin.java:129)] - URL: https://automationexercise.com/
+[INFO] 18-11-2024 11:46:24 [main] [Listeners.Listener.onTestSuccess(Listener.java:19)] - Testcase searchProductsAndVerifyCartAfterLogin passed
+[INFO] 18-11-2024 11:46:25 [main] [Tests.TC21_AddReviewOnProduct.setup(TC21_AddReviewOnProduct.java:27)] - Browser: Chrome
+[INFO] 18-11-2024 11:46:29 [main] [Tests.TC21_AddReviewOnProduct.setup(TC21_AddReviewOnProduct.java:29)] - url: https://automationexercise.com/
+[INFO] 18-11-2024 11:46:29 [main] [Listeners.Listener.onTestStart(Listener.java:15)] - Testcase addReviewOnProduct started
+[INFO] 18-11-2024 11:46:31 [main] [Tests.TC21_AddReviewOnProduct.addReviewOnProduct(TC21_AddReviewOnProduct.java:38)] - URL: https://automationexercise.com/products
+[INFO] 18-11-2024 11:46:33 [main] [Tests.TC21_AddReviewOnProduct.addReviewOnProduct(TC21_AddReviewOnProduct.java:42)] - URL: https://automationexercise.com/product_details/1
+[INFO] 18-11-2024 11:46:33 [main] [Tests.TC21_AddReviewOnProduct.addReviewOnProduct(TC21_AddReviewOnProduct.java:49)] - Name: Mohamed
+[INFO] 18-11-2024 11:46:33 [main] [Tests.TC21_AddReviewOnProduct.addReviewOnProduct(TC21_AddReviewOnProduct.java:50)] - Email: 123@gmail.com
+[INFO] 18-11-2024 11:46:33 [main] [Tests.TC21_AddReviewOnProduct.addReviewOnProduct(TC21_AddReviewOnProduct.java:51)] - Review: This is a review
+[INFO] 18-11-2024 11:46:33 [main] [Listeners.Listener.onTestSuccess(Listener.java:19)] - Testcase addReviewOnProduct passed
+[INFO] 18-11-2024 11:46:34 [main] [Tests.TC22_AddToCartFromRecommendedItems.setup(TC22_AddToCartFromRecommendedItems.java:25)] - Browser: Chrome
+[INFO] 18-11-2024 11:46:37 [main] [Tests.TC22_AddToCartFromRecommendedItems.setup(TC22_AddToCartFromRecommendedItems.java:27)] - url: https://automationexercise.com/
+[INFO] 18-11-2024 11:46:37 [main] [Listeners.Listener.onTestStart(Listener.java:15)] - Testcase addToCartFromRecommendedItems started
+[INFO] 18-11-2024 11:46:42 [main] [Listeners.Listener.afterInvocation(Listener.java:28)] - Testcase addToCartFromRecommendedItems failed
+[INFO] 18-11-2024 11:46:43 [main] [Tests.TC23_VerifyAddressDetailsInCheckoutPage.setup(TC23_VerifyAddressDetailsInCheckoutPage.java:25)] - Browser: Chrome
+[INFO] 18-11-2024 11:46:48 [main] [Tests.TC23_VerifyAddressDetailsInCheckoutPage.setup(TC23_VerifyAddressDetailsInCheckoutPage.java:27)] - url: https://automationexercise.com/
+[INFO] 18-11-2024 11:46:48 [main] [Listeners.Listener.onTestStart(Listener.java:15)] - Testcase verifyAddressDetailsInCheckoutPage started
+[INFO] 18-11-2024 11:46:50 [main] [Tests.TC23_VerifyAddressDetailsInCheckoutPage.verifyAddressDetailsInCheckoutPage(TC23_VerifyAddressDetailsInCheckoutPage.java:36)] - URL: https://automationexercise.com/login
+[INFO] 18-11-2024 11:46:51 [main] [Tests.TC23_VerifyAddressDetailsInCheckoutPage.verifyAddressDetailsInCheckoutPage(TC23_VerifyAddressDetailsInCheckoutPage.java:43)] - URL: https://automationexercise.com/signup
+[INFO] 18-11-2024 11:46:53 [main] [Tests.TC23_VerifyAddressDetailsInCheckoutPage.verifyAddressDetailsInCheckoutPage(TC23_VerifyAddressDetailsInCheckoutPage.java:67)] - gender: male
+[INFO] 18-11-2024 11:46:53 [main] [Tests.TC23_VerifyAddressDetailsInCheckoutPage.verifyAddressDetailsInCheckoutPage(TC23_VerifyAddressDetailsInCheckoutPage.java:68)] - password: 123456
+[INFO] 18-11-2024 11:46:53 [main] [Tests.TC23_VerifyAddressDetailsInCheckoutPage.verifyAddressDetailsInCheckoutPage(TC23_VerifyAddressDetailsInCheckoutPage.java:69)] - day: 8
+[INFO] 18-11-2024 11:46:53 [main] [Tests.TC23_VerifyAddressDetailsInCheckoutPage.verifyAddressDetailsInCheckoutPage(TC23_VerifyAddressDetailsInCheckoutPage.java:70)] - month: September
+[INFO] 18-11-2024 11:46:53 [main] [Tests.TC23_VerifyAddressDetailsInCheckoutPage.verifyAddressDetailsInCheckoutPage(TC23_VerifyAddressDetailsInCheckoutPage.java:71)] - year: 2001
+[INFO] 18-11-2024 11:46:53 [main] [Tests.TC23_VerifyAddressDetailsInCheckoutPage.verifyAddressDetailsInCheckoutPage(TC23_VerifyAddressDetailsInCheckoutPage.java:72)] - firstname: Mohamed
+[INFO] 18-11-2024 11:46:53 [main] [Tests.TC23_VerifyAddressDetailsInCheckoutPage.verifyAddressDetailsInCheckoutPage(TC23_VerifyAddressDetailsInCheckoutPage.java:73)] - lastname: Adel
+[INFO] 18-11-2024 11:46:53 [main] [Tests.TC23_VerifyAddressDetailsInCheckoutPage.verifyAddressDetailsInCheckoutPage(TC23_VerifyAddressDetailsInCheckoutPage.java:74)] - company: HTI
+[INFO] 18-11-2024 11:46:53 [main] [Tests.TC23_VerifyAddressDetailsInCheckoutPage.verifyAddressDetailsInCheckoutPage(TC23_VerifyAddressDetailsInCheckoutPage.java:75)] - address1: Faisal
+[INFO] 18-11-2024 11:46:53 [main] [Tests.TC23_VerifyAddressDetailsInCheckoutPage.verifyAddressDetailsInCheckoutPage(TC23_VerifyAddressDetailsInCheckoutPage.java:76)] - address2: Hadayq
+[INFO] 18-11-2024 11:46:53 [main] [Tests.TC23_VerifyAddressDetailsInCheckoutPage.verifyAddressDetailsInCheckoutPage(TC23_VerifyAddressDetailsInCheckoutPage.java:77)] - country: Canada
+[INFO] 18-11-2024 11:46:53 [main] [Tests.TC23_VerifyAddressDetailsInCheckoutPage.verifyAddressDetailsInCheckoutPage(TC23_VerifyAddressDetailsInCheckoutPage.java:78)] - state: Cairo
+[INFO] 18-11-2024 11:46:53 [main] [Tests.TC23_VerifyAddressDetailsInCheckoutPage.verifyAddressDetailsInCheckoutPage(TC23_VerifyAddressDetailsInCheckoutPage.java:79)] - city: Giza
+[INFO] 18-11-2024 11:46:53 [main] [Tests.TC23_VerifyAddressDetailsInCheckoutPage.verifyAddressDetailsInCheckoutPage(TC23_VerifyAddressDetailsInCheckoutPage.java:80)] - zipcode: 123
+[INFO] 18-11-2024 11:46:53 [main] [Tests.TC23_VerifyAddressDetailsInCheckoutPage.verifyAddressDetailsInCheckoutPage(TC23_VerifyAddressDetailsInCheckoutPage.java:81)] - mobileNumber: 123456
+[INFO] 18-11-2024 11:46:53 [main] [Tests.TC23_VerifyAddressDetailsInCheckoutPage.verifyAddressDetailsInCheckoutPage(TC23_VerifyAddressDetailsInCheckoutPage.java:82)] - URL: https://automationexercise.com/account_created
+[INFO] 18-11-2024 11:46:56 [main] [Tests.TC23_VerifyAddressDetailsInCheckoutPage.verifyAddressDetailsInCheckoutPage(TC23_VerifyAddressDetailsInCheckoutPage.java:86)] - URL: https://automationexercise.com/
+[INFO] 18-11-2024 11:46:58 [main] [Tests.TC23_VerifyAddressDetailsInCheckoutPage.verifyAddressDetailsInCheckoutPage(TC23_VerifyAddressDetailsInCheckoutPage.java:92)] - URL: https://automationexercise.com/view_cart
+[INFO] 18-11-2024 11:46:59 [main] [Tests.TC23_VerifyAddressDetailsInCheckoutPage.verifyAddressDetailsInCheckoutPage(TC23_VerifyAddressDetailsInCheckoutPage.java:97)] - company: HTI
+[INFO] 18-11-2024 11:46:59 [main] [Tests.TC23_VerifyAddressDetailsInCheckoutPage.verifyAddressDetailsInCheckoutPage(TC23_VerifyAddressDetailsInCheckoutPage.java:98)] - city: Faisal
+[INFO] 18-11-2024 11:46:59 [main] [Tests.TC23_VerifyAddressDetailsInCheckoutPage.verifyAddressDetailsInCheckoutPage(TC23_VerifyAddressDetailsInCheckoutPage.java:99)] - address1: Hadayq
+[INFO] 18-11-2024 11:46:59 [main] [Pages.P13_CheckoutPage.verifyDeliveryAddress(P13_CheckoutPage.java:42)] - Company: HTI
+[INFO] 18-11-2024 11:46:59 [main] [Pages.P13_CheckoutPage.verifyDeliveryAddress(P13_CheckoutPage.java:43)] - City: Faisal
+[INFO] 18-11-2024 11:46:59 [main] [Pages.P13_CheckoutPage.verifyDeliveryAddress(P13_CheckoutPage.java:44)] - Address: Hadayq
+[INFO] 18-11-2024 11:46:59 [main] [Pages.P13_CheckoutPage.verifyBillingAddress(P13_CheckoutPage.java:51)] - Company: HTI
+[INFO] 18-11-2024 11:46:59 [main] [Pages.P13_CheckoutPage.verifyBillingAddress(P13_CheckoutPage.java:52)] - City: Faisal
+[INFO] 18-11-2024 11:46:59 [main] [Pages.P13_CheckoutPage.verifyBillingAddress(P13_CheckoutPage.java:53)] - Address: Hadayq
+[INFO] 18-11-2024 11:47:00 [main] [Tests.TC23_VerifyAddressDetailsInCheckoutPage.verifyAddressDetailsInCheckoutPage(TC23_VerifyAddressDetailsInCheckoutPage.java:110)] - URL: https://automationexercise.com/delete_account
+[INFO] 18-11-2024 11:47:03 [main] [Tests.TC23_VerifyAddressDetailsInCheckoutPage.verifyAddressDetailsInCheckoutPage(TC23_VerifyAddressDetailsInCheckoutPage.java:114)] - URL: https://automationexercise.com/
+[INFO] 18-11-2024 11:47:03 [main] [Listeners.Listener.onTestSuccess(Listener.java:19)] - Testcase verifyAddressDetailsInCheckoutPage passed
+[INFO] 18-11-2024 11:47:04 [main] [Tests.TC24_DownloadInvoiceAfterPurchaseOrder.setup(TC24_DownloadInvoiceAfterPurchaseOrder.java:26)] - Browser: Chrome
+[INFO] 18-11-2024 11:47:07 [main] [Tests.TC24_DownloadInvoiceAfterPurchaseOrder.setup(TC24_DownloadInvoiceAfterPurchaseOrder.java:28)] - url: https://automationexercise.com/
+[INFO] 18-11-2024 11:47:07 [main] [Listeners.Listener.onTestStart(Listener.java:15)] - Testcase downloadInvoiceAfterPurchaseOrder started
+[INFO] 18-11-2024 11:47:09 [main] [Tests.TC24_DownloadInvoiceAfterPurchaseOrder.downloadInvoiceAfterPurchaseOrder(TC24_DownloadInvoiceAfterPurchaseOrder.java:36)] - url: https://automationexercise.com/view_cart
+[INFO] 18-11-2024 11:47:11 [main] [Tests.TC24_DownloadInvoiceAfterPurchaseOrder.downloadInvoiceAfterPurchaseOrder(TC24_DownloadInvoiceAfterPurchaseOrder.java:44)] - URL: https://automationexercise.com/signup
+[INFO] 18-11-2024 11:47:14 [main] [Tests.TC24_DownloadInvoiceAfterPurchaseOrder.downloadInvoiceAfterPurchaseOrder(TC24_DownloadInvoiceAfterPurchaseOrder.java:68)] - gender: male
+[INFO] 18-11-2024 11:47:14 [main] [Tests.TC24_DownloadInvoiceAfterPurchaseOrder.downloadInvoiceAfterPurchaseOrder(TC24_DownloadInvoiceAfterPurchaseOrder.java:69)] - password: 123456
+[INFO] 18-11-2024 11:47:14 [main] [Tests.TC24_DownloadInvoiceAfterPurchaseOrder.downloadInvoiceAfterPurchaseOrder(TC24_DownloadInvoiceAfterPurchaseOrder.java:70)] - day: 8
+[INFO] 18-11-2024 11:47:14 [main] [Tests.TC24_DownloadInvoiceAfterPurchaseOrder.downloadInvoiceAfterPurchaseOrder(TC24_DownloadInvoiceAfterPurchaseOrder.java:71)] - month: September
+[INFO] 18-11-2024 11:47:14 [main] [Tests.TC24_DownloadInvoiceAfterPurchaseOrder.downloadInvoiceAfterPurchaseOrder(TC24_DownloadInvoiceAfterPurchaseOrder.java:72)] - year: 2001
+[INFO] 18-11-2024 11:47:14 [main] [Tests.TC24_DownloadInvoiceAfterPurchaseOrder.downloadInvoiceAfterPurchaseOrder(TC24_DownloadInvoiceAfterPurchaseOrder.java:73)] - firstname: Mohamed
+[INFO] 18-11-2024 11:47:14 [main] [Tests.TC24_DownloadInvoiceAfterPurchaseOrder.downloadInvoiceAfterPurchaseOrder(TC24_DownloadInvoiceAfterPurchaseOrder.java:74)] - lastname: Adel
+[INFO] 18-11-2024 11:47:14 [main] [Tests.TC24_DownloadInvoiceAfterPurchaseOrder.downloadInvoiceAfterPurchaseOrder(TC24_DownloadInvoiceAfterPurchaseOrder.java:75)] - company: HTI
+[INFO] 18-11-2024 11:47:14 [main] [Tests.TC24_DownloadInvoiceAfterPurchaseOrder.downloadInvoiceAfterPurchaseOrder(TC24_DownloadInvoiceAfterPurchaseOrder.java:76)] - address1: Faisal
+[INFO] 18-11-2024 11:47:14 [main] [Tests.TC24_DownloadInvoiceAfterPurchaseOrder.downloadInvoiceAfterPurchaseOrder(TC24_DownloadInvoiceAfterPurchaseOrder.java:77)] - address2: Hadayq
+[INFO] 18-11-2024 11:47:14 [main] [Tests.TC24_DownloadInvoiceAfterPurchaseOrder.downloadInvoiceAfterPurchaseOrder(TC24_DownloadInvoiceAfterPurchaseOrder.java:78)] - country: Canada
+[INFO] 18-11-2024 11:47:14 [main] [Tests.TC24_DownloadInvoiceAfterPurchaseOrder.downloadInvoiceAfterPurchaseOrder(TC24_DownloadInvoiceAfterPurchaseOrder.java:79)] - state: Cairo
+[INFO] 18-11-2024 11:47:14 [main] [Tests.TC24_DownloadInvoiceAfterPurchaseOrder.downloadInvoiceAfterPurchaseOrder(TC24_DownloadInvoiceAfterPurchaseOrder.java:80)] - city: Giza
+[INFO] 18-11-2024 11:47:14 [main] [Tests.TC24_DownloadInvoiceAfterPurchaseOrder.downloadInvoiceAfterPurchaseOrder(TC24_DownloadInvoiceAfterPurchaseOrder.java:81)] - zipcode: 123
+[INFO] 18-11-2024 11:47:14 [main] [Tests.TC24_DownloadInvoiceAfterPurchaseOrder.downloadInvoiceAfterPurchaseOrder(TC24_DownloadInvoiceAfterPurchaseOrder.java:82)] - mobileNumber: 123456
+[INFO] 18-11-2024 11:47:14 [main] [Tests.TC24_DownloadInvoiceAfterPurchaseOrder.downloadInvoiceAfterPurchaseOrder(TC24_DownloadInvoiceAfterPurchaseOrder.java:84)] - URL: https://automationexercise.com/account_created
+[INFO] 18-11-2024 11:47:16 [main] [Tests.TC24_DownloadInvoiceAfterPurchaseOrder.downloadInvoiceAfterPurchaseOrder(TC24_DownloadInvoiceAfterPurchaseOrder.java:88)] - URL: https://automationexercise.com/
+[INFO] 18-11-2024 11:47:16 [main] [Tests.TC24_DownloadInvoiceAfterPurchaseOrder.downloadInvoiceAfterPurchaseOrder(TC24_DownloadInvoiceAfterPurchaseOrder.java:91)] - url: https://automationexercise.com/
+[INFO] 18-11-2024 11:47:18 [main] [Tests.TC24_DownloadInvoiceAfterPurchaseOrder.downloadInvoiceAfterPurchaseOrder(TC24_DownloadInvoiceAfterPurchaseOrder.java:95)] - url: https://automationexercise.com/checkout
+[INFO] 18-11-2024 11:47:19 [main] [Tests.TC24_DownloadInvoiceAfterPurchaseOrder.downloadInvoiceAfterPurchaseOrder(TC24_DownloadInvoiceAfterPurchaseOrder.java:101)] - Comment: This is a comment
+[INFO] 18-11-2024 11:47:19 [main] [Tests.TC24_DownloadInvoiceAfterPurchaseOrder.downloadInvoiceAfterPurchaseOrder(TC24_DownloadInvoiceAfterPurchaseOrder.java:102)] - url: https://automationexercise.com/payment
+[INFO] 18-11-2024 11:47:22 [main] [Tests.TC24_DownloadInvoiceAfterPurchaseOrder.downloadInvoiceAfterPurchaseOrder(TC24_DownloadInvoiceAfterPurchaseOrder.java:113)] - Name on card: Mohamed
+[INFO] 18-11-2024 11:47:22 [main] [Tests.TC24_DownloadInvoiceAfterPurchaseOrder.downloadInvoiceAfterPurchaseOrder(TC24_DownloadInvoiceAfterPurchaseOrder.java:114)] - Card number: 123
+[INFO] 18-11-2024 11:47:22 [main] [Tests.TC24_DownloadInvoiceAfterPurchaseOrder.downloadInvoiceAfterPurchaseOrder(TC24_DownloadInvoiceAfterPurchaseOrder.java:115)] - CVC: 123
+[INFO] 18-11-2024 11:47:22 [main] [Tests.TC24_DownloadInvoiceAfterPurchaseOrder.downloadInvoiceAfterPurchaseOrder(TC24_DownloadInvoiceAfterPurchaseOrder.java:116)] - Expiry month: 12
+[INFO] 18-11-2024 11:47:22 [main] [Tests.TC24_DownloadInvoiceAfterPurchaseOrder.downloadInvoiceAfterPurchaseOrder(TC24_DownloadInvoiceAfterPurchaseOrder.java:117)] - Expiry year: 2025
+[INFO] 18-11-2024 11:47:24 [main] [Tests.TC24_DownloadInvoiceAfterPurchaseOrder.downloadInvoiceAfterPurchaseOrder(TC24_DownloadInvoiceAfterPurchaseOrder.java:123)] - url: https://automationexercise.com/delete_account
+[INFO] 18-11-2024 11:47:27 [main] [Listeners.Listener.onTestSuccess(Listener.java:19)] - Testcase downloadInvoiceAfterPurchaseOrder passed
+[INFO] 18-11-2024 11:47:28 [main] [Tests.TC25_VerifyScrollUpUsingArrowButtonAndScrollDownFunctionality.setup(TC25_VerifyScrollUpUsingArrowButtonAndScrollDownFunctionality.java:24)] - Browser: Chrome
+[INFO] 18-11-2024 11:47:31 [main] [Tests.TC25_VerifyScrollUpUsingArrowButtonAndScrollDownFunctionality.setup(TC25_VerifyScrollUpUsingArrowButtonAndScrollDownFunctionality.java:26)] - url: https://automationexercise.com/
+[INFO] 18-11-2024 11:47:31 [main] [Listeners.Listener.onTestStart(Listener.java:15)] - Testcase verifyScrollUpUsingArrow started
+[INFO] 18-11-2024 11:47:32 [main] [Listeners.Listener.onTestSuccess(Listener.java:19)] - Testcase verifyScrollUpUsingArrow passed
+[INFO] 18-11-2024 11:47:32 [main] [Tests.TC26_VerifyScrollUpWithoutArrowButtonAndScrollDownFunctionality.setup(TC26_VerifyScrollUpWithoutArrowButtonAndScrollDownFunctionality.java:24)] - Browser: Chrome
+[INFO] 18-11-2024 11:47:36 [main] [Tests.TC26_VerifyScrollUpWithoutArrowButtonAndScrollDownFunctionality.setup(TC26_VerifyScrollUpWithoutArrowButtonAndScrollDownFunctionality.java:26)] - url: https://automationexercise.com/
+[INFO] 18-11-2024 11:47:36 [main] [Listeners.Listener.onTestStart(Listener.java:15)] - Testcase verifyScrollUpWithoutUsingArrow started
+[INFO] 18-11-2024 11:47:37 [main] [Listeners.Listener.onTestSuccess(Listener.java:19)] - Testcase verifyScrollUpWithoutUsingArrow passed

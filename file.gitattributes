@@ -1,0 +1,6 @@
+# Ignore HTML reports in specific folders
+output/*.html linguist-vendored
+reports/*.html linguist-vendored
+
+# Ignore all HTML files
+*.html linguist-vendored
