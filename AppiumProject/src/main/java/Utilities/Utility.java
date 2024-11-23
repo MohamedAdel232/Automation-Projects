@@ -61,4 +61,9 @@ public class Utility {
         }
     }
 
+    public static boolean verifyVisibilityOfElement(AndroidDriver driver, By locator) {
+        new WebDriverWait(driver, Duration.ofSeconds(5))
+                .until(ExpectedConditions.visibilityOfElementLocated(locator));
+        return driver.findElement(locator).isDisplayed();
+    }
 }

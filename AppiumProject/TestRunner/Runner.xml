@@ -1,7 +1,7 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd">
 <suite name="Runner">
     <listeners>
-        <listener class-name="Listeners.Listener"></listener>
+        <listener class-name="Listeners.Listener"/>
     </listeners>
     <test name="Runner">
         <classes>
