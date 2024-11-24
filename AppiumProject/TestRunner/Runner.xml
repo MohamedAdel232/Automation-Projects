@@ -6,6 +6,8 @@
     <test name="Runner">
         <classes>
             <class name="Tests.TC01_HomeTest"/>
+            <class name="Tests.TC02_ShotTest"/>
+            <class name="Tests.TC03_CartTest"/>
         </classes>
     </test>
 </suite>

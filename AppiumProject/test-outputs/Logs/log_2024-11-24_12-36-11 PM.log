@@ -1,0 +1,10 @@
+[INFO] 24-11-2024 12:36:11 [main] [Tests.TC03_CartTest.startServer(TC03_CartTest.java:25)] - Appium server started
+[INFO] 24-11-2024 12:36:17 [main] [Tests.TC03_CartTest.setupDriver(TC03_CartTest.java:31)] - Application is opened
+[INFO] 24-11-2024 12:36:17 [main] [Listeners.Listener.onTestStart(Listener.java:16)] - Testcase: readTermsOfConditionsTC started
+[INFO] 24-11-2024 12:36:29 [main] [Tests.TC03_CartTest.readTermsOfConditionsTC(TC03_CartTest.java:47)] - Country: Aruba
+[INFO] 24-11-2024 12:36:29 [main] [Tests.TC03_CartTest.readTermsOfConditionsTC(TC03_CartTest.java:48)] - Name: Mohamed
+[INFO] 24-11-2024 12:36:29 [main] [Tests.TC03_CartTest.readTermsOfConditionsTC(TC03_CartTest.java:49)] - Gender: Male
+[INFO] 24-11-2024 12:36:31 [main] [Tests.TC03_CartTest.readTermsOfConditionsTC(TC03_CartTest.java:54)] - First product added
+[INFO] 24-11-2024 12:36:38 [main] [Listeners.Listener.onTestSuccess(Listener.java:20)] - Testcase: readTermsOfConditionsTC passed
+[INFO] 24-11-2024 12:36:38 [main] [Tests.TC03_CartTest.tearDown(TC03_CartTest.java:100)] - Application is closed
+[INFO] 24-11-2024 12:36:38 [main] [Tests.TC03_CartTest.stopServer(TC03_CartTest.java:106)] - Appium server stopped

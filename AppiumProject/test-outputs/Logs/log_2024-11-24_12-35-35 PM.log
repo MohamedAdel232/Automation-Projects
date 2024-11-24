@@ -1,0 +1,12 @@
+[INFO] 24-11-2024 12:35:35 [main] [Tests.TC03_CartTest.startServer(TC03_CartTest.java:25)] - Appium server started
+[INFO] 24-11-2024 12:35:40 [main] [Tests.TC03_CartTest.setupDriver(TC03_CartTest.java:31)] - Application is opened
+[INFO] 24-11-2024 12:35:40 [main] [Listeners.Listener.onTestStart(Listener.java:16)] - Testcase: completeBuyTC started
+[INFO] 24-11-2024 12:35:52 [main] [Tests.TC03_CartTest.completeBuyTC(TC03_CartTest.java:70)] - Country: Aruba
+[INFO] 24-11-2024 12:35:52 [main] [Tests.TC03_CartTest.completeBuyTC(TC03_CartTest.java:71)] - Name: Mohamed
+[INFO] 24-11-2024 12:35:52 [main] [Tests.TC03_CartTest.completeBuyTC(TC03_CartTest.java:72)] - Gender: Male
+[INFO] 24-11-2024 12:35:54 [main] [Tests.TC03_CartTest.completeBuyTC(TC03_CartTest.java:77)] - First product added
+[INFO] 24-11-2024 12:36:04 [main] [Tests.TC03_CartTest.completeBuyTC(TC03_CartTest.java:92)] - Actual URL:https://the-internet.herokuapp.com/login
+[INFO] 24-11-2024 12:36:04 [main] [Tests.TC03_CartTest.completeBuyTC(TC03_CartTest.java:93)] - Expected URL:https://the-internet.herokuapp.com/login
+[INFO] 24-11-2024 12:36:04 [main] [Listeners.Listener.onTestSuccess(Listener.java:20)] - Testcase: completeBuyTC passed
+[INFO] 24-11-2024 12:36:04 [main] [Tests.TC03_CartTest.tearDown(TC03_CartTest.java:100)] - Application is closed
+[INFO] 24-11-2024 12:36:04 [main] [Tests.TC03_CartTest.stopServer(TC03_CartTest.java:106)] - Appium server stopped
