@@ -1,10 +1,12 @@
 package Tests;
 
+import Listeners.Listener;
 import Pages.P01_HomePage;
 import Utilities.LogsUtils;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import java.io.IOException;
@@ -12,6 +14,7 @@ import java.io.IOException;
 import static DriverFactory.DriverFactory.*;
 import static Utilities.DataUtils.readFromPropertiesFile;
 
+@Listeners(Listener.class)
 public class TC01_HomeTest {
     @BeforeMethod
     public void setup() throws IOException {
