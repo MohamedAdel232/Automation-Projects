@@ -1,5 +1,0 @@
-[INFO] 02-12-2024 17:37:35 [main] [Tests.TC01_HomeTest.setup(TC01_HomeTest.java:28)] - Browser Chrome is opened
-[INFO] 02-12-2024 17:37:40 [main] [Tests.TC01_HomeTest.setup(TC01_HomeTest.java:30)] - URL: https://magento.softwaretestingboard.com/
-[INFO] 02-12-2024 17:37:40 [main] [Listeners.Listener.onTestStart(Listener.java:15)] - Testcase verifyVisibilityOfAdSectionTC started
-[INFO] 02-12-2024 17:37:40 [main] [Tests.TC01_HomeTest.verifyVisibilityOfAdSectionTC(TC01_HomeTest.java:65)] - Ad section is visible
-[INFO] 02-12-2024 17:37:40 [main] [Listeners.Listener.onTestSuccess(Listener.java:19)] - Testcase verifyVisibilityOfAdSectionTC passed

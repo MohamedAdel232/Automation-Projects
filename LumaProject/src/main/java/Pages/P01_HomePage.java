@@ -7,7 +7,7 @@ import org.openqa.selenium.WebElement;
 
 import java.util.List;
 
-public class P01_HomePage {
+public class P01_HomePage extends P00_LayoutPage {
     private final By whatsNewButtonLocator = By.xpath("//span [.=\"What's New\"]");
     private final By womenButtonLocator = By.xpath("//span [.=\"Women\"]");
     private final By menButtonLocator = By.xpath("//span [.=\"Men\"]");
@@ -27,6 +27,7 @@ public class P01_HomePage {
     private final WebDriver driver;
 
     public P01_HomePage(WebDriver driver) {
+        super(driver);
         this.driver = driver;
     }
 
@@ -66,5 +67,45 @@ public class P01_HomePage {
 
     public boolean verifyVisibilityOfHotSellerSection() {
         return verifyVisibilityOfHotSellerTitle() && verifyVisibilityOfHotSellerItems();
+    }
+
+    public P02_CreateAccountPage clickOnCreateAnAccountButton() {
+        Utility.clickOnElement(driver, createAnAccountButtonLocator);
+        return new P02_CreateAccountPage(driver);
+    }
+
+    public P03_SignInPage clickOnSignInButton() {
+        Utility.clickOnElement(driver, signInButtonLocator);
+        return new P03_SignInPage(driver);
+    }
+
+    public P04_WhatsNewPage clickOnWhatsNewButton() {
+        Utility.clickOnElement(driver, whatsNewButtonLocator);
+        return new P04_WhatsNewPage(driver);
+    }
+
+    public P05_WomenPage clickOnWomenButton() {
+        Utility.clickOnElement(driver, womenButtonLocator);
+        return new P05_WomenPage(driver);
+    }
+
+    public P06_MenPage clickOnMenButton() {
+        Utility.clickOnElement(driver, menButtonLocator);
+        return new P06_MenPage(driver);
+    }
+
+    public P07_GearPage clickOnGearButton() {
+        Utility.clickOnElement(driver, gearButtonLocator);
+        return new P07_GearPage(driver);
+    }
+
+    public P08_TrainingPage clickOnTrainingButton() {
+        Utility.clickOnElement(driver, trainingButtonLocator);
+        return new P08_TrainingPage(driver);
+    }
+
+    public P09_SalePage clickOnSaleButton() {
+        Utility.clickOnElement(driver, saleButtonLocator);
+        return new P09_SalePage(driver);
     }
 }

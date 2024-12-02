@@ -102,7 +102,96 @@ public class TC01_HomeTest {
         LogsUtils.info("Hot seller section is visible");
         softAssert.assertAll();
     }
-    
+
+    @Test
+    @Description("Verify functionality of create an account button on the home page")
+    public void verifyFunctionalityOfCreateAnAccountButtonTC() throws IOException {
+        new P01_HomePage(getDriver()).clickOnCreateAnAccountButton();
+        System.out.println(getDriver().getCurrentUrl());
+        softAssert.assertEquals(getDriver().getCurrentUrl(), readFromPropertiesFile("environment", "CreateAccountPage"));
+        LogsUtils.info("Actual Url: " + getDriver().getCurrentUrl());
+        LogsUtils.info("Expected Url: " + readFromPropertiesFile("environment", "CreateAccountPage"));
+
+        softAssert.assertAll();
+    }
+
+    @Test
+    @Description("Verify functionality of sign in button on the home page")
+    public void verifyFunctionalityOfSignInButtonTC() throws IOException {
+        new P01_HomePage(getDriver()).clickOnSignInButton();
+        softAssert.assertEquals(getDriver().getCurrentUrl(), readFromPropertiesFile("environment", "SignInPage"));
+        LogsUtils.info("Actual Url: " + getDriver().getCurrentUrl());
+        LogsUtils.info("Expected Url: " + readFromPropertiesFile("environment", "SignInPage"));
+
+        softAssert.assertAll();
+    }
+
+    @Test
+    @Description("Verify functionality of what's new button on the home page")
+    public void verifyFunctionalityOfWhatsNewButtonTC() throws IOException {
+        new P01_HomePage(getDriver()).clickOnWhatsNewButton();
+        softAssert.assertEquals(getDriver().getCurrentUrl(), readFromPropertiesFile("environment", "WhatsNewPage"));
+        LogsUtils.info("Actual Url: " + getDriver().getCurrentUrl());
+        LogsUtils.info("Expected Url: " + readFromPropertiesFile("environment", "WhatsNewPage"));
+
+        softAssert.assertAll();
+    }
+
+    @Test
+    @Description("Verify functionality of women button on the home page")
+    public void verifyFunctionalityOfWomenButtonTC() throws IOException {
+        new P01_HomePage(getDriver()).clickOnWomenButton();
+        softAssert.assertEquals(getDriver().getCurrentUrl(), readFromPropertiesFile("environment", "WomenPage"));
+        LogsUtils.info("Actual Url: " + getDriver().getCurrentUrl());
+        LogsUtils.info("Expected Url: " + readFromPropertiesFile("environment", "WomenPage"));
+
+        softAssert.assertAll();
+    }
+
+    @Test
+    @Description("Verify functionality of men button on the home page")
+    public void verifyFunctionalityOfMenButtonTC() throws IOException {
+        new P01_HomePage(getDriver()).clickOnMenButton();
+        softAssert.assertEquals(getDriver().getCurrentUrl(), readFromPropertiesFile("environment", "MenPage"));
+        LogsUtils.info("Actual Url: " + getDriver().getCurrentUrl());
+        LogsUtils.info("Expected Url: " + readFromPropertiesFile("environment", "MenPage"));
+
+        softAssert.assertAll();
+    }
+
+    @Test
+    @Description("Verify functionality of gear button on the home page")
+    public void verifyFunctionalityOfGearButtonTC() throws IOException {
+        new P01_HomePage(getDriver()).clickOnGearButton();
+        softAssert.assertEquals(getDriver().getCurrentUrl(), readFromPropertiesFile("environment", "GearPage"));
+        LogsUtils.info("Actual Url: " + getDriver().getCurrentUrl());
+        LogsUtils.info("Expected Url: " + readFromPropertiesFile("environment", "GearPage"));
+
+        softAssert.assertAll();
+    }
+
+    @Test
+    @Description("Verify functionality of training button on the home page")
+    public void verifyFunctionalityOfTrainingButtonTC() throws IOException {
+        new P01_HomePage(getDriver()).clickOnTrainingButton();
+        softAssert.assertEquals(getDriver().getCurrentUrl(), readFromPropertiesFile("environment", "TrainingPage"));
+        LogsUtils.info("Actual Url: " + getDriver().getCurrentUrl());
+        LogsUtils.info("Expected Url: " + readFromPropertiesFile("environment", "TrainingPage"));
+
+        softAssert.assertAll();
+    }
+
+    @Test
+    @Description("Verify functionality of sale button on the home page")
+    public void verifyFunctionalityOfSaleButtonTC() throws IOException {
+        new P01_HomePage(getDriver()).clickOnSaleButton();
+        softAssert.assertEquals(getDriver().getCurrentUrl(), readFromPropertiesFile("environment", "SalePage"));
+        LogsUtils.info("Actual Url: " + getDriver().getCurrentUrl());
+        LogsUtils.info("Expected Url: " + readFromPropertiesFile("environment", "SalePage"));
+
+        softAssert.assertAll();
+    }
+
     @AfterMethod
     public void tearDown() {
         quitDriver();

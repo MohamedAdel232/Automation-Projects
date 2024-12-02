@@ -5,12 +5,12 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 public class P00_LayoutPage {
-    private final By homePageLogoLocator = By.xpath("(//a //img)[1]");
-    private final By signInButtonLocator = By.xpath("(//ul //li //a) [2]");
-    private final By createAnAccountButtonLocator = By.xpath("(//ul //li //a) [3]");
-    private final By searchFieldLocator = By.id("search");
-    private final By cartIconLocator = By.xpath("//a [contains(@class, \"showcart\")]");
-    private final By footerLocator = By.xpath("//div [contains(@class, \"footer\")]");
+    public final By homePageLogoLocator = By.xpath("(//a //img)[1]");
+    public final By signInButtonLocator = By.xpath("(//ul //li //a) [2]");
+    public final By createAnAccountButtonLocator = By.xpath("(//ul //li //a) [3]");
+    public final By searchFieldLocator = By.id("search");
+    public final By cartIconLocator = By.xpath("//a [contains(@class, \"showcart\")]");
+    public final By footerLocator = By.xpath("//div [contains(@class, \"footer\")]");
 
     private final WebDriver driver;
 
