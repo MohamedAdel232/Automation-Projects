@@ -3,11 +3,12 @@ package Tests;
 import Listeners.Listener;
 import Pages.P01_HomePage;
 import Utilities.LogsUtils;
-import org.testng.Assert;
+import io.qameta.allure.Description;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
 
 import java.io.IOException;
 
@@ -16,6 +17,8 @@ import static Utilities.DataUtils.readFromPropertiesFile;
 
 @Listeners(Listener.class)
 public class TC01_HomeTest {
+    SoftAssert softAssert = new SoftAssert();
+
     @BeforeMethod
     public void setup() throws IOException {
         String browser = System.getProperty("browser") != null ?
@@ -28,9 +31,66 @@ public class TC01_HomeTest {
     }
 
     @Test
-    public void verifyLandingOnHomePage() {
-        Assert.assertTrue(new P01_HomePage(getDriver())
+    @Description("Verify landing on the home page successfully")
+    public void verifyLandingOnHomePageTC() {
+        softAssert.assertTrue(new P01_HomePage(getDriver())
                 .verifyLandingOnHomePage());
+        LogsUtils.info("Landed on home page successfully");
+        softAssert.assertAll();
+    }
+
+    @Test
+    @Description("Verify visibility of authentication section on the home page")
+    public void verifyVisibilityOfAuthenticationSectionTC() {
+        softAssert.assertTrue(new P01_HomePage(getDriver())
+                .verifyVisibilityOfAuthenticationSection());
+        LogsUtils.info("Authentication section is visible");
+        softAssert.assertAll();
+    }
+
+    @Test
+    @Description("Verify visibility of menu section on the home page")
+    public void verifyVisibilityOfMenuSectionTC() {
+        softAssert.assertTrue(new P01_HomePage(getDriver())
+                .verifyVisibilityOfMenuSection());
+        LogsUtils.info("Menu section is visible");
+        softAssert.assertAll();
+    }
+
+    @Test
+    @Description("Verify visibility of ad section on the home page")
+    public void verifyVisibilityOfAdSectionTC() {
+        softAssert.assertTrue(new P01_HomePage(getDriver())
+                .verifyVisibilityOfAdSection());
+        LogsUtils.info("Ad section is visible");
+        softAssert.assertAll();
+    }
+
+    @Test
+    @Description("Verify visibility of hot seller section on the home page")
+    public void verifyVisibilityOfHotSellerSectionTC() {
+        softAssert.assertTrue(new P01_HomePage(getDriver())
+                .verifyVisibilityOfHotSellerSection());
+        LogsUtils.info("Hot seller section is visible");
+        softAssert.assertAll();
+    }
+
+    @Test
+    @Description("Verify visibility of search section on the home page")
+    public void verifyVisibilityOfSearchSectionTC() {
+        softAssert.assertTrue(new P01_HomePage(getDriver())
+                .verifyVisibilityOfSearchSection());
+        LogsUtils.info("Search section is visible");
+        softAssert.assertAll();
+    }
+
+    @Test
+    @Description("Verify visibility of cart icon on the home page")
+    public void verifyVisibilityOfCartIconTC() {
+        softAssert.assertTrue(new P01_HomePage(getDriver())
+                .verifyVisibilityOfCartIcon());
+        LogsUtils.info("Search section is visible");
+        softAssert.assertAll();
     }
 
     @AfterMethod

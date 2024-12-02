@@ -1,0 +1,5 @@
+[INFO] 02-12-2024 17:29:05 [main] [Tests.TC01_HomeTest.setup(TC01_HomeTest.java:28)] - Browser Chrome is opened
+[INFO] 02-12-2024 17:29:08 [main] [Tests.TC01_HomeTest.setup(TC01_HomeTest.java:30)] - URL: https://magento.softwaretestingboard.com/
+[INFO] 02-12-2024 17:29:08 [main] [Listeners.Listener.onTestStart(Listener.java:15)] - Testcase verifyVisibilityOfMenuSectionTC started
+[INFO] 02-12-2024 17:29:08 [main] [Tests.TC01_HomeTest.verifyVisibilityOfMenuSectionTC(TC01_HomeTest.java:56)] - Menu section is visible
+[INFO] 02-12-2024 17:29:08 [main] [Listeners.Listener.onTestSuccess(Listener.java:19)] - Testcase verifyVisibilityOfMenuSectionTC passed

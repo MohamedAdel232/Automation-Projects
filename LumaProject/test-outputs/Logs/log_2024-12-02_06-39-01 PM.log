@@ -1,0 +1,5 @@
+[INFO] 02-12-2024 18:39:01 [main] [Tests.TC01_HomeTest.setup(TC01_HomeTest.java:28)] - Browser Chrome is opened
+[INFO] 02-12-2024 18:39:04 [main] [Tests.TC01_HomeTest.setup(TC01_HomeTest.java:30)] - URL: https://magento.softwaretestingboard.com/
+[INFO] 02-12-2024 18:39:04 [main] [Listeners.Listener.onTestStart(Listener.java:15)] - Testcase verifyVisibilityOfHotSellerSectionTC started
+[INFO] 02-12-2024 18:39:05 [main] [Tests.TC01_HomeTest.verifyVisibilityOfHotSellerSectionTC(TC01_HomeTest.java:74)] - Hot seller section is visible
+[INFO] 02-12-2024 18:39:05 [main] [Listeners.Listener.onTestSuccess(Listener.java:19)] - Testcase verifyVisibilityOfHotSellerSectionTC passed

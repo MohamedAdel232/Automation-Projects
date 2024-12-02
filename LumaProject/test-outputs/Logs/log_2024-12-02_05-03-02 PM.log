@@ -1,0 +1,10 @@
+[INFO] 02-12-2024 17:03:02 [main] [Tests.TC01_HomeTest.setup(TC01_HomeTest.java:28)] - Browser Chrome is opened
+[INFO] 02-12-2024 17:03:06 [main] [Tests.TC01_HomeTest.setup(TC01_HomeTest.java:30)] - URL: https://magento.softwaretestingboard.com/
+[INFO] 02-12-2024 17:03:06 [main] [Listeners.Listener.onTestStart(Listener.java:15)] - Testcase verifyLandingOnHomePageTC started
+[INFO] 02-12-2024 17:03:06 [main] [Tests.TC01_HomeTest.verifyLandingOnHomePageTC(TC01_HomeTest.java:38)] - Landed on home page successfully
+[INFO] 02-12-2024 17:03:06 [main] [Listeners.Listener.onTestSuccess(Listener.java:19)] - Testcase verifyLandingOnHomePageTC passed
+[INFO] 02-12-2024 17:03:07 [main] [Tests.TC01_HomeTest.setup(TC01_HomeTest.java:28)] - Browser Chrome is opened
+[INFO] 02-12-2024 17:03:12 [main] [Tests.TC01_HomeTest.setup(TC01_HomeTest.java:30)] - URL: https://magento.softwaretestingboard.com/
+[INFO] 02-12-2024 17:03:12 [main] [Listeners.Listener.onTestStart(Listener.java:15)] - Testcase verifyVisibilityOfAuthenticationSectionTC started
+[INFO] 02-12-2024 17:03:12 [main] [Tests.TC01_HomeTest.verifyVisibilityOfAuthenticationSectionTC(TC01_HomeTest.java:47)] - Authentication section is visible
+[INFO] 02-12-2024 17:03:12 [main] [Listeners.Listener.onTestSuccess(Listener.java:19)] - Testcase verifyVisibilityOfAuthenticationSectionTC passed
