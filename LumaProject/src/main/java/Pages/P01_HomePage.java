@@ -8,9 +8,6 @@ import org.openqa.selenium.WebElement;
 import java.util.List;
 
 public class P01_HomePage {
-    private final By homePageLogoLocator = By.xpath("(//a //img)[1]");
-    private final By signInButtonLocator = By.xpath("(//ul //li //a) [2]");
-    private final By createAnAccountButtonLocator = By.xpath("(//ul //li //a) [3]");
     private final By whatsNewButtonLocator = By.xpath("//span [.=\"What's New\"]");
     private final By womenButtonLocator = By.xpath("//span [.=\"Women\"]");
     private final By menButtonLocator = By.xpath("//span [.=\"Men\"]");
@@ -26,23 +23,11 @@ public class P01_HomePage {
     private final By hotSellerHeaderLocator = By.tagName("h2");
     private final By hotSellerTextLocator = By.xpath("//p [@class]");
     private final By productsLocator = By.xpath("//li [@class = \"product-item\"]");
-    private final By searchFieldLocator = By.id("search");
-    private final By cartIconLocator = By.xpath("//a [contains(@class, \"showcart\")]");
 
     private final WebDriver driver;
 
     public P01_HomePage(WebDriver driver) {
         this.driver = driver;
-    }
-
-    public boolean verifyLandingOnHomePage() {
-        driver.findElement(By.xpath("//span [.=\"What's New\"]"));
-        return Utility.checkVisibilityOfElement(driver, homePageLogoLocator);
-    }
-
-    public boolean verifyVisibilityOfAuthenticationSection() {
-        return Utility.checkVisibilityOfElement(driver, signInButtonLocator) &&
-                Utility.checkVisibilityOfElement(driver, createAnAccountButtonLocator);
     }
 
     public boolean verifyVisibilityOfMenuSection() {
@@ -81,13 +66,5 @@ public class P01_HomePage {
 
     public boolean verifyVisibilityOfHotSellerSection() {
         return verifyVisibilityOfHotSellerTitle() && verifyVisibilityOfHotSellerItems();
-    }
-
-    public boolean verifyVisibilityOfSearchSection() {
-        return Utility.checkVisibilityOfElement(driver, searchFieldLocator);
-    }
-
-    public boolean verifyVisibilityOfCartIcon() {
-        return Utility.checkVisibilityOfElement(driver, cartIconLocator);
     }
 }

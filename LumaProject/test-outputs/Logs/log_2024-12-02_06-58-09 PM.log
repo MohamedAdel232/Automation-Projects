@@ -1,0 +1,5 @@
+[INFO] 02-12-2024 18:58:09 [main] [Tests.TC01_HomeTest.setup(TC01_HomeTest.java:28)] - Browser Chrome is opened
+[INFO] 02-12-2024 18:58:14 [main] [Tests.TC01_HomeTest.setup(TC01_HomeTest.java:30)] - URL: https://magento.softwaretestingboard.com/
+[INFO] 02-12-2024 18:58:14 [main] [Listeners.Listener.onTestStart(Listener.java:15)] - Testcase verifyVisibilityOfFooterSectionTC started
+[INFO] 02-12-2024 18:58:14 [main] [Tests.TC01_HomeTest.verifyVisibilityOfFooterSectionTC(TC01_HomeTest.java:101)] - Footer section is visible
+[INFO] 02-12-2024 18:58:14 [main] [Listeners.Listener.onTestSuccess(Listener.java:19)] - Testcase verifyVisibilityOfFooterSectionTC passed

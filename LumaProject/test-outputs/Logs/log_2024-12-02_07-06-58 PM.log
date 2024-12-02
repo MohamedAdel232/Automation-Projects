@@ -1,0 +1,40 @@
+[INFO] 02-12-2024 19:06:58 [main] [Tests.TC01_HomeTest.setup(TC01_HomeTest.java:29)] - Browser Chrome is opened
+[INFO] 02-12-2024 19:07:03 [main] [Tests.TC01_HomeTest.setup(TC01_HomeTest.java:31)] - URL: https://magento.softwaretestingboard.com/
+[INFO] 02-12-2024 19:07:03 [main] [Listeners.Listener.onTestStart(Listener.java:15)] - Testcase verifyLandingOnHomePageTC started
+[INFO] 02-12-2024 19:07:03 [main] [Tests.TC01_HomeTest.verifyLandingOnHomePageTC(TC01_HomeTest.java:39)] - Landed on home page successfully
+[INFO] 02-12-2024 19:07:03 [main] [Listeners.Listener.onTestSuccess(Listener.java:19)] - Testcase verifyLandingOnHomePageTC passed
+[INFO] 02-12-2024 19:07:04 [main] [Tests.TC01_HomeTest.setup(TC01_HomeTest.java:29)] - Browser Chrome is opened
+[INFO] 02-12-2024 19:07:08 [main] [Tests.TC01_HomeTest.setup(TC01_HomeTest.java:31)] - URL: https://magento.softwaretestingboard.com/
+[INFO] 02-12-2024 19:07:08 [main] [Listeners.Listener.onTestStart(Listener.java:15)] - Testcase verifyVisibilityOfAdSectionTC started
+[INFO] 02-12-2024 19:07:08 [main] [Tests.TC01_HomeTest.verifyVisibilityOfAdSectionTC(TC01_HomeTest.java:93)] - Ad section is visible
+[INFO] 02-12-2024 19:07:08 [main] [Listeners.Listener.onTestSuccess(Listener.java:19)] - Testcase verifyVisibilityOfAdSectionTC passed
+[INFO] 02-12-2024 19:07:09 [main] [Tests.TC01_HomeTest.setup(TC01_HomeTest.java:29)] - Browser Chrome is opened
+[INFO] 02-12-2024 19:07:13 [main] [Tests.TC01_HomeTest.setup(TC01_HomeTest.java:31)] - URL: https://magento.softwaretestingboard.com/
+[INFO] 02-12-2024 19:07:13 [main] [Listeners.Listener.onTestStart(Listener.java:15)] - Testcase verifyVisibilityOfAuthenticationSectionTC started
+[INFO] 02-12-2024 19:07:13 [main] [Tests.TC01_HomeTest.verifyVisibilityOfAuthenticationSectionTC(TC01_HomeTest.java:48)] - Authentication section is visible
+[INFO] 02-12-2024 19:07:13 [main] [Listeners.Listener.onTestSuccess(Listener.java:19)] - Testcase verifyVisibilityOfAuthenticationSectionTC passed
+[INFO] 02-12-2024 19:07:14 [main] [Tests.TC01_HomeTest.setup(TC01_HomeTest.java:29)] - Browser Chrome is opened
+[INFO] 02-12-2024 19:07:18 [main] [Tests.TC01_HomeTest.setup(TC01_HomeTest.java:31)] - URL: https://magento.softwaretestingboard.com/
+[INFO] 02-12-2024 19:07:18 [main] [Listeners.Listener.onTestStart(Listener.java:15)] - Testcase verifyVisibilityOfCartIconTC started
+[INFO] 02-12-2024 19:07:18 [main] [Tests.TC01_HomeTest.verifyVisibilityOfCartIconTC(TC01_HomeTest.java:66)] - Search section is visible
+[INFO] 02-12-2024 19:07:18 [main] [Listeners.Listener.onTestSuccess(Listener.java:19)] - Testcase verifyVisibilityOfCartIconTC passed
+[INFO] 02-12-2024 19:07:19 [main] [Tests.TC01_HomeTest.setup(TC01_HomeTest.java:29)] - Browser Chrome is opened
+[INFO] 02-12-2024 19:07:22 [main] [Tests.TC01_HomeTest.setup(TC01_HomeTest.java:31)] - URL: https://magento.softwaretestingboard.com/
+[INFO] 02-12-2024 19:07:22 [main] [Listeners.Listener.onTestStart(Listener.java:15)] - Testcase verifyVisibilityOfFooterSectionTC started
+[INFO] 02-12-2024 19:07:22 [main] [Tests.TC01_HomeTest.verifyVisibilityOfFooterSectionTC(TC01_HomeTest.java:75)] - Footer section is visible
+[INFO] 02-12-2024 19:07:22 [main] [Listeners.Listener.onTestSuccess(Listener.java:19)] - Testcase verifyVisibilityOfFooterSectionTC passed
+[INFO] 02-12-2024 19:07:23 [main] [Tests.TC01_HomeTest.setup(TC01_HomeTest.java:29)] - Browser Chrome is opened
+[INFO] 02-12-2024 19:07:27 [main] [Tests.TC01_HomeTest.setup(TC01_HomeTest.java:31)] - URL: https://magento.softwaretestingboard.com/
+[INFO] 02-12-2024 19:07:27 [main] [Listeners.Listener.onTestStart(Listener.java:15)] - Testcase verifyVisibilityOfHotSellerSectionTC started
+[INFO] 02-12-2024 19:07:27 [main] [Tests.TC01_HomeTest.verifyVisibilityOfHotSellerSectionTC(TC01_HomeTest.java:102)] - Hot seller section is visible
+[INFO] 02-12-2024 19:07:27 [main] [Listeners.Listener.onTestSuccess(Listener.java:19)] - Testcase verifyVisibilityOfHotSellerSectionTC passed
+[INFO] 02-12-2024 19:07:28 [main] [Tests.TC01_HomeTest.setup(TC01_HomeTest.java:29)] - Browser Chrome is opened
+[INFO] 02-12-2024 19:07:31 [main] [Tests.TC01_HomeTest.setup(TC01_HomeTest.java:31)] - URL: https://magento.softwaretestingboard.com/
+[INFO] 02-12-2024 19:07:31 [main] [Listeners.Listener.onTestStart(Listener.java:15)] - Testcase verifyVisibilityOfMenuSectionTC started
+[INFO] 02-12-2024 19:07:32 [main] [Tests.TC01_HomeTest.verifyVisibilityOfMenuSectionTC(TC01_HomeTest.java:84)] - Menu section is visible
+[INFO] 02-12-2024 19:07:32 [main] [Listeners.Listener.onTestSuccess(Listener.java:19)] - Testcase verifyVisibilityOfMenuSectionTC passed
+[INFO] 02-12-2024 19:07:33 [main] [Tests.TC01_HomeTest.setup(TC01_HomeTest.java:29)] - Browser Chrome is opened
+[INFO] 02-12-2024 19:07:37 [main] [Tests.TC01_HomeTest.setup(TC01_HomeTest.java:31)] - URL: https://magento.softwaretestingboard.com/
+[INFO] 02-12-2024 19:07:37 [main] [Listeners.Listener.onTestStart(Listener.java:15)] - Testcase verifyVisibilityOfSearchSectionTC started
+[INFO] 02-12-2024 19:07:37 [main] [Tests.TC01_HomeTest.verifyVisibilityOfSearchSectionTC(TC01_HomeTest.java:57)] - Search section is visible
+[INFO] 02-12-2024 19:07:37 [main] [Listeners.Listener.onTestSuccess(Listener.java:19)] - Testcase verifyVisibilityOfSearchSectionTC passed
