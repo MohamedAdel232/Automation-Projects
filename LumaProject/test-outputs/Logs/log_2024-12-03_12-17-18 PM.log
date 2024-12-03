@@ -1,0 +1,6 @@
+[INFO] 03-12-2024 12:17:18 [main] [Tests.TC01_HomeTest.setup(TC01_HomeTest.java:29)] - Browser Chrome is opened
+[INFO] 03-12-2024 12:17:22 [main] [Tests.TC01_HomeTest.setup(TC01_HomeTest.java:31)] - URL: https://magento.softwaretestingboard.com/
+[INFO] 03-12-2024 12:17:22 [main] [Listeners.Listener.onTestStart(Listener.java:15)] - Testcase verifyFunctionalityOfErinAdTC started
+[INFO] 03-12-2024 12:17:24 [main] [Tests.TC01_HomeTest.verifyFunctionalityOfErinAdTC(TC01_HomeTest.java:233)] - Actual Url: https://magento.softwaretestingboard.com/collections/eco-friendly.html
+[INFO] 03-12-2024 12:17:24 [main] [Tests.TC01_HomeTest.verifyFunctionalityOfErinAdTC(TC01_HomeTest.java:234)] - Expected Url: https://magento.softwaretestingboard.com/collections/erin-recommends.html
+[INFO] 03-12-2024 12:17:24 [main] [Listeners.Listener.afterInvocation(Listener.java:28)] - Testcase verifyFunctionalityOfErinAdTC failed

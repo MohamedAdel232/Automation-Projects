@@ -23,6 +23,7 @@ public class P01_HomePage extends P00_LayoutPage {
     private final By hotSellerHeaderLocator = By.tagName("h2");
     private final By hotSellerTextLocator = By.xpath("//p [@class]");
     private final By productsLocator = By.xpath("//li [@class = \"product-item\"]");
+    
 
     private final WebDriver driver;
 
@@ -107,5 +108,35 @@ public class P01_HomePage extends P00_LayoutPage {
     public P09_SalePage clickOnSaleButton() {
         Utility.clickOnElement(driver, saleButtonLocator);
         return new P09_SalePage(driver);
+    }
+
+    public P10_YogaAdPage clickOnYogaAd() {
+        Utility.clickOnElement(driver, yogaAdLocator);
+        return new P10_YogaAdPage(driver);
+    }
+
+    public P11_PantsAdPage clickOnPantsAd() {
+        Utility.clickOnElement(driver, pantsAdLocator);
+        return new P11_PantsAdPage(driver);
+    }
+
+    public P12_TShirtAdPage clickOnTShirtsAd() {
+        Utility.clickOnElement(driver, tShirtsAdLocator);
+        return new P12_TShirtAdPage(driver);
+    }
+
+    public P13_ErinAdPage clickOnErinAd() {
+        Utility.clickOnElement(driver, erinAdLocator);
+        return new P13_ErinAdPage(driver);
+    }
+
+    public P14_PerformanceAdPage clickOnPerformanceAd() {
+        Utility.clickOnElement(driver, performanceAdLocator);
+        return new P14_PerformanceAdPage(driver);
+    }
+
+    public P15_EcoAdPage clickOnEcoAd() {
+        Utility.clickOnElement(driver, ecoAdLocator);
+        return new P15_EcoAdPage(driver);
     }
 }

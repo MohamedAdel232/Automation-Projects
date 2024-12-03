@@ -1,0 +1,6 @@
+[INFO] 03-12-2024 12:06:34 [main] [Tests.TC01_HomeTest.setup(TC01_HomeTest.java:29)] - Browser Chrome is opened
+[INFO] 03-12-2024 12:06:37 [main] [Tests.TC01_HomeTest.setup(TC01_HomeTest.java:31)] - URL: https://magento.softwaretestingboard.com/
+[INFO] 03-12-2024 12:06:37 [main] [Listeners.Listener.onTestStart(Listener.java:15)] - Testcase verifyFunctionalityOfPantsAdTC started
+[INFO] 03-12-2024 12:06:38 [main] [Tests.TC01_HomeTest.verifyFunctionalityOfPantsAdTC(TC01_HomeTest.java:211)] - Actual Url: https://magento.softwaretestingboard.com/promotions/pants-all.html
+[INFO] 03-12-2024 12:06:38 [main] [Tests.TC01_HomeTest.verifyFunctionalityOfPantsAdTC(TC01_HomeTest.java:212)] - Expected Url: https://magento.softwaretestingboard.com/promotions/pants-all.html
+[INFO] 03-12-2024 12:06:38 [main] [Listeners.Listener.onTestSuccess(Listener.java:19)] - Testcase verifyFunctionalityOfPantsAdTC passed

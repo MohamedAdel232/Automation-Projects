@@ -1,0 +1,124 @@
+[INFO] 03-12-2024 12:18:44 [main] [Tests.TC01_HomeTest.setup(TC01_HomeTest.java:29)] - Browser Chrome is opened
+[INFO] 03-12-2024 12:18:49 [main] [Tests.TC01_HomeTest.setup(TC01_HomeTest.java:31)] - URL: https://magento.softwaretestingboard.com/
+[INFO] 03-12-2024 12:18:49 [main] [Listeners.Listener.onTestStart(Listener.java:15)] - Testcase verifyFunctionalityOfCreateAnAccountButtonTC started
+[INFO] 03-12-2024 12:18:51 [main] [Tests.TC01_HomeTest.verifyFunctionalityOfCreateAnAccountButtonTC(TC01_HomeTest.java:112)] - Actual Url: https://magento.softwaretestingboard.com/customer/account/create/
+[INFO] 03-12-2024 12:18:51 [main] [Tests.TC01_HomeTest.verifyFunctionalityOfCreateAnAccountButtonTC(TC01_HomeTest.java:113)] - Expected Url: https://magento.softwaretestingboard.com/customer/account/create/
+[INFO] 03-12-2024 12:18:51 [main] [Listeners.Listener.onTestSuccess(Listener.java:19)] - Testcase verifyFunctionalityOfCreateAnAccountButtonTC passed
+[INFO] 03-12-2024 12:18:52 [main] [Tests.TC01_HomeTest.setup(TC01_HomeTest.java:29)] - Browser Chrome is opened
+[INFO] 03-12-2024 12:18:55 [main] [Tests.TC01_HomeTest.setup(TC01_HomeTest.java:31)] - URL: https://magento.softwaretestingboard.com/
+[INFO] 03-12-2024 12:18:55 [main] [Listeners.Listener.onTestStart(Listener.java:15)] - Testcase verifyFunctionalityOfEcoAdTC started
+[INFO] 03-12-2024 12:18:56 [main] [Tests.TC01_HomeTest.verifyFunctionalityOfEcoAdTC(TC01_HomeTest.java:255)] - Actual Url: https://magento.softwaretestingboard.com/collections/eco-friendly.html
+[INFO] 03-12-2024 12:18:56 [main] [Tests.TC01_HomeTest.verifyFunctionalityOfEcoAdTC(TC01_HomeTest.java:256)] - Expected Url: https://magento.softwaretestingboard.com/collections/eco-friendly.html
+[INFO] 03-12-2024 12:18:56 [main] [Listeners.Listener.onTestSuccess(Listener.java:19)] - Testcase verifyFunctionalityOfEcoAdTC passed
+[INFO] 03-12-2024 12:18:57 [main] [Tests.TC01_HomeTest.setup(TC01_HomeTest.java:29)] - Browser Chrome is opened
+[INFO] 03-12-2024 12:19:01 [main] [Tests.TC01_HomeTest.setup(TC01_HomeTest.java:31)] - URL: https://magento.softwaretestingboard.com/
+[INFO] 03-12-2024 12:19:01 [main] [Listeners.Listener.onTestStart(Listener.java:15)] - Testcase verifyFunctionalityOfErinAdTC started
+[INFO] 03-12-2024 12:19:03 [main] [Tests.TC01_HomeTest.verifyFunctionalityOfErinAdTC(TC01_HomeTest.java:233)] - Actual Url: https://magento.softwaretestingboard.com/collections/erin-recommends.html
+[INFO] 03-12-2024 12:19:03 [main] [Tests.TC01_HomeTest.verifyFunctionalityOfErinAdTC(TC01_HomeTest.java:234)] - Expected Url: https://magento.softwaretestingboard.com/collections/erin-recommends.html
+[INFO] 03-12-2024 12:19:03 [main] [Listeners.Listener.onTestSuccess(Listener.java:19)] - Testcase verifyFunctionalityOfErinAdTC passed
+[INFO] 03-12-2024 12:19:04 [main] [Tests.TC01_HomeTest.setup(TC01_HomeTest.java:29)] - Browser Chrome is opened
+[INFO] 03-12-2024 12:19:08 [main] [Tests.TC01_HomeTest.setup(TC01_HomeTest.java:31)] - URL: https://magento.softwaretestingboard.com/
+[INFO] 03-12-2024 12:19:08 [main] [Listeners.Listener.onTestStart(Listener.java:15)] - Testcase verifyFunctionalityOfGearButtonTC started
+[INFO] 03-12-2024 12:19:09 [main] [Tests.TC01_HomeTest.verifyFunctionalityOfGearButtonTC(TC01_HomeTest.java:167)] - Actual Url: https://magento.softwaretestingboard.com/gear.html
+[INFO] 03-12-2024 12:19:09 [main] [Tests.TC01_HomeTest.verifyFunctionalityOfGearButtonTC(TC01_HomeTest.java:168)] - Expected Url: https://magento.softwaretestingboard.com/gear.html
+[INFO] 03-12-2024 12:19:09 [main] [Listeners.Listener.onTestSuccess(Listener.java:19)] - Testcase verifyFunctionalityOfGearButtonTC passed
+[INFO] 03-12-2024 12:19:10 [main] [Tests.TC01_HomeTest.setup(TC01_HomeTest.java:29)] - Browser Chrome is opened
+[INFO] 03-12-2024 12:19:14 [main] [Tests.TC01_HomeTest.setup(TC01_HomeTest.java:31)] - URL: https://magento.softwaretestingboard.com/
+[INFO] 03-12-2024 12:19:14 [main] [Listeners.Listener.onTestStart(Listener.java:15)] - Testcase verifyFunctionalityOfMenButtonTC started
+[INFO] 03-12-2024 12:19:15 [main] [Tests.TC01_HomeTest.verifyFunctionalityOfMenButtonTC(TC01_HomeTest.java:156)] - Actual Url: https://magento.softwaretestingboard.com/men.html
+[INFO] 03-12-2024 12:19:15 [main] [Tests.TC01_HomeTest.verifyFunctionalityOfMenButtonTC(TC01_HomeTest.java:157)] - Expected Url: https://magento.softwaretestingboard.com/men.html
+[INFO] 03-12-2024 12:19:15 [main] [Listeners.Listener.onTestSuccess(Listener.java:19)] - Testcase verifyFunctionalityOfMenButtonTC passed
+[INFO] 03-12-2024 12:19:16 [main] [Tests.TC01_HomeTest.setup(TC01_HomeTest.java:29)] - Browser Chrome is opened
+[INFO] 03-12-2024 12:19:19 [main] [Tests.TC01_HomeTest.setup(TC01_HomeTest.java:31)] - URL: https://magento.softwaretestingboard.com/
+[INFO] 03-12-2024 12:19:19 [main] [Listeners.Listener.onTestStart(Listener.java:15)] - Testcase verifyFunctionalityOfPantsAdTC started
+[INFO] 03-12-2024 12:19:21 [main] [Tests.TC01_HomeTest.verifyFunctionalityOfPantsAdTC(TC01_HomeTest.java:211)] - Actual Url: https://magento.softwaretestingboard.com/promotions/pants-all.html
+[INFO] 03-12-2024 12:19:21 [main] [Tests.TC01_HomeTest.verifyFunctionalityOfPantsAdTC(TC01_HomeTest.java:212)] - Expected Url: https://magento.softwaretestingboard.com/promotions/pants-all.html
+[INFO] 03-12-2024 12:19:21 [main] [Listeners.Listener.onTestSuccess(Listener.java:19)] - Testcase verifyFunctionalityOfPantsAdTC passed
+[INFO] 03-12-2024 12:19:22 [main] [Tests.TC01_HomeTest.setup(TC01_HomeTest.java:29)] - Browser Chrome is opened
+[INFO] 03-12-2024 12:19:26 [main] [Tests.TC01_HomeTest.setup(TC01_HomeTest.java:31)] - URL: https://magento.softwaretestingboard.com/
+[INFO] 03-12-2024 12:19:26 [main] [Listeners.Listener.onTestStart(Listener.java:15)] - Testcase verifyFunctionalityOfPerformanceAdTC started
+[INFO] 03-12-2024 12:19:27 [main] [Tests.TC01_HomeTest.verifyFunctionalityOfPerformanceAdTC(TC01_HomeTest.java:244)] - Actual Url: https://magento.softwaretestingboard.com/collections/performance-fabrics.html
+[INFO] 03-12-2024 12:19:27 [main] [Tests.TC01_HomeTest.verifyFunctionalityOfPerformanceAdTC(TC01_HomeTest.java:245)] - Expected Url: https://magento.softwaretestingboard.com/collections/performance-fabrics.html
+[INFO] 03-12-2024 12:19:27 [main] [Listeners.Listener.onTestSuccess(Listener.java:19)] - Testcase verifyFunctionalityOfPerformanceAdTC passed
+[INFO] 03-12-2024 12:19:28 [main] [Tests.TC01_HomeTest.setup(TC01_HomeTest.java:29)] - Browser Chrome is opened
+[INFO] 03-12-2024 12:19:31 [main] [Tests.TC01_HomeTest.setup(TC01_HomeTest.java:31)] - URL: https://magento.softwaretestingboard.com/
+[INFO] 03-12-2024 12:19:31 [main] [Listeners.Listener.onTestStart(Listener.java:15)] - Testcase verifyFunctionalityOfSaleButtonTC started
+[INFO] 03-12-2024 12:19:33 [main] [Tests.TC01_HomeTest.verifyFunctionalityOfSaleButtonTC(TC01_HomeTest.java:189)] - Actual Url: https://magento.softwaretestingboard.com/sale.html
+[INFO] 03-12-2024 12:19:33 [main] [Tests.TC01_HomeTest.verifyFunctionalityOfSaleButtonTC(TC01_HomeTest.java:190)] - Expected Url: https://magento.softwaretestingboard.com/sale.html
+[INFO] 03-12-2024 12:19:33 [main] [Listeners.Listener.onTestSuccess(Listener.java:19)] - Testcase verifyFunctionalityOfSaleButtonTC passed
+[INFO] 03-12-2024 12:19:34 [main] [Tests.TC01_HomeTest.setup(TC01_HomeTest.java:29)] - Browser Chrome is opened
+[INFO] 03-12-2024 12:19:37 [main] [Tests.TC01_HomeTest.setup(TC01_HomeTest.java:31)] - URL: https://magento.softwaretestingboard.com/
+[INFO] 03-12-2024 12:19:37 [main] [Listeners.Listener.onTestStart(Listener.java:15)] - Testcase verifyFunctionalityOfSignInButtonTC started
+[INFO] 03-12-2024 12:19:38 [main] [Tests.TC01_HomeTest.verifyFunctionalityOfSignInButtonTC(TC01_HomeTest.java:123)] - Actual Url: https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+[INFO] 03-12-2024 12:19:38 [main] [Tests.TC01_HomeTest.verifyFunctionalityOfSignInButtonTC(TC01_HomeTest.java:124)] - Expected Url: https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+[INFO] 03-12-2024 12:19:38 [main] [Listeners.Listener.onTestSuccess(Listener.java:19)] - Testcase verifyFunctionalityOfSignInButtonTC passed
+[INFO] 03-12-2024 12:19:39 [main] [Tests.TC01_HomeTest.setup(TC01_HomeTest.java:29)] - Browser Chrome is opened
+[INFO] 03-12-2024 12:19:43 [main] [Tests.TC01_HomeTest.setup(TC01_HomeTest.java:31)] - URL: https://magento.softwaretestingboard.com/
+[INFO] 03-12-2024 12:19:43 [main] [Listeners.Listener.onTestStart(Listener.java:15)] - Testcase verifyFunctionalityOfTShirtAdTC started
+[INFO] 03-12-2024 12:19:45 [main] [Tests.TC01_HomeTest.verifyFunctionalityOfTShirtAdTC(TC01_HomeTest.java:222)] - Actual Url: https://magento.softwaretestingboard.com/promotions/tees-all.html
+[INFO] 03-12-2024 12:19:45 [main] [Tests.TC01_HomeTest.verifyFunctionalityOfTShirtAdTC(TC01_HomeTest.java:223)] - Expected Url: https://magento.softwaretestingboard.com/promotions/tees-all.html
+[INFO] 03-12-2024 12:19:45 [main] [Listeners.Listener.onTestSuccess(Listener.java:19)] - Testcase verifyFunctionalityOfTShirtAdTC passed
+[INFO] 03-12-2024 12:19:46 [main] [Tests.TC01_HomeTest.setup(TC01_HomeTest.java:29)] - Browser Chrome is opened
+[INFO] 03-12-2024 12:19:49 [main] [Tests.TC01_HomeTest.setup(TC01_HomeTest.java:31)] - URL: https://magento.softwaretestingboard.com/
+[INFO] 03-12-2024 12:19:49 [main] [Listeners.Listener.onTestStart(Listener.java:15)] - Testcase verifyFunctionalityOfTrainingButtonTC started
+[INFO] 03-12-2024 12:19:50 [main] [Tests.TC01_HomeTest.verifyFunctionalityOfTrainingButtonTC(TC01_HomeTest.java:178)] - Actual Url: https://magento.softwaretestingboard.com/training.html
+[INFO] 03-12-2024 12:19:50 [main] [Tests.TC01_HomeTest.verifyFunctionalityOfTrainingButtonTC(TC01_HomeTest.java:179)] - Expected Url: https://magento.softwaretestingboard.com/training.html
+[INFO] 03-12-2024 12:19:50 [main] [Listeners.Listener.onTestSuccess(Listener.java:19)] - Testcase verifyFunctionalityOfTrainingButtonTC passed
+[INFO] 03-12-2024 12:19:51 [main] [Tests.TC01_HomeTest.setup(TC01_HomeTest.java:29)] - Browser Chrome is opened
+[INFO] 03-12-2024 12:19:54 [main] [Tests.TC01_HomeTest.setup(TC01_HomeTest.java:31)] - URL: https://magento.softwaretestingboard.com/
+[INFO] 03-12-2024 12:19:54 [main] [Listeners.Listener.onTestStart(Listener.java:15)] - Testcase verifyFunctionalityOfWhatsNewButtonTC started
+[INFO] 03-12-2024 12:19:56 [main] [Tests.TC01_HomeTest.verifyFunctionalityOfWhatsNewButtonTC(TC01_HomeTest.java:134)] - Actual Url: https://magento.softwaretestingboard.com/what-is-new.html
+[INFO] 03-12-2024 12:19:56 [main] [Tests.TC01_HomeTest.verifyFunctionalityOfWhatsNewButtonTC(TC01_HomeTest.java:135)] - Expected Url: https://magento.softwaretestingboard.com/what-is-new.html
+[INFO] 03-12-2024 12:19:56 [main] [Listeners.Listener.onTestSuccess(Listener.java:19)] - Testcase verifyFunctionalityOfWhatsNewButtonTC passed
+[INFO] 03-12-2024 12:19:57 [main] [Tests.TC01_HomeTest.setup(TC01_HomeTest.java:29)] - Browser Chrome is opened
+[INFO] 03-12-2024 12:20:00 [main] [Tests.TC01_HomeTest.setup(TC01_HomeTest.java:31)] - URL: https://magento.softwaretestingboard.com/
+[INFO] 03-12-2024 12:20:00 [main] [Listeners.Listener.onTestStart(Listener.java:15)] - Testcase verifyFunctionalityOfWomenButtonTC started
+[INFO] 03-12-2024 12:20:02 [main] [Tests.TC01_HomeTest.verifyFunctionalityOfWomenButtonTC(TC01_HomeTest.java:145)] - Actual Url: https://magento.softwaretestingboard.com/women.html
+[INFO] 03-12-2024 12:20:02 [main] [Tests.TC01_HomeTest.verifyFunctionalityOfWomenButtonTC(TC01_HomeTest.java:146)] - Expected Url: https://magento.softwaretestingboard.com/women.html
+[INFO] 03-12-2024 12:20:02 [main] [Listeners.Listener.onTestSuccess(Listener.java:19)] - Testcase verifyFunctionalityOfWomenButtonTC passed
+[INFO] 03-12-2024 12:20:03 [main] [Tests.TC01_HomeTest.setup(TC01_HomeTest.java:29)] - Browser Chrome is opened
+[INFO] 03-12-2024 12:20:06 [main] [Tests.TC01_HomeTest.setup(TC01_HomeTest.java:31)] - URL: https://magento.softwaretestingboard.com/
+[INFO] 03-12-2024 12:20:06 [main] [Listeners.Listener.onTestStart(Listener.java:15)] - Testcase verifyFunctionalityOfYogaAdTC started
+[INFO] 03-12-2024 12:20:08 [main] [Tests.TC01_HomeTest.verifyFunctionalityOfYogaAdTC(TC01_HomeTest.java:200)] - Actual Url: https://magento.softwaretestingboard.com/collections/yoga-new.html
+[INFO] 03-12-2024 12:20:08 [main] [Tests.TC01_HomeTest.verifyFunctionalityOfYogaAdTC(TC01_HomeTest.java:201)] - Expected Url: https://magento.softwaretestingboard.com/collections/yoga-new.html
+[INFO] 03-12-2024 12:20:08 [main] [Listeners.Listener.onTestSuccess(Listener.java:19)] - Testcase verifyFunctionalityOfYogaAdTC passed
+[INFO] 03-12-2024 12:20:09 [main] [Tests.TC01_HomeTest.setup(TC01_HomeTest.java:29)] - Browser Chrome is opened
+[INFO] 03-12-2024 12:20:13 [main] [Tests.TC01_HomeTest.setup(TC01_HomeTest.java:31)] - URL: https://magento.softwaretestingboard.com/
+[INFO] 03-12-2024 12:20:13 [main] [Listeners.Listener.onTestStart(Listener.java:15)] - Testcase verifyLandingOnHomePageTC started
+[INFO] 03-12-2024 12:20:13 [main] [Tests.TC01_HomeTest.verifyLandingOnHomePageTC(TC01_HomeTest.java:39)] - Landed on home page successfully
+[INFO] 03-12-2024 12:20:13 [main] [Listeners.Listener.onTestSuccess(Listener.java:19)] - Testcase verifyLandingOnHomePageTC passed
+[INFO] 03-12-2024 12:20:14 [main] [Tests.TC01_HomeTest.setup(TC01_HomeTest.java:29)] - Browser Chrome is opened
+[INFO] 03-12-2024 12:20:17 [main] [Tests.TC01_HomeTest.setup(TC01_HomeTest.java:31)] - URL: https://magento.softwaretestingboard.com/
+[INFO] 03-12-2024 12:20:17 [main] [Listeners.Listener.onTestStart(Listener.java:15)] - Testcase verifyVisibilityOfAdSectionTC started
+[INFO] 03-12-2024 12:20:17 [main] [Tests.TC01_HomeTest.verifyVisibilityOfAdSectionTC(TC01_HomeTest.java:93)] - Ad section is visible
+[INFO] 03-12-2024 12:20:17 [main] [Listeners.Listener.onTestSuccess(Listener.java:19)] - Testcase verifyVisibilityOfAdSectionTC passed
+[INFO] 03-12-2024 12:20:18 [main] [Tests.TC01_HomeTest.setup(TC01_HomeTest.java:29)] - Browser Chrome is opened
+[INFO] 03-12-2024 12:20:21 [main] [Tests.TC01_HomeTest.setup(TC01_HomeTest.java:31)] - URL: https://magento.softwaretestingboard.com/
+[INFO] 03-12-2024 12:20:21 [main] [Listeners.Listener.onTestStart(Listener.java:15)] - Testcase verifyVisibilityOfAuthenticationSectionTC started
+[INFO] 03-12-2024 12:20:21 [main] [Tests.TC01_HomeTest.verifyVisibilityOfAuthenticationSectionTC(TC01_HomeTest.java:48)] - Authentication section is visible
+[INFO] 03-12-2024 12:20:21 [main] [Listeners.Listener.onTestSuccess(Listener.java:19)] - Testcase verifyVisibilityOfAuthenticationSectionTC passed
+[INFO] 03-12-2024 12:20:22 [main] [Tests.TC01_HomeTest.setup(TC01_HomeTest.java:29)] - Browser Chrome is opened
+[INFO] 03-12-2024 12:20:26 [main] [Tests.TC01_HomeTest.setup(TC01_HomeTest.java:31)] - URL: https://magento.softwaretestingboard.com/
+[INFO] 03-12-2024 12:20:26 [main] [Listeners.Listener.onTestStart(Listener.java:15)] - Testcase verifyVisibilityOfCartIconTC started
+[INFO] 03-12-2024 12:20:26 [main] [Tests.TC01_HomeTest.verifyVisibilityOfCartIconTC(TC01_HomeTest.java:66)] - Search section is visible
+[INFO] 03-12-2024 12:20:26 [main] [Listeners.Listener.onTestSuccess(Listener.java:19)] - Testcase verifyVisibilityOfCartIconTC passed
+[INFO] 03-12-2024 12:20:27 [main] [Tests.TC01_HomeTest.setup(TC01_HomeTest.java:29)] - Browser Chrome is opened
+[INFO] 03-12-2024 12:20:30 [main] [Tests.TC01_HomeTest.setup(TC01_HomeTest.java:31)] - URL: https://magento.softwaretestingboard.com/
+[INFO] 03-12-2024 12:20:30 [main] [Listeners.Listener.onTestStart(Listener.java:15)] - Testcase verifyVisibilityOfFooterSectionTC started
+[INFO] 03-12-2024 12:20:30 [main] [Tests.TC01_HomeTest.verifyVisibilityOfFooterSectionTC(TC01_HomeTest.java:75)] - Footer section is visible
+[INFO] 03-12-2024 12:20:30 [main] [Listeners.Listener.onTestSuccess(Listener.java:19)] - Testcase verifyVisibilityOfFooterSectionTC passed
+[INFO] 03-12-2024 12:20:31 [main] [Tests.TC01_HomeTest.setup(TC01_HomeTest.java:29)] - Browser Chrome is opened
+[INFO] 03-12-2024 12:20:34 [main] [Tests.TC01_HomeTest.setup(TC01_HomeTest.java:31)] - URL: https://magento.softwaretestingboard.com/
+[INFO] 03-12-2024 12:20:34 [main] [Listeners.Listener.onTestStart(Listener.java:15)] - Testcase verifyVisibilityOfHotSellerSectionTC started
+[INFO] 03-12-2024 12:20:34 [main] [Tests.TC01_HomeTest.verifyVisibilityOfHotSellerSectionTC(TC01_HomeTest.java:102)] - Hot seller section is visible
+[INFO] 03-12-2024 12:20:34 [main] [Listeners.Listener.onTestSuccess(Listener.java:19)] - Testcase verifyVisibilityOfHotSellerSectionTC passed
+[INFO] 03-12-2024 12:20:35 [main] [Tests.TC01_HomeTest.setup(TC01_HomeTest.java:29)] - Browser Chrome is opened
+[INFO] 03-12-2024 12:20:38 [main] [Tests.TC01_HomeTest.setup(TC01_HomeTest.java:31)] - URL: https://magento.softwaretestingboard.com/
+[INFO] 03-12-2024 12:20:38 [main] [Listeners.Listener.onTestStart(Listener.java:15)] - Testcase verifyVisibilityOfMenuSectionTC started
+[INFO] 03-12-2024 12:20:38 [main] [Tests.TC01_HomeTest.verifyVisibilityOfMenuSectionTC(TC01_HomeTest.java:84)] - Menu section is visible
+[INFO] 03-12-2024 12:20:38 [main] [Listeners.Listener.onTestSuccess(Listener.java:19)] - Testcase verifyVisibilityOfMenuSectionTC passed
+[INFO] 03-12-2024 12:20:39 [main] [Tests.TC01_HomeTest.setup(TC01_HomeTest.java:29)] - Browser Chrome is opened
+[INFO] 03-12-2024 12:20:42 [main] [Tests.TC01_HomeTest.setup(TC01_HomeTest.java:31)] - URL: https://magento.softwaretestingboard.com/
+[INFO] 03-12-2024 12:20:42 [main] [Listeners.Listener.onTestStart(Listener.java:15)] - Testcase verifyVisibilityOfSearchSectionTC started
+[INFO] 03-12-2024 12:20:42 [main] [Tests.TC01_HomeTest.verifyVisibilityOfSearchSectionTC(TC01_HomeTest.java:57)] - Search section is visible
+[INFO] 03-12-2024 12:20:42 [main] [Listeners.Listener.onTestSuccess(Listener.java:19)] - Testcase verifyVisibilityOfSearchSectionTC passed

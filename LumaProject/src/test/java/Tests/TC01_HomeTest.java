@@ -192,6 +192,72 @@ public class TC01_HomeTest {
         softAssert.assertAll();
     }
 
+    @Test
+    @Description("Verify functionality of the yoga ad on the home page")
+    public void verifyFunctionalityOfYogaAdTC() throws IOException {
+        new P01_HomePage(getDriver()).clickOnYogaAd();
+        softAssert.assertEquals(getDriver().getCurrentUrl(), readFromPropertiesFile("environment", "YogaAdPage"));
+        LogsUtils.info("Actual Url: " + getDriver().getCurrentUrl());
+        LogsUtils.info("Expected Url: " + readFromPropertiesFile("environment", "YogaAdPage"));
+
+        softAssert.assertAll();
+    }
+
+    @Test
+    @Description("Verify functionality of the pants ad on the home page")
+    public void verifyFunctionalityOfPantsAdTC() throws IOException {
+        new P01_HomePage(getDriver()).clickOnPantsAd();
+        softAssert.assertEquals(getDriver().getCurrentUrl(), readFromPropertiesFile("environment", "PantsAdPage"));
+        LogsUtils.info("Actual Url: " + getDriver().getCurrentUrl());
+        LogsUtils.info("Expected Url: " + readFromPropertiesFile("environment", "PantsAdPage"));
+
+        softAssert.assertAll();
+    }
+
+    @Test
+    @Description("Verify functionality of the t-shirt ad on the home page")
+    public void verifyFunctionalityOfTShirtAdTC() throws IOException {
+        new P01_HomePage(getDriver()).clickOnTShirtsAd();
+        softAssert.assertEquals(getDriver().getCurrentUrl(), readFromPropertiesFile("environment", "TShirtAdPage"));
+        LogsUtils.info("Actual Url: " + getDriver().getCurrentUrl());
+        LogsUtils.info("Expected Url: " + readFromPropertiesFile("environment", "TShirtAdPage"));
+
+        softAssert.assertAll();
+    }
+
+    @Test
+    @Description("Verify functionality of the erin ad on the home page")
+    public void verifyFunctionalityOfErinAdTC() throws IOException {
+        new P01_HomePage(getDriver()).clickOnErinAd();
+        softAssert.assertEquals(getDriver().getCurrentUrl(), readFromPropertiesFile("environment", "ErinAdPage"));
+        LogsUtils.info("Actual Url: " + getDriver().getCurrentUrl());
+        LogsUtils.info("Expected Url: " + readFromPropertiesFile("environment", "ErinAdPage"));
+
+        softAssert.assertAll();
+    }
+
+    @Test
+    @Description("Verify functionality of the performance ad on the home page")
+    public void verifyFunctionalityOfPerformanceAdTC() throws IOException {
+        new P01_HomePage(getDriver()).clickOnPerformanceAd();
+        softAssert.assertEquals(getDriver().getCurrentUrl(), readFromPropertiesFile("environment", "PerformanceAdPage"));
+        LogsUtils.info("Actual Url: " + getDriver().getCurrentUrl());
+        LogsUtils.info("Expected Url: " + readFromPropertiesFile("environment", "PerformanceAdPage"));
+
+        softAssert.assertAll();
+    }
+
+    @Test
+    @Description("Verify functionality of the eco ad on the home page")
+    public void verifyFunctionalityOfEcoAdTC() throws IOException {
+        new P01_HomePage(getDriver()).clickOnEcoAd();
+        softAssert.assertEquals(getDriver().getCurrentUrl(), readFromPropertiesFile("environment", "EcoAdPage"));
+        LogsUtils.info("Actual Url: " + getDriver().getCurrentUrl());
+        LogsUtils.info("Expected Url: " + readFromPropertiesFile("environment", "EcoAdPage"));
+
+        softAssert.assertAll();
+    }
+
     @AfterMethod
     public void tearDown() {
         quitDriver();
