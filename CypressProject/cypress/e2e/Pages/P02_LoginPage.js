@@ -9,8 +9,9 @@ class LoginPage {
     registerEmailLocator = 'input[data-qa="signup-email"]';
     signupButtonLocator = 'button[data-qa="signup-button"]';
     loginEmailFieldLocator = '[data-qa= "login-email"]';
-    loginPasswordFieldLocator = '[data-qa= "login-password"]'
-    loginButtonLocator = '[data-qa= "login-button"]'
+    loginPasswordFieldLocator = '[data-qa= "login-password"]';
+    loginButtonLocator = '[data-qa= "login-button"]';
+    incorrectDataTextLocator = '.login-form > form > p';
 
     verifyVisibilityOfNewUserSignupText() {
         cy.contains(this.newUserSignupTextLocator).should('be.visible');
@@ -39,6 +40,10 @@ class LoginPage {
 
     clickOnLoginButton() {
         cy.get(this.loginButtonLocator).click();
+    }
+
+    verifyVisibilityOfIncorrectDataText() {
+        cy.get(this.incorrectDataTextLocator).should('be.visible');
     }
 }
 
