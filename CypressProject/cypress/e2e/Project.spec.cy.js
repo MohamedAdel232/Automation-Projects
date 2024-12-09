@@ -26,5 +26,35 @@ describe("Register suite", () => {
             cy.url().should("eql", environment.baseurl);
         })
 
+    });
+
+    it("Valid Login", () => {
+        cy.visit('/');
+        cy.get('#menuUser').click();
+        cy.fixture('LoginData').then(LoginData => {
+            cy.get('input[name="username"]').type(LoginData.username);
+            cy.get('input[name="password"]').type(LoginData.password);
+        });
+        cy.get('#sign_in_btn').click();
+        cy.fixture("Environment").then(environment => {
+            cy.url().should("eql", environment.baseurl);
+        })
+    })
+
+    it("Delete Account", () => {
+        cy.visit('/');
+        cy.get('#menuUser').click();
+        cy.fixture('LoginData').then(LoginData => {
+            cy.get('input[name="username"]').type(LoginData.username);
+            cy.get('input[name="password"]').type(LoginData.password);
+        });
+        cy.get('#sign_in_btn').click();
+        cy.get('#menuUser').click();
+        cy.contains('My account').click({ force: true });
+        cy.get('.deleteBtnText').click();
+        cy.get('[data-ng-click="deleteAccountConfirmed()"]').click();
+        cy.fixture("Environment").then(environment => {
+            cy.url().should("eql", environment.baseurl);
+        })
     })
 })
