@@ -4,9 +4,13 @@ import P03_RegisterPage from "./P03_RegisterPage";
 
 class LoginPage {
     newUserSignupTextLocator = 'New User Signup!';
+    loginToYourAccountTextLocator = 'Login to your account';
     registerNameLocator = 'input[data-qa="signup-name"]';
     registerEmailLocator = 'input[data-qa="signup-email"]';
     signupButtonLocator = 'button[data-qa="signup-button"]';
+    loginEmailFieldLocator = '[data-qa= "login-email"]';
+    loginPasswordFieldLocator = '[data-qa= "login-password"]'
+    loginButtonLocator = '[data-qa= "login-button"]'
 
     verifyVisibilityOfNewUserSignupText() {
         cy.contains(this.newUserSignupTextLocator).should('be.visible');
@@ -21,6 +25,20 @@ class LoginPage {
     clickOnSignupButton() {
         cy.get(this.signupButtonLocator).click();
         return P03_RegisterPage;
+    }
+
+    verifyVisibilityOfLoginToYourAccountText() {
+        cy.contains(this.loginToYourAccountTextLocator).should('be.visible');
+    }
+
+    enterLoginData(email, password) {
+        cy.get(this.loginEmailFieldLocator).type(email);
+        cy.get(this.loginPasswordFieldLocator).type(password);
+        return this;
+    }
+
+    clickOnLoginButton() {
+        cy.get(this.loginButtonLocator).click();
     }
 }
 

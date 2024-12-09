@@ -8,6 +8,7 @@ class HomePage {
     loginButtonLocator = 'a[href = "/login"]';
     loggedInTextLocator = ':nth-child(10) > a';
     deleteAccountButtonLocator = '[href="/delete_account"]';
+    logoutButtonLocator = '[href="/logout"]'
 
     verifyVisibilityOfHomeLogo() {
         cy.get(this.homeLogoLocator).should('be.visible');
@@ -25,6 +26,11 @@ class HomePage {
     clickOnDeleteAccount() {
         cy.get(this.deleteAccountButtonLocator).click();
         return P05_DeleteAccountPage;
+    }
+
+    clickOnLogoutButton() {
+        cy.get(this.logoutButtonLocator).click();
+        return P02_LoginPage;
     }
 }
 
