@@ -4,6 +4,7 @@ import P02_LoginPage from "./P02_LoginPage";
 import P05_DeleteAccountPage from "./P05_DeleteAccountPage";
 import P06_ContactUsPage from "./P06_ContactUsPage";
 import P07_TestcasePae from "./P07_TestcasePage";
+import P08_ProductPage from "./P08_ProductPage";
 
 class HomePage {
     homeLogoLocator = 'a[href = "/"] img';
@@ -50,6 +51,7 @@ class HomePage {
 
     clickOnProductsButton() {
         cy.get(this.productsButtonLocator).click();
+        return P08_ProductPage;
     }
 }
 
