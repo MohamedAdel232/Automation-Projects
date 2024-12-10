@@ -1,3 +1,5 @@
 {
-    "LoginPage": "https://automationexercise.com/login"
+    "LoginPage": "https://automationexercise.com/login",
+    "ProductsPage": "https://automationexercise.com/products",
+    "ProductDetailsPage": "https://automationexercise.com/product_details/1"
 }

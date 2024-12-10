@@ -13,6 +13,7 @@ class HomePage {
     logoutButtonLocator = '[href="/logout"]';
     contactUsButtonLocator = '[href = "/contact_us"]';
     testCaseButtonLocator = 'li [href = "/test_cases"]';
+    productsButtonLocator = '[href = "/products"]'
 
     verifyVisibilityOfHomeLogo() {
         cy.get(this.homeLogoLocator).should('be.visible');
@@ -45,6 +46,10 @@ class HomePage {
     clickOnTestcaseButton() {
         cy.get(this.testCaseButtonLocator).click();
         return P07_TestcasePae;
+    }
+
+    clickOnProductsButton() {
+        cy.get(this.productsButtonLocator).click();
     }
 }
 
