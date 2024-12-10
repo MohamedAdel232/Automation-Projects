@@ -12,6 +12,7 @@ class LoginPage {
     loginPasswordFieldLocator = '[data-qa= "login-password"]';
     loginButtonLocator = '[data-qa= "login-button"]';
     incorrectDataTextLocator = '.login-form > form > p';
+    emailAlreadyRegisteredTextLocator = 'Email Address already exist!';
 
     verifyVisibilityOfNewUserSignupText() {
         cy.contains(this.newUserSignupTextLocator).should('be.visible');
@@ -44,6 +45,10 @@ class LoginPage {
 
     verifyVisibilityOfIncorrectDataText() {
         cy.get(this.incorrectDataTextLocator).should('be.visible');
+    }
+
+    verifyVisibilityOfEmailAlreadyRegisteredText() {
+        cy.contains(this.emailAlreadyRegisteredTextLocator).should('be.visible');
     }
 }
 
