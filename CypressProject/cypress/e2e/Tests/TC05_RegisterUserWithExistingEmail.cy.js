@@ -3,7 +3,7 @@
 import HomePage from '../Pages/P01_HomePage'
 import LoginPage from '../Pages/P02_LoginPage'
 
-it("Register User", () => {
+it("Register User With Existing Email", () => {
     cy.visit('/');
     HomePage.verifyVisibilityOfHomeLogo();
 

@@ -3,7 +3,7 @@
 import HomePage from '../Pages/P01_HomePage'
 import LoginPage from '../Pages/P02_LoginPage'
 
-it("Valid Login", () => {
+it("InValid Login", () => {
     cy.visit('/');
 
     HomePage.verifyVisibilityOfHomeLogo();

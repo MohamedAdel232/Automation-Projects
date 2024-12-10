@@ -3,6 +3,7 @@
 import P02_LoginPage from "./P02_LoginPage";
 import P05_DeleteAccountPage from "./P05_DeleteAccountPage";
 import P06_ContactUsPage from "./P06_ContactUsPage";
+import P07_TestcasePae from "./P07_TestcasePage";
 
 class HomePage {
     homeLogoLocator = 'a[href = "/"] img';
@@ -11,6 +12,7 @@ class HomePage {
     deleteAccountButtonLocator = '[href="/delete_account"]';
     logoutButtonLocator = '[href="/logout"]';
     contactUsButtonLocator = '[href = "/contact_us"]';
+    testCaseButtonLocator = 'li [href = "/test_cases"]';
 
     verifyVisibilityOfHomeLogo() {
         cy.get(this.homeLogoLocator).should('be.visible');
@@ -38,6 +40,11 @@ class HomePage {
     clickOnContactUsButton() {
         cy.get(this.contactUsButtonLocator).click();
         return P06_ContactUsPage;
+    }
+
+    clickOnTestcaseButton() {
+        cy.get(this.testCaseButtonLocator).click();
+        return P07_TestcasePae;
     }
 }
 
