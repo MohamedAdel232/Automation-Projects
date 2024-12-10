@@ -1,0 +1,7 @@
+{
+    "name": "Mohamed",
+    "email": "mohamed1@gmail.com",
+    "subject": "Form subject",
+    "message": "Form message",
+    "file": "D:\\SW Testing\\Automation Projects\\CypressProject\\cypress\\fixtures\\FormData.json"
+}
