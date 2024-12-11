@@ -14,7 +14,12 @@ class HomePage {
     logoutButtonLocator = '[href="/logout"]';
     contactUsButtonLocator = '[href = "/contact_us"]';
     testCaseButtonLocator = 'li [href = "/test_cases"]';
-    productsButtonLocator = '[href = "/products"]'
+    productsButtonLocator = '[href = "/products"]';
+    footerLocator = '#footer';
+    subscriptionTextLocator = 'Subscription';
+    subscribeEmailFieldLocator = '#susbscribe_email';
+    subscribeArrowButtonLocator = '#subscribe';
+    successSubscribeTextLocator = '#success-subscribe';
 
     verifyVisibilityOfHomeLogo() {
         cy.get(this.homeLogoLocator).should('be.visible');
@@ -52,6 +57,28 @@ class HomePage {
     clickOnProductsButton() {
         cy.get(this.productsButtonLocator).click();
         return P08_ProductPage;
+    }
+
+    scrollToFooter() {
+        cy.get(this.footerLocator).scrollIntoView();
+        return this;
+    }
+
+    verifyVisibilityOfSubscriptionText() {
+        cy.contains(this.subscriptionTextLocator).should('be.visible');
+    }
+
+    enterSubscribeEmail(email) {
+        cy.get(this.subscribeEmailFieldLocator).type(email);
+        return this;
+    }
+
+    clickOnSubscribeArrowButton() {
+        cy.get(this.subscribeArrowButtonLocator).click();
+    }
+
+    verifyVisibilityOfSuccessSubscriptionText() {
+        cy.get(this.successSubscribeTextLocator).should('be.visible');
     }
 }
 
