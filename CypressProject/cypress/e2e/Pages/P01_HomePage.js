@@ -5,6 +5,7 @@ import P05_DeleteAccountPage from "./P05_DeleteAccountPage";
 import P06_ContactUsPage from "./P06_ContactUsPage";
 import P07_TestcasePae from "./P07_TestcasePage";
 import P08_ProductPage from "./P08_ProductPage";
+import P11_CartPage from "./P11_CartPage";
 
 class HomePage {
     homeLogoLocator = 'a[href = "/"] img';
@@ -20,6 +21,7 @@ class HomePage {
     subscribeEmailFieldLocator = '#susbscribe_email';
     subscribeArrowButtonLocator = '#subscribe';
     successSubscribeTextLocator = '#success-subscribe';
+    cartButtonLocator = 'li [href="/view_cart"]';
 
     verifyVisibilityOfHomeLogo() {
         cy.get(this.homeLogoLocator).should('be.visible');
@@ -79,6 +81,11 @@ class HomePage {
 
     verifyVisibilityOfSuccessSubscriptionText() {
         cy.get(this.successSubscribeTextLocator).should('be.visible');
+    }
+
+    clickOnCartButton() {
+        cy.get(this.cartButtonLocator).click();
+        return P11_CartPage;
     }
 }
 
