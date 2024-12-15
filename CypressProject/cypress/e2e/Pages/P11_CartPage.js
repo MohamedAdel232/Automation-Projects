@@ -7,6 +7,8 @@ class CartPage {
     subscribeArrowButtonLocator = '#subscribe';
     successSubscribeTextLocator = '#success-subscribe';
     cartButtonLocator = '[href="/view_cart"]';
+    productOneLocator = '#product-1';
+    productTwoLocator = '#product-2';
 
     scrollToFooter() {
         cy.get(this.footerLocator).scrollIntoView();
@@ -32,6 +34,11 @@ class CartPage {
 
     clickOnCartButton() {
         cy.get(this.cartButtonLocator).click();
+    }
+
+    verifyVisibilityOfProducts() {
+        cy.get(this.productOneLocator).should('be.visible');
+        cy.get(this.productTwoLocator).should('be.visible');
     }
 }
 
