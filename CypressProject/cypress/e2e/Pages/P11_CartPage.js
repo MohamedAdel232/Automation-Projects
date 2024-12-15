@@ -9,6 +9,7 @@ class CartPage {
     cartButtonLocator = '[href="/view_cart"]';
     productOneLocator = '#product-1';
     productTwoLocator = '#product-2';
+    productQuantityTextLocator = 'button.disabled';
 
     scrollToFooter() {
         cy.get(this.footerLocator).scrollIntoView();
@@ -39,6 +40,12 @@ class CartPage {
     verifyVisibilityOfProducts() {
         cy.get(this.productOneLocator).should('be.visible');
         cy.get(this.productTwoLocator).should('be.visible');
+    }
+
+    verifyProductQuantityText() {
+        cy.get(this.productQuantityTextLocator).invoke('text').then(text => {
+            expect(text).to.eql('4');
+        });
     }
 }
 
