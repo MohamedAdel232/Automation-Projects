@@ -22,6 +22,8 @@ class HomePage {
     subscribeArrowButtonLocator = '#subscribe';
     successSubscribeTextLocator = '#success-subscribe';
     cartButtonLocator = 'li [href="/view_cart"]';
+    addToCartButton1Locator = '.overlay-content [data-product-id = "1"]';
+    continueShoppingButtonLocator = '.modal-footer > .btn';
 
     verifyVisibilityOfHomeLogo() {
         cy.get(this.homeLogoLocator).should('be.visible');
@@ -86,6 +88,16 @@ class HomePage {
     clickOnCartButton() {
         cy.get(this.cartButtonLocator).click();
         return P11_CartPage;
+    }
+
+    clickOnAddToCartButton1() {
+        cy.get(this.addToCartButton1Locator).click({ force: true });
+        return this;
+    }
+
+    clickOnContinueShoppingButton() {
+        cy.get(this.continueShoppingButtonLocator).click();
+        return this;
     }
 }
 

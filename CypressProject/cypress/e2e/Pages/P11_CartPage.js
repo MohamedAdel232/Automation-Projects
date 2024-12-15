@@ -1,5 +1,8 @@
 /// <reference types = "cypress"/>
 
+import LoginPage from '../Pages/P02_LoginPage';
+import CheckoutPage from '../Pages/P12_CheckoutPage';
+
 class CartPage {
     footerLocator = '#footer';
     subscriptionTextLocator = 'Subscription';
@@ -10,6 +13,10 @@ class CartPage {
     productOneLocator = '#product-1';
     productTwoLocator = '#product-2';
     productQuantityTextLocator = 'button.disabled';
+    shoppingCartTextLocator = '.breadcrumb';
+    proceedToCheckoutButtonLocator = 'Proceed To Checkout';
+    registerButtonLocator = '[href = "/login"] u';
+
 
     scrollToFooter() {
         cy.get(this.footerLocator).scrollIntoView();
@@ -46,6 +53,20 @@ class CartPage {
         cy.get(this.productQuantityTextLocator).invoke('text').then(text => {
             expect(text).to.eql('4');
         });
+    }
+
+    verifyVisibilityOfShoppingCartText() {
+        cy.get(this.shoppingCartTextLocator).should('be.visible');
+    }
+
+    clickOnProceedToCheckoutButton() {
+        cy.contains(this.proceedToCheckoutButtonLocator).click();
+        return CheckoutPage;
+    }
+
+    clickOnRegisterButton() {
+        cy.get(this.registerButtonLocator).click();
+        return LoginPage;
     }
 }
 
