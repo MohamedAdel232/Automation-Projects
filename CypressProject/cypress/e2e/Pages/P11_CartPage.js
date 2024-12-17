@@ -16,6 +16,8 @@ class CartPage {
     shoppingCartTextLocator = '.breadcrumb';
     proceedToCheckoutButtonLocator = 'Proceed To Checkout';
     registerButtonLocator = '[href = "/login"] u';
+    removeProductButtonLocator = '.cart_quantity_delete';
+    cartEmptyTextLocator = 'Cart is empty!';
 
 
     scrollToFooter() {
@@ -67,6 +69,15 @@ class CartPage {
     clickOnRegisterButton() {
         cy.get(this.registerButtonLocator).click();
         return LoginPage;
+    }
+
+    clickOnRemoveProductButton() {
+        cy.get(this.removeProductButtonLocator).click();
+        return this;
+    }
+
+    verifyVisibilityOfCartEmptyText() {
+        cy.contains(this.cartEmptyTextLocator).should('be.visible');
     }
 }
 
