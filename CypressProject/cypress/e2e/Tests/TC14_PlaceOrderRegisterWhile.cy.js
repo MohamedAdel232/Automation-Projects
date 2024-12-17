@@ -9,7 +9,7 @@ import DeleteAccountPage from "../Pages/P05_DeleteAccountPage";
 import CheckoutPage from '../Pages/P12_CheckoutPage';
 import PaymentPage from '../Pages/P13_PaymentPage';
 
-it("Place Order Register", () => {
+it("Place Order Register While", () => {
     cy.visit('/');
     HomePage.verifyVisibilityOfHomeLogo();
 
