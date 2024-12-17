@@ -6,6 +6,8 @@ import P06_ContactUsPage from "./P06_ContactUsPage";
 import P07_TestcasePae from "./P07_TestcasePage";
 import P08_ProductPage from "./P08_ProductPage";
 import P11_CartPage from "./P11_CartPage";
+import DressPage from "../Pages/P10_DressPage";
+
 
 class HomePage {
     homeLogoLocator = 'a[href = "/"] img';
@@ -24,6 +26,9 @@ class HomePage {
     cartButtonLocator = 'li [href="/view_cart"]';
     addToCartButton1Locator = '.overlay-content [data-product-id = "1"]';
     continueShoppingButtonLocator = '.modal-footer > .btn';
+    categoryTextLocator = 'div.left-sidebar > h2';
+    womenCategoryButtonLocator = '[href = "#Women"]';
+    dressCategoryButtonLocator = '[href = "/category_products/1"]';
 
     verifyVisibilityOfHomeLogo() {
         cy.get(this.homeLogoLocator).should('be.visible');
@@ -98,6 +103,20 @@ class HomePage {
     clickOnContinueShoppingButton() {
         cy.get(this.continueShoppingButtonLocator).click();
         return this;
+    }
+
+    verifyVisibilityOfCategoryText() {
+        cy.get(this.categoryTextLocator).should('be.visible');
+    }
+
+    clickOnWomenCategoryButton() {
+        cy.get(this.womenCategoryButtonLocator).click();
+        return this;
+    }
+
+    clickOnDressCategoryButton() {
+        cy.get(this.dressCategoryButtonLocator).click();
+        return DressPage;
     }
 }
 
