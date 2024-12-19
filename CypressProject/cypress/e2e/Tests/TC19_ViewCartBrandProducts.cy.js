@@ -16,5 +16,4 @@ it("View & Cart Brand product", () => {
 
     PoloPage.clickOnMadameBrandButton()
         .verifyVisibilityOfMadameBrandTitleText();
-
 })

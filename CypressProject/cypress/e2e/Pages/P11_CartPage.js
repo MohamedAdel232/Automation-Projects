@@ -12,12 +12,15 @@ class CartPage {
     cartButtonLocator = '[href="/view_cart"]';
     productOneLocator = '#product-1';
     productTwoLocator = '#product-2';
+    productThreeLocator = '#product-3';
     productQuantityTextLocator = 'button.disabled';
     shoppingCartTextLocator = '.breadcrumb';
     proceedToCheckoutButtonLocator = 'Proceed To Checkout';
     registerButtonLocator = '[href = "/login"] u';
     removeProductButtonLocator = '.cart_quantity_delete';
     cartEmptyTextLocator = 'Cart is empty!';
+    loginButtonLocator = 'li a[href = "/login"]';
+
 
     scrollToFooter() {
         cy.get(this.footerLocator).scrollIntoView();
@@ -50,6 +53,10 @@ class CartPage {
         cy.get(this.productTwoLocator).should('be.visible');
     }
 
+    verifyVisibilityOfProduct() {
+        cy.get(this.productThreeLocator).should('be.visible');
+    }
+
     verifyProductQuantityText() {
         cy.get(this.productQuantityTextLocator).invoke('text').then(text => {
             expect(text).to.eql('4');
@@ -65,8 +72,8 @@ class CartPage {
         return CheckoutPage;
     }
 
-    clickOnRegisterButton() {
-        cy.get(this.registerButtonLocator).click();
+    clickOnLoginButton() {
+        cy.get(this.loginButtonLocator).click();
         return LoginPage;
     }
 
