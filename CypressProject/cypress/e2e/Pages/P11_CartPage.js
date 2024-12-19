@@ -19,7 +19,6 @@ class CartPage {
     removeProductButtonLocator = '.cart_quantity_delete';
     cartEmptyTextLocator = 'Cart is empty!';
 
-
     scrollToFooter() {
         cy.get(this.footerLocator).scrollIntoView();
         return this;

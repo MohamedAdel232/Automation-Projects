@@ -3,6 +3,7 @@
 import P09_ProductDetailsPage from "./P09_ProductDetailsPage";
 import DressPage from "../Pages/P10_DressPage";
 import CartPage from "../Pages/P11_CartPage";
+import PoloPage from "../Pages/P16_PoloPage";
 
 class ProductPage {
     productListLocator = '.features_items';
@@ -13,6 +14,9 @@ class ProductPage {
     addToCartButton2Locator = '.overlay-content [data-product-id = "2"]';
     continueShoppingButtonLocator = '.modal-footer > .btn';
     cartButtonLocator = 'li [href="/view_cart"]';
+    brandProductsLocator = '.brands_products';
+    poloBrandButtonLocator = '[href = "/brand_products/Polo"]';
+
 
     verifyVisibilityOfProductList() {
         cy.get(this.productListLocator).should('be.visible');
@@ -47,6 +51,15 @@ class ProductPage {
     clickOnCartButton() {
         cy.get(this.cartButtonLocator).click();
         return CartPage;
+    }
+
+    verifyVisibilityOfBrandsProducts() {
+        cy.get(this.brandProductsLocator).should('be.visible');
+    }
+
+    clickOnPoloBrandButton() {
+        cy.get(this.poloBrandButtonLocator).click();
+        return PoloPage;
     }
 }
 
