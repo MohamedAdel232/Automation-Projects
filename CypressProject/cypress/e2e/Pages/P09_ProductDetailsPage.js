@@ -8,6 +8,12 @@ class ProductDetailsPage {
     addToCartButtonLocator = '[type="button"]';
     continueShoppingButtonLocator = '.modal-footer > .btn';
     cartButtonLocator = 'li [href="/view_cart"]';
+    writeYourReviewTextLocator = '[href ="#reviews"]';
+    nameFieldLocator = '#name';
+    emailFieldLocator = '#email';
+    reviewFieldLocator = '[name= "review"]';
+    submitButtonLocator = '#button-review';
+    thanksMessageTextLocator = 'Thank you for your review.';
 
     verifyVisibilityOfProductInformation() {
         cy.get(this.productInformationLocator).should('be.visible');
@@ -31,6 +37,26 @@ class ProductDetailsPage {
     clickOnCartButton() {
         cy.get(this.cartButtonLocator).click();
         return CartPage;
+    }
+
+    verifyVisibilityOfWriteYourReviewText() {
+        cy.get(this.writeYourReviewTextLocator).should('be.visible');
+    }
+
+    writeReview(name, email, review) {
+        cy.get(this.nameFieldLocator).type(name);
+        cy.get(this.emailFieldLocator).type(email);
+        cy.get(this.reviewFieldLocator).type(review);
+        return this;
+    }
+
+    clickOnSubmitButton() {
+        cy.get(this.submitButtonLocator).click();
+        return this;
+    }
+
+    verifyVisibilityOfThanksMessage() {
+        cy.contains(this.thanksMessageTextLocator).should('be.visible');
     }
 }
 
