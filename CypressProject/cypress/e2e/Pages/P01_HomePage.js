@@ -141,6 +141,11 @@ class HomePage {
         return this;
     }
 
+    scrollTOHomePageLogo() {
+        cy.get(this.homeLogoLocator).scrollIntoView();
+        return this;
+    }
+
 
 }
 export default new HomePage();
