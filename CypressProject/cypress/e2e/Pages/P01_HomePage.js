@@ -29,6 +29,8 @@ class HomePage {
     categoryTextLocator = 'div.left-sidebar > h2';
     womenCategoryButtonLocator = '[href = "#Women"]';
     dressCategoryButtonLocator = '[href = "/category_products/1"]';
+    recommendedItemsLocator = '.recommended_items';
+    addRecommendedItemToCartButtonLocator = '.recommended_items [data-product-id = "4"]';
 
     verifyVisibilityOfHomeLogo() {
         cy.get(this.homeLogoLocator).should('be.visible');
@@ -118,6 +120,22 @@ class HomePage {
         cy.get(this.dressCategoryButtonLocator).click();
         return DressPage;
     }
+
+    scrollToRecommendedItems() {
+        cy.get(this.recommendedItemsLocator).scrollIntoView();
+        return this;
+    }
+
+    verifyVisibilityOfRecommendedItems() {
+        cy.get(this.recommendedItemsLocator).should('be.visible');
+    }
+
+    addRecommendedItemToCartButton() {
+        cy.get(this.addRecommendedItemToCartButtonLocator).click();
+        return this;
+    }
+
+
 }
 
 export default new HomePage();

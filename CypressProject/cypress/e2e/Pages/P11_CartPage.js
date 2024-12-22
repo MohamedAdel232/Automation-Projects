@@ -13,6 +13,7 @@ class CartPage {
     productOneLocator = '#product-1';
     productTwoLocator = '#product-2';
     productThreeLocator = '#product-3';
+    productFourLocator = '#product-4';
     productQuantityTextLocator = 'button.disabled';
     shoppingCartTextLocator = '.breadcrumb';
     proceedToCheckoutButtonLocator = 'Proceed To Checkout';
@@ -55,6 +56,10 @@ class CartPage {
 
     verifyVisibilityOfProduct() {
         cy.get(this.productThreeLocator).should('be.visible');
+    }
+
+    verifyVisibilityOfRecommendedProduct() {
+        cy.get(this.productFourLocator).should('be.visible');
     }
 
     verifyProductQuantityText() {
