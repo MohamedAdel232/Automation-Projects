@@ -31,6 +31,7 @@ class HomePage {
     dressCategoryButtonLocator = '[href = "/category_products/1"]';
     recommendedItemsLocator = '.recommended_items';
     addRecommendedItemToCartButtonLocator = '.recommended_items [data-product-id = "4"]';
+    scrollArrowButtonLocator = '#scrollUp';
 
     verifyVisibilityOfHomeLogo() {
         cy.get(this.homeLogoLocator).should('be.visible');
@@ -135,7 +136,11 @@ class HomePage {
         return this;
     }
 
+    clickOnScrollArrowButton() {
+        cy.get(this.scrollArrowButtonLocator).click();
+        return this;
+    }
+
 
 }
-
 export default new HomePage();
