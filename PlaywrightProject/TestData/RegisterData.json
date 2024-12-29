@@ -1,4 +1,19 @@
 {
     "name": "Mohamed",
-    "email": "mohamed1@gmail.com"
+    "email": "mohamed1@gmail.com",
+    "gender": "male",
+    "password": "123456",
+    "day": "8",
+    "month": "September",
+    "year": "2001",
+    "firstName": "Mohamed",
+    "lastName": "Adel",
+    "company": "HTI",
+    "address1": "Giza",
+    "address2": "Cairo",
+    "country": "Canada",
+    "state": "Cairo",
+    "city": "Giza",
+    "zipCode": "123",
+    "mobileNumber": "123"
 }
