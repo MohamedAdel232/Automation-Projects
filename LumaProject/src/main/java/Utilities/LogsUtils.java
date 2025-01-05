@@ -23,13 +23,13 @@ public class LogsUtils {
                 .fatal(msg);
     }
 
-    public static void trace(String msg) {
-        LogManager.getLogger(Thread.currentThread().getStackTrace()[2].toString())
-                .trace(msg);
-    }
-
     public static void debug(String msg) {
         LogManager.getLogger(Thread.currentThread().getStackTrace()[2].toString())
                 .debug(msg);
+    }
+
+    public static void trace(String msg) {
+        LogManager.getLogger(Thread.currentThread().getStackTrace()[2].toString())
+                .trace(msg);
     }
 }

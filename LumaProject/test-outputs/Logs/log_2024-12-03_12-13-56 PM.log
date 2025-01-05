@@ -1,6 +1,0 @@
-[INFO] 03-12-2024 12:13:56 [main] [Tests.TC01_HomeTest.setup(TC01_HomeTest.java:29)] - Browser Chrome is opened
-[INFO] 03-12-2024 12:14:01 [main] [Tests.TC01_HomeTest.setup(TC01_HomeTest.java:31)] - URL: https://magento.softwaretestingboard.com/
-[INFO] 03-12-2024 12:14:01 [main] [Listeners.Listener.onTestStart(Listener.java:15)] - Testcase verifyFunctionalityOfPerformanceAdTC started
-[INFO] 03-12-2024 12:14:03 [main] [Tests.TC01_HomeTest.verifyFunctionalityOfPerformanceAdTC(TC01_HomeTest.java:244)] - Actual Url: https://magento.softwaretestingboard.com/collections/performance-fabrics.html
-[INFO] 03-12-2024 12:14:03 [main] [Tests.TC01_HomeTest.verifyFunctionalityOfPerformanceAdTC(TC01_HomeTest.java:245)] - Expected Url: https://magento.softwaretestingboard.com/collections/performance-fabrics.html
-[INFO] 03-12-2024 12:14:03 [main] [Listeners.Listener.onTestSuccess(Listener.java:19)] - Testcase verifyFunctionalityOfPerformanceAdTC passed

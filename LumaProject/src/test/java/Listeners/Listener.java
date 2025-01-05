@@ -1,6 +1,6 @@
 package Listeners;
 
-import DriverFactory.DriverFactory;
+import Factories.DriverFactory;
 import Utilities.LogsUtils;
 import Utilities.Utility;
 import org.testng.IInvokedMethod;
@@ -10,7 +10,7 @@ import org.testng.ITestResult;
 
 import java.io.IOException;
 
-public class Listener implements ITestListener, IInvokedMethodListener {
+public class Listener implements IInvokedMethodListener, ITestListener {
     public void onTestStart(ITestResult result) {
         LogsUtils.info("Testcase " + result.getName() + " started");
     }

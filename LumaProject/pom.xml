@@ -12,51 +12,22 @@
         <maven.compiler.source>23</maven.compiler.source>
         <maven.compiler.target>23</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <seleniumVersion>4.27.0</seleniumVersion>
-        <testNgVersion>7.10.2</testNgVersion>
-        <allureVersion>2.29.0</allureVersion>
-        <gsonVersion>2.11.0</gsonVersion>
-        <commonIOVersion>2.18.0</commonIOVersion>
-        <allureAPIVersion>2.32.0</allureAPIVersion>
-        <slf4jAPIVersion>2.0.16</slf4jAPIVersion>
-        <slf4jVersion>2.0.16</slf4jVersion>
-        <log4jVersion>2.24.2</log4jVersion>
     </properties>
 
     <build>
         <directory>test-outputs/target</directory>
-
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
-                <version>3.5.2</version>
                 <configuration>
                     <suiteXmlFiles>
                         <suiteXmlFile>
-                            TestRunner/Runner.xml
+
                         </suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
-            </plugin>
-
-            <plugin>
-                <groupId>io.qameta.allure</groupId>
-                <artifactId>allure-maven</artifactId>
-                <version>2.12.0</version>
-                <configuration>
-                    <reportVersion>${allureVersion}</reportVersion>
-                </configuration>
-                <executions>
-                    <execution>
-                        <phase>test</phase>
-                        <goals>
-                            <goal>
-                                serve
-                            </goal>
-                        </goals>
-                    </execution>
-                </executions>
+                <version>3.5.2</version>
             </plugin>
         </plugins>
     </build>
@@ -66,14 +37,14 @@
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
-            <version>${seleniumVersion}</version>
+            <version>4.27.0</version>
         </dependency>
 
         <!-- https://mvnrepository.com/artifact/org.testng/testng -->
         <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
-            <version>${testNgVersion}</version>
+            <version>7.10.2</version>
             <scope>test</scope>
         </dependency>
 
@@ -81,42 +52,21 @@
         <dependency>
             <groupId>io.qameta.allure</groupId>
             <artifactId>allure-testng</artifactId>
-            <version>${allureVersion}</version>
-        </dependency>
-
-        <!-- https://mvnrepository.com/artifact/com.google.code.gson/gson -->
-        <dependency>
-            <groupId>com.google.code.gson</groupId>
-            <artifactId>gson</artifactId>
-            <version>${gsonVersion}</version>
-        </dependency>
-
-        <!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
-        <dependency>
-            <groupId>commons-io</groupId>
-            <artifactId>commons-io</artifactId>
-            <version>${commonIOVersion}</version>
-        </dependency>
-
-        <!-- https://mvnrepository.com/artifact/io.qameta.allure/allure-plugin-api -->
-        <dependency>
-            <groupId>io.qameta.allure</groupId>
-            <artifactId>allure-plugin-api</artifactId>
-            <version>${allureAPIVersion}</version>
+            <version>2.29.1</version>
         </dependency>
 
         <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-api -->
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-api</artifactId>
-            <version>${slf4jAPIVersion}</version>
+            <version>2.0.16</version>
         </dependency>
 
         <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-simple -->
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-simple</artifactId>
-            <version>${slf4jVersion}</version>
+            <version>2.0.16</version>
             <scope>test</scope>
         </dependency>
 
@@ -124,7 +74,28 @@
         <dependency>
             <groupId>org.apache.logging.log4j</groupId>
             <artifactId>log4j-core</artifactId>
-            <version>${log4jVersion}</version>
+            <version>2.24.3</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/com.google.code.gson/gson -->
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+            <version>2.11.0</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
+        <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+            <version>2.18.0</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/com.github.javafaker/javafaker -->
+        <dependency>
+            <groupId>com.github.javafaker</groupId>
+            <artifactId>javafaker</artifactId>
+            <version>1.0.2</version>
         </dependency>
     </dependencies>
 

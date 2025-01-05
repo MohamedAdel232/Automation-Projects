@@ -1,6 +1,0 @@
-[INFO] 03-12-2024 12:04:14 [main] [Tests.TC01_HomeTest.setup(TC01_HomeTest.java:29)] - Browser Chrome is opened
-[INFO] 03-12-2024 12:04:18 [main] [Tests.TC01_HomeTest.setup(TC01_HomeTest.java:31)] - URL: https://magento.softwaretestingboard.com/
-[INFO] 03-12-2024 12:04:18 [main] [Listeners.Listener.onTestStart(Listener.java:15)] - Testcase verifyFunctionalityOfYogaAdTC started
-[INFO] 03-12-2024 12:04:20 [main] [Tests.TC01_HomeTest.verifyFunctionalityOfYogaAdTC(TC01_HomeTest.java:200)] - Actual Url: https://magento.softwaretestingboard.com/collections/yoga-new.html
-[INFO] 03-12-2024 12:04:20 [main] [Tests.TC01_HomeTest.verifyFunctionalityOfYogaAdTC(TC01_HomeTest.java:201)] - Expected Url: https://magento.softwaretestingboard.com/collections/yoga-new.html
-[INFO] 03-12-2024 12:04:20 [main] [Listeners.Listener.onTestSuccess(Listener.java:19)] - Testcase verifyFunctionalityOfYogaAdTC passed

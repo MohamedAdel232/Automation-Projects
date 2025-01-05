@@ -1,6 +1,0 @@
-[INFO] 03-12-2024 12:16:20 [main] [Tests.TC01_HomeTest.setup(TC01_HomeTest.java:29)] - Browser Chrome is opened
-[INFO] 03-12-2024 12:16:24 [main] [Tests.TC01_HomeTest.setup(TC01_HomeTest.java:31)] - URL: https://magento.softwaretestingboard.com/
-[INFO] 03-12-2024 12:16:24 [main] [Listeners.Listener.onTestStart(Listener.java:15)] - Testcase verifyFunctionalityOfEcoAdTC started
-[INFO] 03-12-2024 12:16:25 [main] [Tests.TC01_HomeTest.verifyFunctionalityOfEcoAdTC(TC01_HomeTest.java:255)] - Actual Url: https://magento.softwaretestingboard.com/collections/eco-friendly.html
-[INFO] 03-12-2024 12:16:25 [main] [Tests.TC01_HomeTest.verifyFunctionalityOfEcoAdTC(TC01_HomeTest.java:256)] - Expected Url: https://magento.softwaretestingboard.com/collections/eco-friendly.html
-[INFO] 03-12-2024 12:16:25 [main] [Listeners.Listener.onTestSuccess(Listener.java:19)] - Testcase verifyFunctionalityOfEcoAdTC passed
