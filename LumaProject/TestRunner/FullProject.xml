@@ -1,6 +1,6 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="Full project">
-    <test name="Full project">
+<suite name="Full project suite">
+    <test name="Full project test">
         
     </test>
 </suite>
