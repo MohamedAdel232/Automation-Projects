@@ -1,6 +1,0 @@
-[INFO] 03-12-2024 12:09:17 [main] [Tests.TC01_HomeTest.setup(TC01_HomeTest.java:29)] - Browser Chrome is opened
-[INFO] 03-12-2024 12:09:21 [main] [Tests.TC01_HomeTest.setup(TC01_HomeTest.java:31)] - URL: https://magento.softwaretestingboard.com/
-[INFO] 03-12-2024 12:09:21 [main] [Listeners.Listener.onTestStart(Listener.java:15)] - Testcase verifyFunctionalityOfTShirtAdTC started
-[INFO] 03-12-2024 12:09:23 [main] [Tests.TC01_HomeTest.verifyFunctionalityOfTShirtAdTC(TC01_HomeTest.java:222)] - Actual Url: https://magento.softwaretestingboard.com/promotions/tees-all.html
-[INFO] 03-12-2024 12:09:23 [main] [Tests.TC01_HomeTest.verifyFunctionalityOfTShirtAdTC(TC01_HomeTest.java:223)] - Expected Url: https://magento.softwaretestingboard.com/promotions/tees-all.html
-[INFO] 03-12-2024 12:09:23 [main] [Listeners.Listener.onTestSuccess(Listener.java:19)] - Testcase verifyFunctionalityOfTShirtAdTC passed

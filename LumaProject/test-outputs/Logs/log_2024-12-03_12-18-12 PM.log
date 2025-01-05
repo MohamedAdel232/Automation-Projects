@@ -1,6 +1,0 @@
-[INFO] 03-12-2024 12:18:12 [main] [Tests.TC01_HomeTest.setup(TC01_HomeTest.java:29)] - Browser Chrome is opened
-[INFO] 03-12-2024 12:18:16 [main] [Tests.TC01_HomeTest.setup(TC01_HomeTest.java:31)] - URL: https://magento.softwaretestingboard.com/
-[INFO] 03-12-2024 12:18:16 [main] [Listeners.Listener.onTestStart(Listener.java:15)] - Testcase verifyFunctionalityOfErinAdTC started
-[INFO] 03-12-2024 12:18:18 [main] [Tests.TC01_HomeTest.verifyFunctionalityOfErinAdTC(TC01_HomeTest.java:233)] - Actual Url: https://magento.softwaretestingboard.com/collections/erin-recommends.html
-[INFO] 03-12-2024 12:18:18 [main] [Tests.TC01_HomeTest.verifyFunctionalityOfErinAdTC(TC01_HomeTest.java:234)] - Expected Url: https://magento.softwaretestingboard.com/collections/erin-recommends.html
-[INFO] 03-12-2024 12:18:18 [main] [Listeners.Listener.onTestSuccess(Listener.java:19)] - Testcase verifyFunctionalityOfErinAdTC passed
