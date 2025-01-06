@@ -5,166 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e822ab95-0bab-409a-8810-393b0310d0b0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/bin/allure" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/bin/allure.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/config/allure-cucumber.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/config/allure-junit.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/config/allure.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/lib/allure-commandline-2.29.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/lib/allure-generator-2.29.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/lib/allure-model-2.27.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/lib/allure-plugin-api-2.29.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/lib/allure1-model-1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/lib/annotations-15.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/lib/byte-buddy-1.14.9.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/lib/commons-beanutils-1.9.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/lib/commons-codec-1.11.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/lib/commons-collections-3.2.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/lib/commons-collections4-4.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/lib/commons-io-2.16.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/lib/commons-lang3-3.14.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/lib/commons-logging-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/lib/commons-text-1.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/lib/config/jetty-logging.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/lib/config/logback.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/lib/flexmark-0.62.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/lib/flexmark-ext-tables-0.62.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/lib/flexmark-util-0.62.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/lib/flexmark-util-ast-0.62.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/lib/flexmark-util-builder-0.62.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/lib/flexmark-util-collection-0.62.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/lib/flexmark-util-data-0.62.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/lib/flexmark-util-dependency-0.62.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/lib/flexmark-util-format-0.62.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/lib/flexmark-util-html-0.62.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/lib/flexmark-util-misc-0.62.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/lib/flexmark-util-options-0.62.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/lib/flexmark-util-sequence-0.62.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/lib/flexmark-util-visitor-0.62.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/lib/freemarker-2.3.32.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/lib/httpclient-4.5.14.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/lib/httpcore-4.4.16.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/lib/jackson-annotations-2.17.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/lib/jackson-core-2.17.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/lib/jackson-databind-2.17.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/lib/jackson-dataformat-xml-2.17.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/lib/jackson-dataformat-yaml-2.17.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/lib/jackson-module-jaxb-annotations-2.17.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/lib/jakarta.activation-api-1.2.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/lib/jakarta.xml.bind-api-2.3.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/lib/javax.activation-api-1.2.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/lib/javax.servlet-api-3.1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/lib/jaxb-api-2.3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/lib/jaxb-utils-1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/lib/jcommander-1.82.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/lib/jetty-http-9.4.53.v20231009.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/lib/jetty-io-9.4.53.v20231009.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/lib/jetty-server-9.4.53.v20231009.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/lib/jetty-util-9.4.53.v20231009.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/lib/logback-classic-1.3.14.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/lib/logback-core-1.3.14.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/lib/opencsv-4.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/lib/properties-2.0.RC5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/lib/slf4j-api-2.0.13.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/lib/snakeyaml-2.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/lib/stax2-api-4.2.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/lib/tika-core-2.9.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/lib/woodstox-core-6.6.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/plugins/README.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/plugins/behaviors-plugin/allure-plugin.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/plugins/behaviors-plugin/behaviors-plugin-2.29.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/plugins/behaviors-plugin/static/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/plugins/custom-logo-plugin/allure-plugin.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/plugins/custom-logo-plugin/custom-logo-plugin-2.29.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/plugins/custom-logo-plugin/static/custom-logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/plugins/custom-logo-plugin/static/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/plugins/jira-plugin/allure-plugin.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/plugins/jira-plugin/jira-plugin-2.29.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/plugins/jira-plugin/lib/allure-jira-commons-2.29.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/plugins/jira-plugin/lib/annotations-13.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/plugins/jira-plugin/lib/byte-buddy-1.14.9.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/plugins/jira-plugin/lib/converter-jackson-2.11.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/plugins/jira-plugin/lib/jackson-annotations-2.17.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/plugins/jira-plugin/lib/jackson-core-2.17.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/plugins/jira-plugin/lib/jackson-databind-2.17.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/plugins/jira-plugin/lib/kotlin-stdlib-1.9.10.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/plugins/jira-plugin/lib/kotlin-stdlib-common-1.9.10.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/plugins/jira-plugin/lib/kotlin-stdlib-jdk7-1.9.10.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/plugins/jira-plugin/lib/kotlin-stdlib-jdk8-1.9.10.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/plugins/jira-plugin/lib/okhttp-4.12.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/plugins/jira-plugin/lib/okio-jvm-3.6.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/plugins/jira-plugin/lib/retrofit-2.11.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/plugins/junit-xml-plugin/allure-plugin.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/plugins/junit-xml-plugin/junit-xml-plugin-2.29.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/plugins/packages-plugin/allure-plugin.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/plugins/packages-plugin/packages-plugin-2.29.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/plugins/packages-plugin/static/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/plugins/screen-diff-plugin/allure-plugin.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/plugins/screen-diff-plugin/screen-diff-plugin-2.29.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/plugins/screen-diff-plugin/static/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/plugins/screen-diff-plugin/static/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/plugins/trx-plugin/allure-plugin.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/plugins/trx-plugin/trx-plugin-2.29.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/plugins/xctest-plugin/allure-plugin.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/plugins/xctest-plugin/lib/xmlwise-1.2.11.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/plugins/xctest-plugin/xctest-plugin-2.29.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/plugins/xray-plugin/allure-plugin.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/plugins/xray-plugin/lib/allure-jira-commons-2.29.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/plugins/xray-plugin/lib/annotations-13.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/plugins/xray-plugin/lib/byte-buddy-1.14.9.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/plugins/xray-plugin/lib/converter-jackson-2.11.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/plugins/xray-plugin/lib/jackson-annotations-2.17.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/plugins/xray-plugin/lib/jackson-core-2.17.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/plugins/xray-plugin/lib/jackson-databind-2.17.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/plugins/xray-plugin/lib/kotlin-stdlib-1.9.10.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/plugins/xray-plugin/lib/kotlin-stdlib-common-1.9.10.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/plugins/xray-plugin/lib/kotlin-stdlib-jdk7-1.9.10.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/plugins/xray-plugin/lib/kotlin-stdlib-jdk8-1.9.10.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/plugins/xray-plugin/lib/okhttp-4.12.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/plugins/xray-plugin/lib/okio-jvm-3.6.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/plugins/xray-plugin/lib/retrofit-2.11.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/plugins/xray-plugin/xray-plugin-2.29.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/plugins/xunit-xml-plugin/allure-plugin.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/plugins/xunit-xml-plugin/xunit-xml-plugin-2.29.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestRunner/Runner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DriverFactory/DriverFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/P00_LayoutPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/P01_HomePage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/P02_CreateAccountPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/P03_SignInPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/P04_WhatsNewPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/P05_WomenPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/P06_MenPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/P07_GearPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/P08_TrainingPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/P09_SalePage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/P10_YogaAdPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/P11_PantsAdPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/P12_TShirtAdPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/P13_ErinAdPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/P14_PerformanceAdPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/P15_EcoAdPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Utilities/DataUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utilities/DataUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Utilities/LogsUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utilities/LogsUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Utilities/Utility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utilities/Utility.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Listeners/Listener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Listeners/Listener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/TC01_HomeTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/TestData/environment.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-outputs/Logs/log_2024-12-03_12-04-14 PM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-outputs/Logs/log_2024-12-03_12-06-34 PM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-outputs/Logs/log_2024-12-03_12-09-17 PM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-outputs/Logs/log_2024-12-03_12-13-56 PM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-outputs/Logs/log_2024-12-03_12-16-20 PM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-outputs/Logs/log_2024-12-03_12-17-18 PM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-outputs/Logs/log_2024-12-03_12-17-41 PM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-outputs/Logs/log_2024-12-03_12-18-12 PM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-outputs/Logs/log_2024-12-03_12-18-44 PM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-outputs/Screenshots/verifyFunctionalityOfErinAdTC-2024-12-03-12-17-24.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-outputs/Screenshots/verifyFunctionalityOfErinAdTC-2024-12-03-12-17-47.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCases/Test Cases.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/TestCases/Test Cases.xlsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,10 +30,10 @@
   <component name="OptimizeOnSaveOptions">
     <option name="myRunOnSave" value="true" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2rDHdhulTm65SqNr7z2swdjj5Aw" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -200,17 +43,17 @@
     <option name="showLibraryContents" value="true" />
     <option name="sortKey" value="BY_TIME_DESCENDING" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "code.cleanup.on.save": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/SW Testing/Automation Projects/LumaProject/src/main/resources",
-    "rearrange.code.on.save": "true",
-    "settings.editor.selected.configurable": "actions.on.save"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;code.cleanup.on.save&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/SW Testing/Automation Projects/LumaProject/src/main/resources&quot;,
+    &quot;rearrange.code.on.save&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.importing&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\SW Testing\Automation Projects\LumaProject\src\main\resources" />
