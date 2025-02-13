@@ -11,6 +11,9 @@ import java.util.Properties;
 public class DataUtils {
     private static final String TestDataPath = "src/test/resources/TestData/";
 
+    private DataUtils() {
+    }
+
     public static String readFromPropertiesFile(String fileName, String key) throws IOException {
         Properties properties = new Properties();
         properties.load(new FileReader(TestDataPath + fileName + ".properties"));

@@ -11,11 +11,11 @@ public class ScrollUtils {
 
     public static void scrollToElement(WebDriver driver, By locator) {
         ((JavascriptExecutor) driver).executeScript("argument[0].scrollIntoView(true);",
-                driver.findElements(locator));
+                ElementUtils.findElement(driver, locator));
     }
 
     public static void scrollIntoElementAction(WebDriver driver, By locator) {
         Actions actions = new Actions(driver);
-        actions.scrollToElement(driver.findElement(locator));
+        actions.scrollToElement(ElementUtils.findElement(driver, locator));
     }
 }

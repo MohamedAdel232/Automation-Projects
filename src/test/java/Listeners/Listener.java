@@ -1,10 +1,14 @@
 package Listeners;
 
+import Factories.DriverFactory;
 import Utilities.LogsUtils;
+import Utilities.ScreenshotsUtils;
 import org.testng.IInvokedMethod;
 import org.testng.IInvokedMethodListener;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
+
+import java.io.IOException;
 
 public class Listener implements IInvokedMethodListener, ITestListener {
     public void onTestStart(ITestResult result) {
@@ -22,6 +26,11 @@ public class Listener implements IInvokedMethodListener, ITestListener {
     public void afterInvocation(IInvokedMethod method, ITestResult testResult) {
         if (testResult.getStatus() == ITestResult.FAILURE) {
             LogsUtils.info("Testcase " + testResult.getName() + " failed");
+            try {
+                ScreenshotsUtils.takeScreenshot(DriverFactory.getDriver(), testResult.getName());
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
         }
     }
 }

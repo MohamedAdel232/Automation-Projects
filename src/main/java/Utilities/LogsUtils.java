@@ -3,6 +3,9 @@ package Utilities;
 import org.apache.logging.log4j.LogManager;
 
 public class LogsUtils {
+    private LogsUtils() {
+    }
+
     public static void info(String msg) {
         LogManager.getLogger(Thread.currentThread().getStackTrace()[2])
                 .info(msg);
