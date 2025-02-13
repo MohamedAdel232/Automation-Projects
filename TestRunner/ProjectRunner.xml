@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Project Runner Suite">
+    <listeners>
+        <listener class-name="Listeners.Listener"/>
+    </listeners>
+    <test name="Project Runner Test on Chrome">
+        <parameter name="browser" value="Chrome"/>
+        <classes>
+            <class name=""></class>
+        </classes>
+    </test>
+</suite>
