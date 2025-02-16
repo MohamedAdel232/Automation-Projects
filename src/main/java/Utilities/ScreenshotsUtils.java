@@ -15,7 +15,7 @@ public class ScreenshotsUtils {
     public static void takeScreenshot(WebDriver driver, String imageName) throws IOException {
         TakesScreenshot takesScreenshot = (TakesScreenshot) driver;
         File src = takesScreenshot.getScreenshotAs(OutputType.FILE);
-        File destination = new File(ScreenshotsPath + imageName + ".png");
+        File destination = new File(ScreenshotsPath + imageName + "-" + Utility.getTimeStamp() + ".png");
         Files.copy(src.toPath(), destination.toPath());
     }
 

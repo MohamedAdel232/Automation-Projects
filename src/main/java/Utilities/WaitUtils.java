@@ -32,4 +32,11 @@ public class WaitUtils {
                     return element.isEnabled() ? element : null;
                 });
     }
+
+    public static void waitForPageToLoad(WebDriver driver, String url) {
+        new WebDriverWait(driver, Duration.ofSeconds(5))
+                .until(driver1 -> {
+                    return driver1.getCurrentUrl().equals(url);
+                });
+    }
 }
