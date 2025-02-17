@@ -1,5 +1,6 @@
 package Factories;
 
+import Utilities.LogsUtils;
 import org.openqa.selenium.PageLoadStrategy;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -43,7 +44,9 @@ public class DriverFactory {
                 driverThreadLocal.set(new ChromeDriver(chromeOptions));
                 break;
         }
+        LogsUtils.info("Browser", browser, "started");
     }
+
 
     public static WebDriver getDriver() {
         if (driverThreadLocal.get() == null) {
@@ -54,5 +57,6 @@ public class DriverFactory {
 
     public static void quitDriver() {
         getDriver().quit();
+        LogsUtils.info("Browser", "closed");
     }
 }
