@@ -23,7 +23,11 @@ public class TC01_RegisterUser {
     public void setup() throws IOException {
         setupDriver(readFromPropertiesFile("environment", "browser"));
         LogsUtils.info("Browser: " + readFromPropertiesFile("environment", "browser"));
+
+
         getDriver().get(readFromPropertiesFile("environment", "HomePage"));
+
+
         LogsUtils.info("URL: " + readFromPropertiesFile("environment", "HomePage"));
     }
 
